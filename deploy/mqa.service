@@ -1,0 +1,37 @@
+# MQA on Linux as a systemd USER service (carried-identity mode). Read LINUX.md first.
+# Install: cp ~/mqa/deploy/mqa.service ~/.config/systemd/user/ && systemctl --user daemon-reload
+[Unit]
+Description=MQA career bot (carried identity, web UI on 127.0.0.1)
+Documentation=file://%h/mqa/LINUX.md
+# Crash-loop guard: at most 4 starts in 15 min, then the unit stays failed until you look at it.
+StartLimitIntervalSec=900
+StartLimitBurst=4
+
+[Service]
+Type=exec
+WorkingDirectory=%h/mqa
+# UMA_CARRY_IDENTITY=1 and any overrides. No leading "-": a missing file fails the start loudly.
+EnvironmentFile=%h/.config/mqa/mqa.env
+# Every print reaches journald at once (not all of MQA's prints flush).
+Environment=PYTHONUNBUFFERED=1
+# Only changes local-time stamps (logs, career_log_*/trace/AI-backup file names, the "when" in
+# career_history.json); no decision reads the local clock. Unset = this box's zone. To match the
+# Windows PC's logs, uncomment and set its zone (list: timedatectl list-timezones).
+#Environment=TZ=Europe/London
+# Scenario lock for this process: mant | unity | ura | grand.
+# The web UI binds 127.0.0.1 only (hardcoded in main.py; SWEEPY_PORT changes the port, never the
+# address). Reach it with ssh -L, never a port-forward or a 0.0.0.0 proxy.
+ExecStart=%h/mqa/.venv/bin/python main.py --scenario mant
+# Owner-only files (identity, Discord token, logs). main.py also sets umask 077 itself off Windows.
+UMask=0077
+# A crash comes back after 30 s with the web UI up but logged out: log in again to resume the career.
+# on-failure, never always: a clean exit or a systemctl stop stays down.
+Restart=on-failure
+RestartSec=30
+# systemctl stop sends SIGTERM -> uvicorn returns -> MQA stops the run between API calls, waiting up
+# to 30 s in all. 120 s leaves room before systemd's SIGKILL.
+TimeoutStopSec=120
+SyslogIdentifier=mqa
+
+[Install]
+WantedBy=default.target

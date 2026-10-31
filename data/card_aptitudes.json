@@ -1,0 +1,2732 @@
+{
+ "100101": {
+  "chara_id": 1001,
+  "running_style": 3,
+  "aptitude": {
+   "short": 2,
+   "mile": 5,
+   "middle": 7,
+   "long": 7,
+   "turf": 7,
+   "dirt": 1,
+   "nige": 1,
+   "senko": 7,
+   "sashi": 7,
+   "oikomi": 5
+  },
+  "base_stats": {
+   "speed": 83,
+   "stamina": 88,
+   "power": 98,
+   "guts": 90,
+   "wit": 91
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "100102": {
+  "chara_id": 1001,
+  "running_style": 3,
+  "aptitude": {
+   "short": 2,
+   "mile": 5,
+   "middle": 7,
+   "long": 7,
+   "turf": 7,
+   "dirt": 1,
+   "nige": 1,
+   "senko": 7,
+   "sashi": 7,
+   "oikomi": 5
+  },
+  "base_stats": {
+   "speed": 77,
+   "stamina": 90,
+   "power": 103,
+   "guts": 98,
+   "wit": 82
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "100103": {
+  "chara_id": 1001,
+  "running_style": 3,
+  "aptitude": {
+   "short": 2,
+   "mile": 5,
+   "middle": 7,
+   "long": 7,
+   "turf": 7,
+   "dirt": 1,
+   "nige": 1,
+   "senko": 7,
+   "sashi": 7,
+   "oikomi": 5
+  },
+  "base_stats": {
+   "speed": 96,
+   "stamina": 82,
+   "power": 94,
+   "guts": 82,
+   "wit": 96
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "100201": {
+  "chara_id": 1002,
+  "running_style": 1,
+  "aptitude": {
+   "short": 4,
+   "mile": 7,
+   "middle": 7,
+   "long": 3,
+   "turf": 7,
+   "dirt": 1,
+   "nige": 7,
+   "senko": 5,
+   "sashi": 3,
+   "oikomi": 1
+  },
+  "base_stats": {
+   "speed": 101,
+   "stamina": 84,
+   "power": 77,
+   "guts": 100,
+   "wit": 88
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "100301": {
+  "chara_id": 1003,
+  "running_style": 2,
+  "aptitude": {
+   "short": 2,
+   "mile": 3,
+   "middle": 7,
+   "long": 6,
+   "turf": 7,
+   "dirt": 1,
+   "nige": 4,
+   "senko": 7,
+   "sashi": 5,
+   "oikomi": 3
+  },
+  "base_stats": {
+   "speed": 90,
+   "stamina": 89,
+   "power": 83,
+   "guts": 92,
+   "wit": 96
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "100302": {
+  "chara_id": 1003,
+  "running_style": 2,
+  "aptitude": {
+   "short": 2,
+   "mile": 3,
+   "middle": 7,
+   "long": 6,
+   "turf": 7,
+   "dirt": 1,
+   "nige": 4,
+   "senko": 7,
+   "sashi": 5,
+   "oikomi": 3
+  },
+  "base_stats": {
+   "speed": 89,
+   "stamina": 102,
+   "power": 80,
+   "guts": 86,
+   "wit": 93
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "100401": {
+  "chara_id": 1004,
+  "running_style": 1,
+  "aptitude": {
+   "short": 6,
+   "mile": 7,
+   "middle": 6,
+   "long": 5,
+   "turf": 7,
+   "dirt": 4,
+   "nige": 7,
+   "senko": 3,
+   "sashi": 1,
+   "oikomi": 1
+  },
+  "base_stats": {
+   "speed": 96,
+   "stamina": 68,
+   "power": 86,
+   "guts": 100,
+   "wit": 100
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "100402": {
+  "chara_id": 1004,
+  "running_style": 1,
+  "aptitude": {
+   "short": 6,
+   "mile": 7,
+   "middle": 6,
+   "long": 5,
+   "turf": 7,
+   "dirt": 4,
+   "nige": 7,
+   "senko": 3,
+   "sashi": 1,
+   "oikomi": 1
+  },
+  "base_stats": {
+   "speed": 100,
+   "stamina": 69,
+   "power": 93,
+   "guts": 87,
+   "wit": 101
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "100501": {
+  "chara_id": 1005,
+  "running_style": 2,
+  "aptitude": {
+   "short": 6,
+   "mile": 7,
+   "middle": 6,
+   "long": 3,
+   "turf": 7,
+   "dirt": 2,
+   "nige": 5,
+   "senko": 7,
+   "sashi": 5,
+   "oikomi": 1
+  },
+  "base_stats": {
+   "speed": 96,
+   "stamina": 88,
+   "power": 97,
+   "guts": 82,
+   "wit": 87
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "100502": {
+  "chara_id": 1005,
+  "running_style": 2,
+  "aptitude": {
+   "short": 6,
+   "mile": 7,
+   "middle": 6,
+   "long": 3,
+   "turf": 7,
+   "dirt": 2,
+   "nige": 5,
+   "senko": 7,
+   "sashi": 5,
+   "oikomi": 1
+  },
+  "base_stats": {
+   "speed": 98,
+   "stamina": 77,
+   "power": 102,
+   "guts": 78,
+   "wit": 95
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "100601": {
+  "chara_id": 1006,
+  "running_style": 3,
+  "aptitude": {
+   "short": 3,
+   "mile": 7,
+   "middle": 7,
+   "long": 6,
+   "turf": 7,
+   "dirt": 6,
+   "nige": 2,
+   "senko": 7,
+   "sashi": 7,
+   "oikomi": 4
+  },
+  "base_stats": {
+   "speed": 101,
+   "stamina": 66,
+   "power": 106,
+   "guts": 84,
+   "wit": 93
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "100602": {
+  "chara_id": 1006,
+  "running_style": 3,
+  "aptitude": {
+   "short": 3,
+   "mile": 7,
+   "middle": 7,
+   "long": 6,
+   "turf": 7,
+   "dirt": 6,
+   "nige": 2,
+   "senko": 7,
+   "sashi": 7,
+   "oikomi": 4
+  },
+  "base_stats": {
+   "speed": 94,
+   "stamina": 91,
+   "power": 111,
+   "guts": 76,
+   "wit": 78
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "100701": {
+  "chara_id": 1007,
+  "running_style": 4,
+  "aptitude": {
+   "short": 1,
+   "mile": 5,
+   "middle": 7,
+   "long": 7,
+   "turf": 7,
+   "dirt": 1,
+   "nige": 1,
+   "senko": 6,
+   "sashi": 6,
+   "oikomi": 7
+  },
+  "base_stats": {
+   "speed": 82,
+   "stamina": 96,
+   "power": 100,
+   "guts": 77,
+   "wit": 70
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "100702": {
+  "chara_id": 1007,
+  "running_style": 4,
+  "aptitude": {
+   "short": 1,
+   "mile": 5,
+   "middle": 7,
+   "long": 7,
+   "turf": 7,
+   "dirt": 1,
+   "nige": 1,
+   "senko": 6,
+   "sashi": 6,
+   "oikomi": 7
+  },
+  "base_stats": {
+   "speed": 79,
+   "stamina": 93,
+   "power": 112,
+   "guts": 73,
+   "wit": 93
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "100801": {
+  "chara_id": 1008,
+  "running_style": 3,
+  "aptitude": {
+   "short": 2,
+   "mile": 7,
+   "middle": 7,
+   "long": 2,
+   "turf": 7,
+   "dirt": 1,
+   "nige": 5,
+   "senko": 6,
+   "sashi": 7,
+   "oikomi": 2
+  },
+  "base_stats": {
+   "speed": 96,
+   "stamina": 61,
+   "power": 105,
+   "guts": 75,
+   "wit": 88
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "100901": {
+  "chara_id": 1009,
+  "running_style": 2,
+  "aptitude": {
+   "short": 2,
+   "mile": 7,
+   "middle": 7,
+   "long": 6,
+   "turf": 7,
+   "dirt": 1,
+   "nige": 7,
+   "senko": 7,
+   "sashi": 3,
+   "oikomi": 1
+  },
+  "base_stats": {
+   "speed": 84,
+   "stamina": 77,
+   "power": 79,
+   "guts": 95,
+   "wit": 90
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "101001": {
+  "chara_id": 1010,
+  "running_style": 2,
+  "aptitude": {
+   "short": 7,
+   "mile": 7,
+   "middle": 3,
+   "long": 1,
+   "turf": 7,
+   "dirt": 6,
+   "nige": 5,
+   "senko": 7,
+   "sashi": 3,
+   "oikomi": 1
+  },
+  "base_stats": {
+   "speed": 96,
+   "stamina": 71,
+   "power": 98,
+   "guts": 93,
+   "wit": 92
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "101002": {
+  "chara_id": 1010,
+  "running_style": 2,
+  "aptitude": {
+   "short": 7,
+   "mile": 7,
+   "middle": 3,
+   "long": 1,
+   "turf": 7,
+   "dirt": 6,
+   "nige": 5,
+   "senko": 7,
+   "sashi": 3,
+   "oikomi": 1
+  },
+  "base_stats": {
+   "speed": 102,
+   "stamina": 71,
+   "power": 107,
+   "guts": 92,
+   "wit": 78
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "101101": {
+  "chara_id": 1011,
+  "running_style": 3,
+  "aptitude": {
+   "short": 1,
+   "mile": 7,
+   "middle": 6,
+   "long": 7,
+   "turf": 7,
+   "dirt": 1,
+   "nige": 2,
+   "senko": 7,
+   "sashi": 7,
+   "oikomi": 2
+  },
+  "base_stats": {
+   "speed": 91,
+   "stamina": 70,
+   "power": 99,
+   "guts": 74,
+   "wit": 91
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "101102": {
+  "chara_id": 1011,
+  "running_style": 3,
+  "aptitude": {
+   "short": 1,
+   "mile": 7,
+   "middle": 6,
+   "long": 7,
+   "turf": 7,
+   "dirt": 1,
+   "nige": 2,
+   "senko": 7,
+   "sashi": 7,
+   "oikomi": 2
+  },
+  "base_stats": {
+   "speed": 91,
+   "stamina": 83,
+   "power": 97,
+   "guts": 79,
+   "wit": 100
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "101201": {
+  "chara_id": 1012,
+  "running_style": 4,
+  "aptitude": {
+   "short": 4,
+   "mile": 7,
+   "middle": 7,
+   "long": 6,
+   "turf": 7,
+   "dirt": 3,
+   "nige": 1,
+   "senko": 6,
+   "sashi": 5,
+   "oikomi": 7
+  },
+  "base_stats": {
+   "speed": 93,
+   "stamina": 84,
+   "power": 105,
+   "guts": 82,
+   "wit": 86
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "101301": {
+  "chara_id": 1013,
+  "running_style": 2,
+  "aptitude": {
+   "short": 1,
+   "mile": 2,
+   "middle": 7,
+   "long": 7,
+   "turf": 7,
+   "dirt": 3,
+   "nige": 6,
+   "senko": 7,
+   "sashi": 4,
+   "oikomi": 2
+  },
+  "base_stats": {
+   "speed": 71,
+   "stamina": 111,
+   "power": 71,
+   "guts": 103,
+   "wit": 94
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "101302": {
+  "chara_id": 1013,
+  "running_style": 2,
+  "aptitude": {
+   "short": 1,
+   "mile": 2,
+   "middle": 7,
+   "long": 7,
+   "turf": 7,
+   "dirt": 3,
+   "nige": 6,
+   "senko": 7,
+   "sashi": 4,
+   "oikomi": 2
+  },
+  "base_stats": {
+   "speed": 74,
+   "stamina": 110,
+   "power": 72,
+   "guts": 108,
+   "wit": 86
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "101303": {
+  "chara_id": 1013,
+  "running_style": 2,
+  "aptitude": {
+   "short": 1,
+   "mile": 2,
+   "middle": 7,
+   "long": 7,
+   "turf": 7,
+   "dirt": 3,
+   "nige": 6,
+   "senko": 7,
+   "sashi": 4,
+   "oikomi": 2
+  },
+  "base_stats": {
+   "speed": 82,
+   "stamina": 85,
+   "power": 82,
+   "guts": 113,
+   "wit": 88
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "101401": {
+  "chara_id": 1014,
+  "running_style": 2,
+  "aptitude": {
+   "short": 2,
+   "mile": 7,
+   "middle": 7,
+   "long": 6,
+   "turf": 7,
+   "dirt": 6,
+   "nige": 3,
+   "senko": 7,
+   "sashi": 7,
+   "oikomi": 5
+  },
+  "base_stats": {
+   "speed": 85,
+   "stamina": 76,
+   "power": 80,
+   "guts": 93,
+   "wit": 91
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "101402": {
+  "chara_id": 1014,
+  "running_style": 3,
+  "aptitude": {
+   "short": 2,
+   "mile": 7,
+   "middle": 7,
+   "long": 6,
+   "turf": 7,
+   "dirt": 6,
+   "nige": 3,
+   "senko": 7,
+   "sashi": 7,
+   "oikomi": 5
+  },
+  "base_stats": {
+   "speed": 100,
+   "stamina": 75,
+   "power": 91,
+   "guts": 97,
+   "wit": 87
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "101501": {
+  "chara_id": 1015,
+  "running_style": 2,
+  "aptitude": {
+   "short": 1,
+   "mile": 3,
+   "middle": 7,
+   "long": 7,
+   "turf": 7,
+   "dirt": 3,
+   "nige": 5,
+   "senko": 7,
+   "sashi": 7,
+   "oikomi": 1
+  },
+  "base_stats": {
+   "speed": 75,
+   "stamina": 108,
+   "power": 75,
+   "guts": 102,
+   "wit": 90
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "101502": {
+  "chara_id": 1015,
+  "running_style": 2,
+  "aptitude": {
+   "short": 1,
+   "mile": 3,
+   "middle": 7,
+   "long": 7,
+   "turf": 7,
+   "dirt": 3,
+   "nige": 5,
+   "senko": 7,
+   "sashi": 7,
+   "oikomi": 1
+  },
+  "base_stats": {
+   "speed": 87,
+   "stamina": 102,
+   "power": 74,
+   "guts": 88,
+   "wit": 99
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "101601": {
+  "chara_id": 1016,
+  "running_style": 2,
+  "aptitude": {
+   "short": 2,
+   "mile": 6,
+   "middle": 7,
+   "long": 7,
+   "turf": 7,
+   "dirt": 1,
+   "nige": 1,
+   "senko": 7,
+   "sashi": 7,
+   "oikomi": 4
+  },
+  "base_stats": {
+   "speed": 93,
+   "stamina": 89,
+   "power": 100,
+   "guts": 89,
+   "wit": 79
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "101701": {
+  "chara_id": 1017,
+  "running_style": 2,
+  "aptitude": {
+   "short": 3,
+   "mile": 5,
+   "middle": 7,
+   "long": 7,
+   "turf": 7,
+   "dirt": 1,
+   "nige": 6,
+   "senko": 7,
+   "sashi": 7,
+   "oikomi": 5
+  },
+  "base_stats": {
+   "speed": 86,
+   "stamina": 91,
+   "power": 83,
+   "guts": 96,
+   "wit": 94
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "101702": {
+  "chara_id": 1017,
+  "running_style": 2,
+  "aptitude": {
+   "short": 3,
+   "mile": 5,
+   "middle": 7,
+   "long": 7,
+   "turf": 7,
+   "dirt": 1,
+   "nige": 6,
+   "senko": 7,
+   "sashi": 7,
+   "oikomi": 5
+  },
+  "base_stats": {
+   "speed": 83,
+   "stamina": 87,
+   "power": 90,
+   "guts": 90,
+   "wit": 100
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "101801": {
+  "chara_id": 1018,
+  "running_style": 2,
+  "aptitude": {
+   "short": 5,
+   "mile": 6,
+   "middle": 7,
+   "long": 3,
+   "turf": 7,
+   "dirt": 1,
+   "nige": 4,
+   "senko": 7,
+   "sashi": 7,
+   "oikomi": 1
+  },
+  "base_stats": {
+   "speed": 86,
+   "stamina": 81,
+   "power": 81,
+   "guts": 86,
+   "wit": 91
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "101802": {
+  "chara_id": 1018,
+  "running_style": 2,
+  "aptitude": {
+   "short": 5,
+   "mile": 6,
+   "middle": 7,
+   "long": 3,
+   "turf": 7,
+   "dirt": 1,
+   "nige": 4,
+   "senko": 7,
+   "sashi": 7,
+   "oikomi": 1
+  },
+  "base_stats": {
+   "speed": 94,
+   "stamina": 82,
+   "power": 91,
+   "guts": 88,
+   "wit": 95
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "101901": {
+  "chara_id": 1019,
+  "running_style": 3,
+  "aptitude": {
+   "short": 2,
+   "mile": 7,
+   "middle": 7,
+   "long": 1,
+   "turf": 7,
+   "dirt": 7,
+   "nige": 1,
+   "senko": 7,
+   "sashi": 7,
+   "oikomi": 6
+  },
+  "base_stats": {
+   "speed": 85,
+   "stamina": 91,
+   "power": 83,
+   "guts": 100,
+   "wit": 91
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "102001": {
+  "chara_id": 1020,
+  "running_style": 1,
+  "aptitude": {
+   "short": 1,
+   "mile": 5,
+   "middle": 7,
+   "long": 7,
+   "turf": 7,
+   "dirt": 1,
+   "nige": 7,
+   "senko": 6,
+   "sashi": 4,
+   "oikomi": 3
+  },
+  "base_stats": {
+   "speed": 98,
+   "stamina": 98,
+   "power": 88,
+   "guts": 83,
+   "wit": 83
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "102002": {
+  "chara_id": 1020,
+  "running_style": 1,
+  "aptitude": {
+   "short": 1,
+   "mile": 5,
+   "middle": 7,
+   "long": 7,
+   "turf": 7,
+   "dirt": 1,
+   "nige": 7,
+   "senko": 6,
+   "sashi": 4,
+   "oikomi": 3
+  },
+  "base_stats": {
+   "speed": 101,
+   "stamina": 89,
+   "power": 84,
+   "guts": 88,
+   "wit": 88
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "102101": {
+  "chara_id": 1021,
+  "running_style": 4,
+  "aptitude": {
+   "short": 1,
+   "mile": 3,
+   "middle": 7,
+   "long": 7,
+   "turf": 7,
+   "dirt": 2,
+   "nige": 1,
+   "senko": 7,
+   "sashi": 7,
+   "oikomi": 7
+  },
+  "base_stats": {
+   "speed": 83,
+   "stamina": 95,
+   "power": 105,
+   "guts": 83,
+   "wit": 84
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "102201": {
+  "chara_id": 1022,
+  "running_style": 2,
+  "aptitude": {
+   "short": 2,
+   "mile": 7,
+   "middle": 7,
+   "long": 5,
+   "turf": 7,
+   "dirt": 1,
+   "nige": 4,
+   "senko": 7,
+   "sashi": 3,
+   "oikomi": 5
+  },
+  "base_stats": {
+   "speed": 96,
+   "stamina": 84,
+   "power": 95,
+   "guts": 88,
+   "wit": 87
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "102202": {
+  "chara_id": 1022,
+  "running_style": 2,
+  "aptitude": {
+   "short": 2,
+   "mile": 7,
+   "middle": 7,
+   "long": 5,
+   "turf": 7,
+   "dirt": 1,
+   "nige": 4,
+   "senko": 7,
+   "sashi": 3,
+   "oikomi": 5
+  },
+  "base_stats": {
+   "speed": 89,
+   "stamina": 78,
+   "power": 89,
+   "guts": 94,
+   "wit": 100
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "102301": {
+  "chara_id": 1023,
+  "running_style": 2,
+  "aptitude": {
+   "short": 2,
+   "mile": 5,
+   "middle": 7,
+   "long": 7,
+   "turf": 7,
+   "dirt": 2,
+   "nige": 3,
+   "senko": 7,
+   "sashi": 6,
+   "oikomi": 3
+  },
+  "base_stats": {
+   "speed": 85,
+   "stamina": 93,
+   "power": 82,
+   "guts": 93,
+   "wit": 97
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "102302": {
+  "chara_id": 1023,
+  "running_style": 2,
+  "aptitude": {
+   "short": 2,
+   "mile": 5,
+   "middle": 7,
+   "long": 7,
+   "turf": 7,
+   "dirt": 2,
+   "nige": 3,
+   "senko": 7,
+   "sashi": 6,
+   "oikomi": 3
+  },
+  "base_stats": {
+   "speed": 83,
+   "stamina": 99,
+   "power": 76,
+   "guts": 96,
+   "wit": 96
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "102401": {
+  "chara_id": 1024,
+  "running_style": 1,
+  "aptitude": {
+   "short": 4,
+   "mile": 4,
+   "middle": 7,
+   "long": 7,
+   "turf": 7,
+   "dirt": 3,
+   "nige": 7,
+   "senko": 7,
+   "sashi": 6,
+   "oikomi": 6
+  },
+  "base_stats": {
+   "speed": 73,
+   "stamina": 100,
+   "power": 67,
+   "guts": 95,
+   "wit": 90
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "102402": {
+  "chara_id": 1024,
+  "running_style": 2,
+  "aptitude": {
+   "short": 4,
+   "mile": 4,
+   "middle": 7,
+   "long": 7,
+   "turf": 7,
+   "dirt": 3,
+   "nige": 7,
+   "senko": 7,
+   "sashi": 6,
+   "oikomi": 6
+  },
+  "base_stats": {
+   "speed": 83,
+   "stamina": 100,
+   "power": 82,
+   "guts": 90,
+   "wit": 95
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "102501": {
+  "chara_id": 1025,
+  "running_style": 3,
+  "aptitude": {
+   "short": 1,
+   "mile": 2,
+   "middle": 6,
+   "long": 7,
+   "turf": 7,
+   "dirt": 1,
+   "nige": 1,
+   "senko": 5,
+   "sashi": 7,
+   "oikomi": 5
+  },
+  "base_stats": {
+   "speed": 83,
+   "stamina": 98,
+   "power": 94,
+   "guts": 86,
+   "wit": 89
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "102601": {
+  "chara_id": 1026,
+  "running_style": 1,
+  "aptitude": {
+   "short": 5,
+   "mile": 6,
+   "middle": 7,
+   "long": 6,
+   "turf": 7,
+   "dirt": 1,
+   "nige": 7,
+   "senko": 3,
+   "sashi": 1,
+   "oikomi": 1
+  },
+  "base_stats": {
+   "speed": 96,
+   "stamina": 72,
+   "power": 92,
+   "guts": 102,
+   "wit": 88
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "102602": {
+  "chara_id": 1026,
+  "running_style": 1,
+  "aptitude": {
+   "short": 5,
+   "mile": 6,
+   "middle": 7,
+   "long": 6,
+   "turf": 7,
+   "dirt": 1,
+   "nige": 7,
+   "senko": 3,
+   "sashi": 1,
+   "oikomi": 1
+  },
+  "base_stats": {
+   "speed": 100,
+   "stamina": 68,
+   "power": 92,
+   "guts": 96,
+   "wit": 94
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "102701": {
+  "chara_id": 1027,
+  "running_style": 3,
+  "aptitude": {
+   "short": 3,
+   "mile": 5,
+   "middle": 7,
+   "long": 6,
+   "turf": 7,
+   "dirt": 1,
+   "nige": 2,
+   "senko": 7,
+   "sashi": 7,
+   "oikomi": 2
+  },
+  "base_stats": {
+   "speed": 87,
+   "stamina": 66,
+   "power": 95,
+   "guts": 71,
+   "wit": 81
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "102801": {
+  "chara_id": 1028,
+  "running_style": 2,
+  "aptitude": {
+   "short": 7,
+   "mile": 6,
+   "middle": 2,
+   "long": 1,
+   "turf": 7,
+   "dirt": 2,
+   "nige": 6,
+   "senko": 7,
+   "sashi": 5,
+   "oikomi": 1
+  },
+  "base_stats": {
+   "speed": 99,
+   "stamina": 60,
+   "power": 108,
+   "guts": 91,
+   "wit": 92
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "103001": {
+  "chara_id": 1030,
+  "running_style": 2,
+  "aptitude": {
+   "short": 3,
+   "mile": 5,
+   "middle": 7,
+   "long": 7,
+   "turf": 7,
+   "dirt": 1,
+   "nige": 6,
+   "senko": 7,
+   "sashi": 5,
+   "oikomi": 1
+  },
+  "base_stats": {
+   "speed": 71,
+   "stamina": 117,
+   "power": 70,
+   "guts": 102,
+   "wit": 90
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "103002": {
+  "chara_id": 1030,
+  "running_style": 2,
+  "aptitude": {
+   "short": 3,
+   "mile": 5,
+   "middle": 7,
+   "long": 7,
+   "turf": 7,
+   "dirt": 1,
+   "nige": 6,
+   "senko": 7,
+   "sashi": 5,
+   "oikomi": 1
+  },
+  "base_stats": {
+   "speed": 76,
+   "stamina": 121,
+   "power": 67,
+   "guts": 97,
+   "wit": 89
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "103101": {
+  "chara_id": 1031,
+  "running_style": 1,
+  "aptitude": {
+   "short": 1,
+   "mile": 7,
+   "middle": 7,
+   "long": 5,
+   "turf": 7,
+   "dirt": 1,
+   "nige": 7,
+   "senko": 5,
+   "sashi": 1,
+   "oikomi": 1
+  },
+  "base_stats": {
+   "speed": 100,
+   "stamina": 96,
+   "power": 72,
+   "guts": 98,
+   "wit": 84
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "103201": {
+  "chara_id": 1032,
+  "running_style": 2,
+  "aptitude": {
+   "short": 1,
+   "mile": 4,
+   "middle": 7,
+   "long": 6,
+   "turf": 7,
+   "dirt": 1,
+   "nige": 3,
+   "senko": 7,
+   "sashi": 6,
+   "oikomi": 2
+  },
+  "base_stats": {
+   "speed": 82,
+   "stamina": 76,
+   "power": 76,
+   "guts": 79,
+   "wit": 87
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "103301": {
+  "chara_id": 1033,
+  "running_style": 4,
+  "aptitude": {
+   "short": 2,
+   "mile": 5,
+   "middle": 7,
+   "long": 5,
+   "turf": 7,
+   "dirt": 1,
+   "nige": 1,
+   "senko": 1,
+   "sashi": 6,
+   "oikomi": 7
+  },
+  "base_stats": {
+   "speed": 96,
+   "stamina": 79,
+   "power": 108,
+   "guts": 69,
+   "wit": 98
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "103401": {
+  "chara_id": 1034,
+  "running_style": 4,
+  "aptitude": {
+   "short": 2,
+   "mile": 6,
+   "middle": 7,
+   "long": 7,
+   "turf": 7,
+   "dirt": 7,
+   "nige": 1,
+   "senko": 6,
+   "sashi": 6,
+   "oikomi": 7
+  },
+  "base_stats": {
+   "speed": 88,
+   "stamina": 100,
+   "power": 109,
+   "guts": 74,
+   "wit": 79
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "103501": {
+  "chara_id": 1035,
+  "running_style": 3,
+  "aptitude": {
+   "short": 1,
+   "mile": 2,
+   "middle": 7,
+   "long": 6,
+   "turf": 7,
+   "dirt": 1,
+   "nige": 1,
+   "senko": 6,
+   "sashi": 7,
+   "oikomi": 1
+  },
+  "base_stats": {
+   "speed": 87,
+   "stamina": 68,
+   "power": 91,
+   "guts": 74,
+   "wit": 80
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "103601": {
+  "chara_id": 1036,
+  "running_style": 4,
+  "aptitude": {
+   "short": 1,
+   "mile": 3,
+   "middle": 7,
+   "long": 7,
+   "turf": 7,
+   "dirt": 1,
+   "nige": 1,
+   "senko": 5,
+   "sashi": 7,
+   "oikomi": 7
+  },
+  "base_stats": {
+   "speed": 99,
+   "stamina": 85,
+   "power": 95,
+   "guts": 69,
+   "wit": 102
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "103701": {
+  "chara_id": 1037,
+  "running_style": 3,
+  "aptitude": {
+   "short": 1,
+   "mile": 2,
+   "middle": 7,
+   "long": 7,
+   "turf": 7,
+   "dirt": 1,
+   "nige": 1,
+   "senko": 6,
+   "sashi": 7,
+   "oikomi": 5
+  },
+  "base_stats": {
+   "speed": 100,
+   "stamina": 83,
+   "power": 93,
+   "guts": 82,
+   "wit": 92
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "103702": {
+  "chara_id": 1037,
+  "running_style": 3,
+  "aptitude": {
+   "short": 1,
+   "mile": 2,
+   "middle": 7,
+   "long": 7,
+   "turf": 7,
+   "dirt": 1,
+   "nige": 1,
+   "senko": 6,
+   "sashi": 7,
+   "oikomi": 5
+  },
+  "base_stats": {
+   "speed": 94,
+   "stamina": 88,
+   "power": 84,
+   "guts": 82,
+   "wit": 102
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "103801": {
+  "chara_id": 1038,
+  "running_style": 2,
+  "aptitude": {
+   "short": 7,
+   "mile": 4,
+   "middle": 1,
+   "long": 1,
+   "turf": 7,
+   "dirt": 2,
+   "nige": 6,
+   "senko": 7,
+   "sashi": 3,
+   "oikomi": 1
+  },
+  "base_stats": {
+   "speed": 97,
+   "stamina": 58,
+   "power": 107,
+   "guts": 91,
+   "wit": 97
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "103802": {
+  "chara_id": 1038,
+  "running_style": 2,
+  "aptitude": {
+   "short": 7,
+   "mile": 4,
+   "middle": 1,
+   "long": 1,
+   "turf": 7,
+   "dirt": 2,
+   "nige": 6,
+   "senko": 7,
+   "sashi": 3,
+   "oikomi": 1
+  },
+  "base_stats": {
+   "speed": 100,
+   "stamina": 54,
+   "power": 109,
+   "guts": 85,
+   "wit": 102
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "103901": {
+  "chara_id": 1039,
+  "running_style": 3,
+  "aptitude": {
+   "short": 4,
+   "mile": 6,
+   "middle": 7,
+   "long": 2,
+   "turf": 7,
+   "dirt": 1,
+   "nige": 1,
+   "senko": 5,
+   "sashi": 7,
+   "oikomi": 4
+  },
+  "base_stats": {
+   "speed": 100,
+   "stamina": 71,
+   "power": 107,
+   "guts": 82,
+   "wit": 90
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "104001": {
+  "chara_id": 1040,
+  "running_style": 3,
+  "aptitude": {
+   "short": 2,
+   "mile": 7,
+   "middle": 6,
+   "long": 6,
+   "turf": 7,
+   "dirt": 4,
+   "nige": 2,
+   "senko": 7,
+   "sashi": 7,
+   "oikomi": 2
+  },
+  "base_stats": {
+   "speed": 89,
+   "stamina": 92,
+   "power": 94,
+   "guts": 92,
+   "wit": 83
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "104002": {
+  "chara_id": 1040,
+  "running_style": 3,
+  "aptitude": {
+   "short": 2,
+   "mile": 7,
+   "middle": 6,
+   "long": 6,
+   "turf": 7,
+   "dirt": 4,
+   "nige": 2,
+   "senko": 7,
+   "sashi": 7,
+   "oikomi": 2
+  },
+  "base_stats": {
+   "speed": 86,
+   "stamina": 98,
+   "power": 86,
+   "guts": 98,
+   "wit": 82
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "104101": {
+  "chara_id": 1041,
+  "running_style": 2,
+  "aptitude": {
+   "short": 7,
+   "mile": 6,
+   "middle": 1,
+   "long": 1,
+   "turf": 7,
+   "dirt": 1,
+   "nige": 7,
+   "senko": 7,
+   "sashi": 2,
+   "oikomi": 1
+  },
+  "base_stats": {
+   "speed": 87,
+   "stamina": 54,
+   "power": 93,
+   "guts": 85,
+   "wit": 81
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "104401": {
+  "chara_id": 1044,
+  "running_style": 4,
+  "aptitude": {
+   "short": 3,
+   "mile": 7,
+   "middle": 7,
+   "long": 4,
+   "turf": 7,
+   "dirt": 1,
+   "nige": 1,
+   "senko": 1,
+   "sashi": 7,
+   "oikomi": 7
+  },
+  "base_stats": {
+   "speed": 101,
+   "stamina": 85,
+   "power": 110,
+   "guts": 65,
+   "wit": 89
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "104501": {
+  "chara_id": 1045,
+  "running_style": 2,
+  "aptitude": {
+   "short": 1,
+   "mile": 1,
+   "middle": 7,
+   "long": 7,
+   "turf": 7,
+   "dirt": 1,
+   "nige": 4,
+   "senko": 7,
+   "sashi": 6,
+   "oikomi": 1
+  },
+  "base_stats": {
+   "speed": 65,
+   "stamina": 100,
+   "power": 71,
+   "guts": 100,
+   "wit": 89
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "104502": {
+  "chara_id": 1045,
+  "running_style": 2,
+  "aptitude": {
+   "short": 1,
+   "mile": 1,
+   "middle": 7,
+   "long": 7,
+   "turf": 7,
+   "dirt": 1,
+   "nige": 4,
+   "senko": 7,
+   "sashi": 6,
+   "oikomi": 1
+  },
+  "base_stats": {
+   "speed": 74,
+   "stamina": 106,
+   "power": 75,
+   "guts": 98,
+   "wit": 97
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "104601": {
+  "chara_id": 1046,
+  "running_style": 1,
+  "aptitude": {
+   "short": 6,
+   "mile": 7,
+   "middle": 7,
+   "long": 3,
+   "turf": 3,
+   "dirt": 7,
+   "nige": 7,
+   "senko": 4,
+   "sashi": 1,
+   "oikomi": 1
+  },
+  "base_stats": {
+   "speed": 94,
+   "stamina": 85,
+   "power": 85,
+   "guts": 100,
+   "wit": 86
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "104801": {
+  "chara_id": 1048,
+  "running_style": 2,
+  "aptitude": {
+   "short": 1,
+   "mile": 2,
+   "middle": 7,
+   "long": 6,
+   "turf": 7,
+   "dirt": 1,
+   "nige": 5,
+   "senko": 7,
+   "sashi": 6,
+   "oikomi": 1
+  },
+  "base_stats": {
+   "speed": 89,
+   "stamina": 98,
+   "power": 75,
+   "guts": 101,
+   "wit": 87
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "105001": {
+  "chara_id": 1050,
+  "running_style": 4,
+  "aptitude": {
+   "short": 2,
+   "mile": 4,
+   "middle": 7,
+   "long": 7,
+   "turf": 7,
+   "dirt": 1,
+   "nige": 1,
+   "senko": 2,
+   "sashi": 6,
+   "oikomi": 7
+  },
+  "base_stats": {
+   "speed": 96,
+   "stamina": 82,
+   "power": 99,
+   "guts": 79,
+   "wit": 94
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "105101": {
+  "chara_id": 1051,
+  "running_style": 2,
+  "aptitude": {
+   "short": 7,
+   "mile": 7,
+   "middle": 3,
+   "long": 1,
+   "turf": 7,
+   "dirt": 2,
+   "nige": 2,
+   "senko": 7,
+   "sashi": 7,
+   "oikomi": 1
+  },
+  "base_stats": {
+   "speed": 93,
+   "stamina": 81,
+   "power": 95,
+   "guts": 86,
+   "wit": 95
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "105201": {
+  "chara_id": 1052,
+  "running_style": 3,
+  "aptitude": {
+   "short": 7,
+   "mile": 6,
+   "middle": 1,
+   "long": 1,
+   "turf": 1,
+   "dirt": 7,
+   "nige": 1,
+   "senko": 1,
+   "sashi": 7,
+   "oikomi": 6
+  },
+  "base_stats": {
+   "speed": 83,
+   "stamina": 58,
+   "power": 89,
+   "guts": 86,
+   "wit": 84
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "105202": {
+  "chara_id": 1052,
+  "running_style": 3,
+  "aptitude": {
+   "short": 7,
+   "mile": 7,
+   "middle": 1,
+   "long": 1,
+   "turf": 1,
+   "dirt": 7,
+   "nige": 1,
+   "senko": 1,
+   "sashi": 7,
+   "oikomi": 6
+  },
+  "base_stats": {
+   "speed": 94,
+   "stamina": 54,
+   "power": 106,
+   "guts": 98,
+   "wit": 98
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "105301": {
+  "chara_id": 1053,
+  "running_style": 3,
+  "aptitude": {
+   "short": 7,
+   "mile": 7,
+   "middle": 5,
+   "long": 1,
+   "turf": 7,
+   "dirt": 4,
+   "nige": 1,
+   "senko": 3,
+   "sashi": 7,
+   "oikomi": 5
+  },
+  "base_stats": {
+   "speed": 98,
+   "stamina": 74,
+   "power": 104,
+   "guts": 92,
+   "wit": 82
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "105601": {
+  "chara_id": 1056,
+  "running_style": 3,
+  "aptitude": {
+   "short": 2,
+   "mile": 5,
+   "middle": 7,
+   "long": 7,
+   "turf": 7,
+   "dirt": 2,
+   "nige": 1,
+   "senko": 6,
+   "sashi": 7,
+   "oikomi": 2
+  },
+  "base_stats": {
+   "speed": 77,
+   "stamina": 81,
+   "power": 88,
+   "guts": 81,
+   "wit": 73
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "105602": {
+  "chara_id": 1056,
+  "running_style": 3,
+  "aptitude": {
+   "short": 2,
+   "mile": 5,
+   "middle": 7,
+   "long": 7,
+   "turf": 7,
+   "dirt": 2,
+   "nige": 1,
+   "senko": 6,
+   "sashi": 7,
+   "oikomi": 2
+  },
+  "base_stats": {
+   "speed": 87,
+   "stamina": 100,
+   "power": 94,
+   "guts": 94,
+   "wit": 75
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "105801": {
+  "chara_id": 1058,
+  "running_style": 2,
+  "aptitude": {
+   "short": 1,
+   "mile": 2,
+   "middle": 7,
+   "long": 7,
+   "turf": 7,
+   "dirt": 3,
+   "nige": 2,
+   "senko": 7,
+   "sashi": 6,
+   "oikomi": 3
+  },
+  "base_stats": {
+   "speed": 93,
+   "stamina": 95,
+   "power": 85,
+   "guts": 96,
+   "wit": 81
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "105901": {
+  "chara_id": 1059,
+  "running_style": 3,
+  "aptitude": {
+   "short": 3,
+   "mile": 7,
+   "middle": 7,
+   "long": 2,
+   "turf": 7,
+   "dirt": 1,
+   "nige": 5,
+   "senko": 6,
+   "sashi": 7,
+   "oikomi": 1
+  },
+  "base_stats": {
+   "speed": 96,
+   "stamina": 85,
+   "power": 97,
+   "guts": 75,
+   "wit": 97
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "105902": {
+  "chara_id": 1059,
+  "running_style": 3,
+  "aptitude": {
+   "short": 3,
+   "mile": 7,
+   "middle": 7,
+   "long": 2,
+   "turf": 7,
+   "dirt": 1,
+   "nige": 5,
+   "senko": 6,
+   "sashi": 7,
+   "oikomi": 1
+  },
+  "base_stats": {
+   "speed": 94,
+   "stamina": 78,
+   "power": 92,
+   "guts": 86,
+   "wit": 100
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "106001": {
+  "chara_id": 1060,
+  "running_style": 3,
+  "aptitude": {
+   "short": 1,
+   "mile": 5,
+   "middle": 7,
+   "long": 7,
+   "turf": 7,
+   "dirt": 1,
+   "nige": 2,
+   "senko": 6,
+   "sashi": 7,
+   "oikomi": 4
+  },
+  "base_stats": {
+   "speed": 86,
+   "stamina": 72,
+   "power": 89,
+   "guts": 69,
+   "wit": 84
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "106002": {
+  "chara_id": 1060,
+  "running_style": 3,
+  "aptitude": {
+   "short": 1,
+   "mile": 5,
+   "middle": 7,
+   "long": 7,
+   "turf": 7,
+   "dirt": 1,
+   "nige": 2,
+   "senko": 6,
+   "sashi": 7,
+   "oikomi": 4
+  },
+  "base_stats": {
+   "speed": 86,
+   "stamina": 86,
+   "power": 94,
+   "guts": 86,
+   "wit": 98
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "106101": {
+  "chara_id": 1061,
+  "running_style": 3,
+  "aptitude": {
+   "short": 7,
+   "mile": 6,
+   "middle": 6,
+   "long": 5,
+   "turf": 7,
+   "dirt": 1,
+   "nige": 1,
+   "senko": 6,
+   "sashi": 7,
+   "oikomi": 4
+  },
+  "base_stats": {
+   "speed": 87,
+   "stamina": 60,
+   "power": 93,
+   "guts": 73,
+   "wit": 87
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "106102": {
+  "chara_id": 1061,
+  "running_style": 3,
+  "aptitude": {
+   "short": 7,
+   "mile": 6,
+   "middle": 6,
+   "long": 5,
+   "turf": 7,
+   "dirt": 1,
+   "nige": 1,
+   "senko": 6,
+   "sashi": 7,
+   "oikomi": 4
+  },
+  "base_stats": {
+   "speed": 100,
+   "stamina": 62,
+   "power": 110,
+   "guts": 89,
+   "wit": 89
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "106201": {
+  "chara_id": 1062,
+  "running_style": 3,
+  "aptitude": {
+   "short": 1,
+   "mile": 4,
+   "middle": 7,
+   "long": 7,
+   "turf": 7,
+   "dirt": 1,
+   "nige": 2,
+   "senko": 7,
+   "sashi": 7,
+   "oikomi": 3
+  },
+  "base_stats": {
+   "speed": 79,
+   "stamina": 91,
+   "power": 82,
+   "guts": 88,
+   "wit": 85
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "106401": {
+  "chara_id": 1064,
+  "running_style": 1,
+  "aptitude": {
+   "short": 1,
+   "mile": 2,
+   "middle": 7,
+   "long": 7,
+   "turf": 7,
+   "dirt": 1,
+   "nige": 7,
+   "senko": 3,
+   "sashi": 2,
+   "oikomi": 1
+  },
+  "base_stats": {
+   "speed": 92,
+   "stamina": 103,
+   "power": 76,
+   "guts": 91,
+   "wit": 88
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "106701": {
+  "chara_id": 1067,
+  "running_style": 3,
+  "aptitude": {
+   "short": 1,
+   "mile": 5,
+   "middle": 7,
+   "long": 7,
+   "turf": 7,
+   "dirt": 1,
+   "nige": 1,
+   "senko": 6,
+   "sashi": 7,
+   "oikomi": 4
+  },
+  "base_stats": {
+   "speed": 91,
+   "stamina": 88,
+   "power": 93,
+   "guts": 83,
+   "wit": 95
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "106801": {
+  "chara_id": 1068,
+  "running_style": 1,
+  "aptitude": {
+   "short": 3,
+   "mile": 5,
+   "middle": 7,
+   "long": 7,
+   "turf": 7,
+   "dirt": 1,
+   "nige": 7,
+   "senko": 6,
+   "sashi": 5,
+   "oikomi": 1
+  },
+  "base_stats": {
+   "speed": 97,
+   "stamina": 100,
+   "power": 79,
+   "guts": 86,
+   "wit": 88
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "106901": {
+  "chara_id": 1069,
+  "running_style": 2,
+  "aptitude": {
+   "short": 3,
+   "mile": 7,
+   "middle": 7,
+   "long": 3,
+   "turf": 7,
+   "dirt": 1,
+   "nige": 6,
+   "senko": 7,
+   "sashi": 2,
+   "oikomi": 1
+  },
+  "base_stats": {
+   "speed": 93,
+   "stamina": 96,
+   "power": 78,
+   "guts": 93,
+   "wit": 90
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "107101": {
+  "chara_id": 1071,
+  "running_style": 2,
+  "aptitude": {
+   "short": 3,
+   "mile": 6,
+   "middle": 7,
+   "long": 4,
+   "turf": 7,
+   "dirt": 2,
+   "nige": 5,
+   "senko": 7,
+   "sashi": 4,
+   "oikomi": 1
+  },
+  "base_stats": {
+   "speed": 92,
+   "stamina": 89,
+   "power": 89,
+   "guts": 80,
+   "wit": 100
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "107201": {
+  "chara_id": 1072,
+  "running_style": 2,
+  "aptitude": {
+   "short": 1,
+   "mile": 6,
+   "middle": 7,
+   "long": 3,
+   "turf": 7,
+   "dirt": 3,
+   "nige": 2,
+   "senko": 7,
+   "sashi": 7,
+   "oikomi": 1
+  },
+  "base_stats": {
+   "speed": 92,
+   "stamina": 81,
+   "power": 97,
+   "guts": 97,
+   "wit": 83
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ },
+ "107401": {
+  "chara_id": 1074,
+  "running_style": 3,
+  "aptitude": {
+   "short": 2,
+   "mile": 5,
+   "middle": 7,
+   "long": 7,
+   "turf": 7,
+   "dirt": 1,
+   "nige": 1,
+   "senko": 4,
+   "sashi": 7,
+   "oikomi": 7
+  },
+  "base_stats": {
+   "speed": 89,
+   "stamina": 107,
+   "power": 87,
+   "guts": 75,
+   "wit": 92
+  },
+  "max_stats": {
+   "speed": 1200,
+   "stamina": 1200,
+   "power": 1200,
+   "guts": 1200,
+   "wit": 1200
+  }
+ }
+}

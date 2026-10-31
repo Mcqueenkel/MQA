@@ -1,0 +1,3570 @@
+{
+  "schema": 1,
+  "squares": {
+    "11001": {
+      "name": "Dance Step Basics",
+      "type": 1,
+      "cost": {
+        "dance": 10
+      },
+      "gain_type": 1,
+      "gain": [
+        1,
+        1,
+        5
+      ]
+    },
+    "11002": {
+      "name": "Audience Involvement Basics",
+      "type": 1,
+      "cost": {
+        "passion": 10
+      },
+      "gain_type": 1,
+      "gain": [
+        2,
+        1,
+        5
+      ]
+    },
+    "11003": {
+      "name": "Vocal Training Basics",
+      "type": 1,
+      "cost": {
+        "vocal": 10
+      },
+      "gain_type": 1,
+      "gain": [
+        3,
+        1,
+        5
+      ]
+    },
+    "11004": {
+      "name": "Makeup Basics",
+      "type": 1,
+      "cost": {
+        "visual": 10
+      },
+      "gain_type": 1,
+      "gain": [
+        4,
+        1,
+        5
+      ]
+    },
+    "11005": {
+      "name": "Composure Training Basics",
+      "type": 1,
+      "cost": {
+        "mental": 10
+      },
+      "gain_type": 1,
+      "gain": [
+        5,
+        1,
+        5
+      ]
+    },
+    "11006": {
+      "name": "Watch an Up-and-Coming Idol's Concert",
+      "type": 1,
+      "cost": {
+        "dance": 10
+      },
+      "gain_type": 1,
+      "gain": [
+        6,
+        1,
+        5
+      ]
+    },
+    "11007": {
+      "name": "Watch an Up-and-Coming Idol's Concert",
+      "type": 1,
+      "cost": {
+        "passion": 10
+      },
+      "gain_type": 1,
+      "gain": [
+        6,
+        1,
+        5
+      ]
+    },
+    "11008": {
+      "name": "Watch an Up-and-Coming Idol's Concert",
+      "type": 1,
+      "cost": {
+        "vocal": 10
+      },
+      "gain_type": 1,
+      "gain": [
+        6,
+        1,
+        5
+      ]
+    },
+    "11009": {
+      "name": "Watch an Up-and-Coming Idol's Concert",
+      "type": 1,
+      "cost": {
+        "visual": 10
+      },
+      "gain_type": 1,
+      "gain": [
+        6,
+        1,
+        5
+      ]
+    },
+    "11010": {
+      "name": "Watch an Up-and-Coming Idol's Concert",
+      "type": 1,
+      "cost": {
+        "mental": 10
+      },
+      "gain_type": 1,
+      "gain": [
+        6,
+        1,
+        5
+      ]
+    },
+    "11101": {
+      "name": "Dance Step Intermediate Class",
+      "type": 1,
+      "cost": {
+        "dance": 16
+      },
+      "gain_type": 1,
+      "gain": [
+        1,
+        1,
+        8
+      ]
+    },
+    "11102": {
+      "name": "Audience Involvement Intermediate Class",
+      "type": 1,
+      "cost": {
+        "passion": 16
+      },
+      "gain_type": 1,
+      "gain": [
+        2,
+        1,
+        8
+      ]
+    },
+    "11103": {
+      "name": "Vocal Training Intermediate Class",
+      "type": 1,
+      "cost": {
+        "vocal": 16
+      },
+      "gain_type": 1,
+      "gain": [
+        3,
+        1,
+        8
+      ]
+    },
+    "11104": {
+      "name": "Makeup Intermediate Class",
+      "type": 1,
+      "cost": {
+        "visual": 16
+      },
+      "gain_type": 1,
+      "gain": [
+        4,
+        1,
+        8
+      ]
+    },
+    "11105": {
+      "name": "Composure Training Intermediate Class",
+      "type": 1,
+      "cost": {
+        "mental": 16
+      },
+      "gain_type": 1,
+      "gain": [
+        5,
+        1,
+        8
+      ]
+    },
+    "11106": {
+      "name": "Watch a Mid-Career Idol's Concert",
+      "type": 1,
+      "cost": {
+        "vocal": 16
+      },
+      "gain_type": 1,
+      "gain": [
+        6,
+        1,
+        8
+      ]
+    },
+    "11107": {
+      "name": "Watch a Mid-Career Idol's Concert",
+      "type": 1,
+      "cost": {
+        "dance": 16
+      },
+      "gain_type": 1,
+      "gain": [
+        6,
+        1,
+        8
+      ]
+    },
+    "11108": {
+      "name": "Watch a Mid-Career Idol's Concert",
+      "type": 1,
+      "cost": {
+        "passion": 16
+      },
+      "gain_type": 1,
+      "gain": [
+        6,
+        1,
+        8
+      ]
+    },
+    "11109": {
+      "name": "Watch a Mid-Career Idol's Concert",
+      "type": 1,
+      "cost": {
+        "visual": 16
+      },
+      "gain_type": 1,
+      "gain": [
+        6,
+        1,
+        8
+      ]
+    },
+    "11110": {
+      "name": "Watch a Mid-Career Idol's Concert",
+      "type": 1,
+      "cost": {
+        "mental": 16
+      },
+      "gain_type": 1,
+      "gain": [
+        6,
+        1,
+        8
+      ]
+    },
+    "11201": {
+      "name": "Dance Step Advanced Class",
+      "type": 1,
+      "cost": {
+        "dance": 24
+      },
+      "gain_type": 1,
+      "gain": [
+        1,
+        1,
+        12
+      ]
+    },
+    "11202": {
+      "name": "Audience Involvement Advanced Class",
+      "type": 1,
+      "cost": {
+        "passion": 24
+      },
+      "gain_type": 1,
+      "gain": [
+        2,
+        1,
+        12
+      ]
+    },
+    "11203": {
+      "name": "Vocal Training Advanced Class",
+      "type": 1,
+      "cost": {
+        "vocal": 24
+      },
+      "gain_type": 1,
+      "gain": [
+        3,
+        1,
+        12
+      ]
+    },
+    "11204": {
+      "name": "Makeup Advanced Class",
+      "type": 1,
+      "cost": {
+        "visual": 24
+      },
+      "gain_type": 1,
+      "gain": [
+        4,
+        1,
+        12
+      ]
+    },
+    "11205": {
+      "name": "Composure Training Advanced Class",
+      "type": 1,
+      "cost": {
+        "mental": 24
+      },
+      "gain_type": 1,
+      "gain": [
+        5,
+        1,
+        12
+      ]
+    },
+    "11206": {
+      "name": "Watch a Top-Tier Idol's Concert",
+      "type": 1,
+      "cost": {
+        "visual": 24
+      },
+      "gain_type": 1,
+      "gain": [
+        6,
+        1,
+        12
+      ]
+    },
+    "11207": {
+      "name": "Watch a Top-Tier Idol's Concert",
+      "type": 1,
+      "cost": {
+        "dance": 24
+      },
+      "gain_type": 1,
+      "gain": [
+        6,
+        1,
+        12
+      ]
+    },
+    "11208": {
+      "name": "Watch a Top-Tier Idol's Concert",
+      "type": 1,
+      "cost": {
+        "passion": 24
+      },
+      "gain_type": 1,
+      "gain": [
+        6,
+        1,
+        12
+      ]
+    },
+    "11209": {
+      "name": "Watch a Top-Tier Idol's Concert",
+      "type": 1,
+      "cost": {
+        "vocal": 24
+      },
+      "gain_type": 1,
+      "gain": [
+        6,
+        1,
+        12
+      ]
+    },
+    "11210": {
+      "name": "Watch a Top-Tier Idol's Concert",
+      "type": 1,
+      "cost": {
+        "mental": 24
+      },
+      "gain_type": 1,
+      "gain": [
+        6,
+        1,
+        12
+      ]
+    },
+    "12001": {
+      "name": "Rhythm Basics",
+      "type": 1,
+      "cost": {
+        "dance": 8
+      },
+      "gain_type": 1,
+      "gain": [
+        1,
+        2,
+        3
+      ]
+    },
+    "12002": {
+      "name": "Fan Interaction Basics",
+      "type": 1,
+      "cost": {
+        "passion": 8
+      },
+      "gain_type": 1,
+      "gain": [
+        2,
+        2,
+        3
+      ]
+    },
+    "12003": {
+      "name": "Abdominal Breathing Basics",
+      "type": 1,
+      "cost": {
+        "vocal": 8
+      },
+      "gain_type": 1,
+      "gain": [
+        3,
+        2,
+        3
+      ]
+    },
+    "12004": {
+      "name": "Hair Styling Basics",
+      "type": 1,
+      "cost": {
+        "visual": 8
+      },
+      "gain_type": 1,
+      "gain": [
+        4,
+        2,
+        3
+      ]
+    },
+    "12005": {
+      "name": "Solo Performance Basics",
+      "type": 1,
+      "cost": {
+        "mental": 8
+      },
+      "gain_type": 1,
+      "gain": [
+        5,
+        2,
+        3
+      ]
+    },
+    "12006": {
+      "name": "Autograph Basics",
+      "type": 1,
+      "cost": {
+        "passion": 8
+      },
+      "gain_type": 1,
+      "gain": [
+        6,
+        2,
+        3
+      ]
+    },
+    "12101": {
+      "name": "Rhythm Intermediate Class",
+      "type": 1,
+      "cost": {
+        "dance": 12
+      },
+      "gain_type": 1,
+      "gain": [
+        1,
+        2,
+        5
+      ]
+    },
+    "12102": {
+      "name": "Fan Interaction Intermediate Class",
+      "type": 1,
+      "cost": {
+        "passion": 12
+      },
+      "gain_type": 1,
+      "gain": [
+        2,
+        2,
+        5
+      ]
+    },
+    "12103": {
+      "name": "Abdominal Breathing Intermediate Class",
+      "type": 1,
+      "cost": {
+        "vocal": 12
+      },
+      "gain_type": 1,
+      "gain": [
+        3,
+        2,
+        5
+      ]
+    },
+    "12104": {
+      "name": "Hair Styling Intermediate Class",
+      "type": 1,
+      "cost": {
+        "visual": 12
+      },
+      "gain_type": 1,
+      "gain": [
+        4,
+        2,
+        5
+      ]
+    },
+    "12105": {
+      "name": "Solo Performance Intermediate Class",
+      "type": 1,
+      "cost": {
+        "mental": 12
+      },
+      "gain_type": 1,
+      "gain": [
+        5,
+        2,
+        5
+      ]
+    },
+    "12106": {
+      "name": "Autograph Intermediate Class",
+      "type": 1,
+      "cost": {
+        "visual": 12
+      },
+      "gain_type": 1,
+      "gain": [
+        6,
+        2,
+        5
+      ]
+    },
+    "12201": {
+      "name": "Rhythm Advanced Class",
+      "type": 1,
+      "cost": {
+        "dance": 18
+      },
+      "gain_type": 1,
+      "gain": [
+        1,
+        2,
+        8
+      ]
+    },
+    "12202": {
+      "name": "Fan Interaction Advanced Class",
+      "type": 1,
+      "cost": {
+        "passion": 18
+      },
+      "gain_type": 1,
+      "gain": [
+        2,
+        2,
+        8
+      ]
+    },
+    "12203": {
+      "name": "Abdominal Breathing Advanced Class",
+      "type": 1,
+      "cost": {
+        "vocal": 18
+      },
+      "gain_type": 1,
+      "gain": [
+        3,
+        2,
+        8
+      ]
+    },
+    "12204": {
+      "name": "Hair Styling Advanced Class",
+      "type": 1,
+      "cost": {
+        "visual": 18
+      },
+      "gain_type": 1,
+      "gain": [
+        4,
+        2,
+        8
+      ]
+    },
+    "12205": {
+      "name": "Solo Performance Advanced Class",
+      "type": 1,
+      "cost": {
+        "mental": 18
+      },
+      "gain_type": 1,
+      "gain": [
+        5,
+        2,
+        8
+      ]
+    },
+    "12206": {
+      "name": "Autograph Advanced Class",
+      "type": 1,
+      "cost": {
+        "mental": 18
+      },
+      "gain_type": 1,
+      "gain": [
+        6,
+        2,
+        8
+      ]
+    },
+    "13001": {
+      "name": "Expression Basics",
+      "type": 1,
+      "cost": {
+        "dance": 8,
+        "passion": 8
+      },
+      "gain_type": 1,
+      "gain": [
+        1,
+        1,
+        4
+      ]
+    },
+    "13002": {
+      "name": "Dancing and Singing Basics",
+      "type": 1,
+      "cost": {
+        "dance": 8,
+        "vocal": 8
+      },
+      "gain_type": 1,
+      "gain": [
+        1,
+        1,
+        4
+      ]
+    },
+    "13003": {
+      "name": "Jazz Dance Basics",
+      "type": 1,
+      "cost": {
+        "dance": 8,
+        "visual": 8
+      },
+      "gain_type": 1,
+      "gain": [
+        1,
+        1,
+        4
+      ]
+    },
+    "13004": {
+      "name": "Isolation Basics",
+      "type": 1,
+      "cost": {
+        "dance": 8,
+        "mental": 8
+      },
+      "gain_type": 1,
+      "gain": [
+        1,
+        1,
+        4
+      ]
+    },
+    "13005": {
+      "name": "Formation Basics",
+      "type": 1,
+      "cost": {
+        "dance": 10,
+        "visual": 6
+      },
+      "gain_type": 1,
+      "gain": [
+        1,
+        1,
+        4
+      ]
+    },
+    "13006": {
+      "name": "Vocal Expression Basics",
+      "type": 1,
+      "cost": {
+        "passion": 8,
+        "vocal": 8
+      },
+      "gain_type": 1,
+      "gain": [
+        2,
+        1,
+        4
+      ]
+    },
+    "13007": {
+      "name": "Acting Basics",
+      "type": 1,
+      "cost": {
+        "passion": 8,
+        "visual": 8
+      },
+      "gain_type": 1,
+      "gain": [
+        2,
+        1,
+        4
+      ]
+    },
+    "13008": {
+      "name": "Mic Performance Basics",
+      "type": 1,
+      "cost": {
+        "passion": 8,
+        "mental": 8
+      },
+      "gain_type": 1,
+      "gain": [
+        2,
+        1,
+        4
+      ]
+    },
+    "13009": {
+      "name": "Yoga Basics",
+      "type": 1,
+      "cost": {
+        "passion": 10,
+        "vocal": 6
+      },
+      "gain_type": 1,
+      "gain": [
+        2,
+        1,
+        4
+      ]
+    },
+    "13010": {
+      "name": "Harmony Basics",
+      "type": 1,
+      "cost": {
+        "vocal": 8,
+        "visual": 8
+      },
+      "gain_type": 1,
+      "gain": [
+        3,
+        1,
+        4
+      ]
+    },
+    "13011": {
+      "name": "Rap Basics",
+      "type": 1,
+      "cost": {
+        "vocal": 8,
+        "mental": 8
+      },
+      "gain_type": 1,
+      "gain": [
+        3,
+        1,
+        4
+      ]
+    },
+    "13012": {
+      "name": "Vocal Theory Basics",
+      "type": 1,
+      "cost": {
+        "vocal": 10,
+        "mental": 6
+      },
+      "gain_type": 1,
+      "gain": [
+        3,
+        1,
+        4
+      ]
+    },
+    "13013": {
+      "name": "Flexibility Basics",
+      "type": 1,
+      "cost": {
+        "visual": 8,
+        "mental": 8
+      },
+      "gain_type": 1,
+      "gain": [
+        4,
+        1,
+        4
+      ]
+    },
+    "13014": {
+      "name": "Visuals Research Basics",
+      "type": 1,
+      "cost": {
+        "dance": 6,
+        "visual": 10
+      },
+      "gain_type": 1,
+      "gain": [
+        4,
+        1,
+        4
+      ]
+    },
+    "13015": {
+      "name": "Idol History Basics",
+      "type": 1,
+      "cost": {
+        "passion": 6,
+        "mental": 10
+      },
+      "gain_type": 1,
+      "gain": [
+        5,
+        1,
+        4
+      ]
+    },
+    "13101": {
+      "name": "Expression Intermediate Class",
+      "type": 1,
+      "cost": {
+        "dance": 12,
+        "passion": 12
+      },
+      "gain_type": 1,
+      "gain": [
+        1,
+        1,
+        6
+      ]
+    },
+    "13102": {
+      "name": "Dancing and Singing Intermediate Class",
+      "type": 1,
+      "cost": {
+        "dance": 12,
+        "vocal": 12
+      },
+      "gain_type": 1,
+      "gain": [
+        1,
+        1,
+        6
+      ]
+    },
+    "13103": {
+      "name": "Jazz Dance Intermediate Class",
+      "type": 1,
+      "cost": {
+        "dance": 12,
+        "visual": 12
+      },
+      "gain_type": 1,
+      "gain": [
+        1,
+        1,
+        6
+      ]
+    },
+    "13104": {
+      "name": "Isolation Intermediate Class",
+      "type": 1,
+      "cost": {
+        "dance": 12,
+        "mental": 12
+      },
+      "gain_type": 1,
+      "gain": [
+        1,
+        1,
+        6
+      ]
+    },
+    "13105": {
+      "name": "Formation Intermediate Class",
+      "type": 1,
+      "cost": {
+        "dance": 14,
+        "visual": 10
+      },
+      "gain_type": 1,
+      "gain": [
+        1,
+        1,
+        6
+      ]
+    },
+    "13106": {
+      "name": "Vocal Expression Intermediate Class",
+      "type": 1,
+      "cost": {
+        "passion": 12,
+        "vocal": 12
+      },
+      "gain_type": 1,
+      "gain": [
+        2,
+        1,
+        6
+      ]
+    },
+    "13107": {
+      "name": "Acting Intermediate Class",
+      "type": 1,
+      "cost": {
+        "passion": 12,
+        "visual": 12
+      },
+      "gain_type": 1,
+      "gain": [
+        2,
+        1,
+        6
+      ]
+    },
+    "13108": {
+      "name": "Mic Performance Intermediate Class",
+      "type": 1,
+      "cost": {
+        "passion": 12,
+        "mental": 12
+      },
+      "gain_type": 1,
+      "gain": [
+        2,
+        1,
+        6
+      ]
+    },
+    "13109": {
+      "name": "Yoga Intermediate Class",
+      "type": 1,
+      "cost": {
+        "passion": 14,
+        "vocal": 10
+      },
+      "gain_type": 1,
+      "gain": [
+        2,
+        1,
+        6
+      ]
+    },
+    "13110": {
+      "name": "Harmony Intermediate Class",
+      "type": 1,
+      "cost": {
+        "vocal": 12,
+        "visual": 12
+      },
+      "gain_type": 1,
+      "gain": [
+        3,
+        1,
+        6
+      ]
+    },
+    "13111": {
+      "name": "Rap Intermediate Class",
+      "type": 1,
+      "cost": {
+        "vocal": 12,
+        "mental": 12
+      },
+      "gain_type": 1,
+      "gain": [
+        3,
+        1,
+        6
+      ]
+    },
+    "13112": {
+      "name": "Vocal Theory Intermediate Class",
+      "type": 1,
+      "cost": {
+        "vocal": 14,
+        "mental": 10
+      },
+      "gain_type": 1,
+      "gain": [
+        3,
+        1,
+        6
+      ]
+    },
+    "13113": {
+      "name": "Flexibility Intermediate Class",
+      "type": 1,
+      "cost": {
+        "visual": 12,
+        "mental": 12
+      },
+      "gain_type": 1,
+      "gain": [
+        4,
+        1,
+        6
+      ]
+    },
+    "13114": {
+      "name": "Visuals Research Intermediate Class",
+      "type": 1,
+      "cost": {
+        "dance": 10,
+        "visual": 14
+      },
+      "gain_type": 1,
+      "gain": [
+        4,
+        1,
+        6
+      ]
+    },
+    "13115": {
+      "name": "Idol History Intermediate Class",
+      "type": 1,
+      "cost": {
+        "passion": 10,
+        "mental": 14
+      },
+      "gain_type": 1,
+      "gain": [
+        5,
+        1,
+        6
+      ]
+    },
+    "13201": {
+      "name": "Expression Advanced Class",
+      "type": 1,
+      "cost": {
+        "dance": 16,
+        "passion": 16
+      },
+      "gain_type": 1,
+      "gain": [
+        1,
+        1,
+        8
+      ]
+    },
+    "13202": {
+      "name": "Dancing and Singing Advanced Class",
+      "type": 1,
+      "cost": {
+        "dance": 16,
+        "vocal": 16
+      },
+      "gain_type": 1,
+      "gain": [
+        1,
+        1,
+        8
+      ]
+    },
+    "13203": {
+      "name": "Jazz Dance Advanced Class",
+      "type": 1,
+      "cost": {
+        "dance": 16,
+        "visual": 16
+      },
+      "gain_type": 1,
+      "gain": [
+        1,
+        1,
+        8
+      ]
+    },
+    "13204": {
+      "name": "Isolation Advanced Class",
+      "type": 1,
+      "cost": {
+        "dance": 16,
+        "mental": 16
+      },
+      "gain_type": 1,
+      "gain": [
+        1,
+        1,
+        8
+      ]
+    },
+    "13205": {
+      "name": "Formation Advanced Class",
+      "type": 1,
+      "cost": {
+        "dance": 20,
+        "visual": 12
+      },
+      "gain_type": 1,
+      "gain": [
+        1,
+        1,
+        8
+      ]
+    },
+    "13206": {
+      "name": "Vocal Expression Advanced Class",
+      "type": 1,
+      "cost": {
+        "passion": 16,
+        "vocal": 16
+      },
+      "gain_type": 1,
+      "gain": [
+        2,
+        1,
+        8
+      ]
+    },
+    "13207": {
+      "name": "Acting Advanced Class",
+      "type": 1,
+      "cost": {
+        "passion": 16,
+        "visual": 16
+      },
+      "gain_type": 1,
+      "gain": [
+        2,
+        1,
+        8
+      ]
+    },
+    "13208": {
+      "name": "Mic Performance Advanced Class",
+      "type": 1,
+      "cost": {
+        "passion": 16,
+        "mental": 16
+      },
+      "gain_type": 1,
+      "gain": [
+        2,
+        1,
+        8
+      ]
+    },
+    "13209": {
+      "name": "Yoga Advanced Class",
+      "type": 1,
+      "cost": {
+        "passion": 20,
+        "vocal": 12
+      },
+      "gain_type": 1,
+      "gain": [
+        2,
+        1,
+        8
+      ]
+    },
+    "13210": {
+      "name": "Harmony Advanced Class",
+      "type": 1,
+      "cost": {
+        "vocal": 16,
+        "visual": 16
+      },
+      "gain_type": 1,
+      "gain": [
+        3,
+        1,
+        8
+      ]
+    },
+    "13211": {
+      "name": "Rap Advanced Class",
+      "type": 1,
+      "cost": {
+        "vocal": 16,
+        "mental": 16
+      },
+      "gain_type": 1,
+      "gain": [
+        3,
+        1,
+        8
+      ]
+    },
+    "13212": {
+      "name": "Vocal Theory Advanced Class",
+      "type": 1,
+      "cost": {
+        "vocal": 20,
+        "mental": 12
+      },
+      "gain_type": 1,
+      "gain": [
+        3,
+        1,
+        8
+      ]
+    },
+    "13213": {
+      "name": "Flexibility Advanced Class",
+      "type": 1,
+      "cost": {
+        "visual": 16,
+        "mental": 16
+      },
+      "gain_type": 1,
+      "gain": [
+        4,
+        1,
+        8
+      ]
+    },
+    "13214": {
+      "name": "Visuals Research Advanced Class",
+      "type": 1,
+      "cost": {
+        "dance": 12,
+        "visual": 20
+      },
+      "gain_type": 1,
+      "gain": [
+        4,
+        1,
+        8
+      ]
+    },
+    "13215": {
+      "name": "Idol History Advanced Class",
+      "type": 1,
+      "cost": {
+        "passion": 12,
+        "mental": 20
+      },
+      "gain_type": 1,
+      "gain": [
+        5,
+        1,
+        8
+      ]
+    },
+    "20000": {
+      "name": "Group Lesson",
+      "type": 2,
+      "cost": {
+        "dance": 15
+      },
+      "gain_type": 2,
+      "gain": [
+        1,
+        1,
+        0
+      ]
+    },
+    "20001": {
+      "name": "Group Lesson",
+      "type": 2,
+      "cost": {
+        "passion": 15
+      },
+      "gain_type": 2,
+      "gain": [
+        1,
+        1,
+        0
+      ]
+    },
+    "20002": {
+      "name": "Group Lesson",
+      "type": 2,
+      "cost": {
+        "vocal": 15
+      },
+      "gain_type": 2,
+      "gain": [
+        1,
+        1,
+        0
+      ]
+    },
+    "20003": {
+      "name": "Group Lesson",
+      "type": 2,
+      "cost": {
+        "visual": 15
+      },
+      "gain_type": 2,
+      "gain": [
+        1,
+        1,
+        0
+      ]
+    },
+    "20004": {
+      "name": "Group Lesson",
+      "type": 2,
+      "cost": {
+        "mental": 15
+      },
+      "gain_type": 2,
+      "gain": [
+        1,
+        1,
+        0
+      ]
+    },
+    "20005": {
+      "name": "Group Lesson Basics",
+      "type": 2,
+      "cost": {
+        "dance": 15
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        502,
+        1
+      ]
+    },
+    "20006": {
+      "name": "Group Lesson Basics",
+      "type": 2,
+      "cost": {
+        "passion": 15
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        502,
+        1
+      ]
+    },
+    "20007": {
+      "name": "Group Lesson Basics",
+      "type": 2,
+      "cost": {
+        "vocal": 15
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        502,
+        1
+      ]
+    },
+    "20008": {
+      "name": "Group Lesson Basics",
+      "type": 2,
+      "cost": {
+        "visual": 15
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        502,
+        1
+      ]
+    },
+    "20009": {
+      "name": "Group Lesson Basics",
+      "type": 2,
+      "cost": {
+        "mental": 15
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        502,
+        1
+      ]
+    },
+    "20010": {
+      "name": "Group Lesson Basics",
+      "type": 2,
+      "cost": {
+        "dance": 15
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        201,
+        1
+      ]
+    },
+    "20011": {
+      "name": "Group Lesson Basics",
+      "type": 2,
+      "cost": {
+        "passion": 15
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        201,
+        1
+      ]
+    },
+    "20012": {
+      "name": "Group Lesson Basics",
+      "type": 2,
+      "cost": {
+        "vocal": 15
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        201,
+        1
+      ]
+    },
+    "20013": {
+      "name": "Group Lesson Basics",
+      "type": 2,
+      "cost": {
+        "visual": 15
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        201,
+        1
+      ]
+    },
+    "20014": {
+      "name": "Group Lesson Basics",
+      "type": 2,
+      "cost": {
+        "mental": 15
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        201,
+        1
+      ]
+    },
+    "20015": {
+      "name": "Group Lesson Basics",
+      "type": 2,
+      "cost": {
+        "dance": 15
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        202,
+        1
+      ]
+    },
+    "20016": {
+      "name": "Group Lesson Basics",
+      "type": 2,
+      "cost": {
+        "passion": 15
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        202,
+        1
+      ]
+    },
+    "20017": {
+      "name": "Group Lesson Basics",
+      "type": 2,
+      "cost": {
+        "vocal": 15
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        202,
+        1
+      ]
+    },
+    "20018": {
+      "name": "Group Lesson Basics",
+      "type": 2,
+      "cost": {
+        "visual": 15
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        202,
+        1
+      ]
+    },
+    "20019": {
+      "name": "Group Lesson Basics",
+      "type": 2,
+      "cost": {
+        "mental": 15
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        202,
+        1
+      ]
+    },
+    "20020": {
+      "name": "Group Lesson Basics",
+      "type": 2,
+      "cost": {
+        "dance": 15
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        203,
+        1
+      ]
+    },
+    "20021": {
+      "name": "Group Lesson Basics",
+      "type": 2,
+      "cost": {
+        "passion": 15
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        203,
+        1
+      ]
+    },
+    "20022": {
+      "name": "Group Lesson Basics",
+      "type": 2,
+      "cost": {
+        "vocal": 15
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        203,
+        1
+      ]
+    },
+    "20023": {
+      "name": "Group Lesson Basics",
+      "type": 2,
+      "cost": {
+        "visual": 15
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        203,
+        1
+      ]
+    },
+    "20024": {
+      "name": "Group Lesson Basics",
+      "type": 2,
+      "cost": {
+        "mental": 15
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        203,
+        1
+      ]
+    },
+    "20025": {
+      "name": "Group Lesson Basics",
+      "type": 2,
+      "cost": {
+        "dance": 15
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        204,
+        1
+      ]
+    },
+    "20026": {
+      "name": "Group Lesson Basics",
+      "type": 2,
+      "cost": {
+        "passion": 15
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        204,
+        1
+      ]
+    },
+    "20027": {
+      "name": "Group Lesson Basics",
+      "type": 2,
+      "cost": {
+        "vocal": 15
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        204,
+        1
+      ]
+    },
+    "20028": {
+      "name": "Group Lesson Basics",
+      "type": 2,
+      "cost": {
+        "visual": 15
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        204,
+        1
+      ]
+    },
+    "20029": {
+      "name": "Group Lesson Basics",
+      "type": 2,
+      "cost": {
+        "mental": 15
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        204,
+        1
+      ]
+    },
+    "20030": {
+      "name": "Group Lesson Basics",
+      "type": 2,
+      "cost": {
+        "dance": 15
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        101,
+        1
+      ]
+    },
+    "20031": {
+      "name": "Group Lesson Basics",
+      "type": 2,
+      "cost": {
+        "passion": 15
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        101,
+        1
+      ]
+    },
+    "20032": {
+      "name": "Group Lesson Basics",
+      "type": 2,
+      "cost": {
+        "vocal": 15
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        101,
+        1
+      ]
+    },
+    "20033": {
+      "name": "Group Lesson Basics",
+      "type": 2,
+      "cost": {
+        "visual": 15
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        101,
+        1
+      ]
+    },
+    "20034": {
+      "name": "Group Lesson Basics",
+      "type": 2,
+      "cost": {
+        "mental": 15
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        101,
+        1
+      ]
+    },
+    "20035": {
+      "name": "Group Lesson Basics",
+      "type": 2,
+      "cost": {
+        "dance": 15
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        102,
+        1
+      ]
+    },
+    "20036": {
+      "name": "Group Lesson Basics",
+      "type": 2,
+      "cost": {
+        "passion": 15
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        102,
+        1
+      ]
+    },
+    "20037": {
+      "name": "Group Lesson Basics",
+      "type": 2,
+      "cost": {
+        "vocal": 15
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        102,
+        1
+      ]
+    },
+    "20038": {
+      "name": "Group Lesson Basics",
+      "type": 2,
+      "cost": {
+        "visual": 15
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        102,
+        1
+      ]
+    },
+    "20039": {
+      "name": "Group Lesson Basics",
+      "type": 2,
+      "cost": {
+        "mental": 15
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        102,
+        1
+      ]
+    },
+    "20040": {
+      "name": "Group Lesson Basics",
+      "type": 2,
+      "cost": {
+        "dance": 15
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        103,
+        1
+      ]
+    },
+    "20041": {
+      "name": "Group Lesson Basics",
+      "type": 2,
+      "cost": {
+        "passion": 15
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        103,
+        1
+      ]
+    },
+    "20042": {
+      "name": "Group Lesson Basics",
+      "type": 2,
+      "cost": {
+        "vocal": 15
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        103,
+        1
+      ]
+    },
+    "20043": {
+      "name": "Group Lesson Basics",
+      "type": 2,
+      "cost": {
+        "visual": 15
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        103,
+        1
+      ]
+    },
+    "20044": {
+      "name": "Group Lesson Basics",
+      "type": 2,
+      "cost": {
+        "mental": 15
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        103,
+        1
+      ]
+    },
+    "20045": {
+      "name": "Group Lesson Basics",
+      "type": 2,
+      "cost": {
+        "dance": 15
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        104,
+        1
+      ]
+    },
+    "20046": {
+      "name": "Group Lesson Basics",
+      "type": 2,
+      "cost": {
+        "passion": 15
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        104,
+        1
+      ]
+    },
+    "20047": {
+      "name": "Group Lesson Basics",
+      "type": 2,
+      "cost": {
+        "vocal": 15
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        104,
+        1
+      ]
+    },
+    "20048": {
+      "name": "Group Lesson Basics",
+      "type": 2,
+      "cost": {
+        "visual": 15
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        104,
+        1
+      ]
+    },
+    "20049": {
+      "name": "Group Lesson Basics",
+      "type": 2,
+      "cost": {
+        "mental": 15
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        104,
+        1
+      ]
+    },
+    "20050": {
+      "name": "Group Lesson Intermediate",
+      "type": 2,
+      "cost": {
+        "dance": 25
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        502,
+        2
+      ]
+    },
+    "20051": {
+      "name": "Group Lesson Intermediate",
+      "type": 2,
+      "cost": {
+        "passion": 25
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        502,
+        2
+      ]
+    },
+    "20052": {
+      "name": "Group Lesson Intermediate",
+      "type": 2,
+      "cost": {
+        "vocal": 25
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        502,
+        2
+      ]
+    },
+    "20053": {
+      "name": "Group Lesson Intermediate",
+      "type": 2,
+      "cost": {
+        "visual": 25
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        502,
+        2
+      ]
+    },
+    "20054": {
+      "name": "Group Lesson Intermediate",
+      "type": 2,
+      "cost": {
+        "mental": 25
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        502,
+        2
+      ]
+    },
+    "20055": {
+      "name": "Group Lesson Intermediate",
+      "type": 2,
+      "cost": {
+        "dance": 25
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        201,
+        2
+      ]
+    },
+    "20056": {
+      "name": "Group Lesson Intermediate",
+      "type": 2,
+      "cost": {
+        "passion": 25
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        201,
+        2
+      ]
+    },
+    "20057": {
+      "name": "Group Lesson Intermediate",
+      "type": 2,
+      "cost": {
+        "vocal": 25
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        201,
+        2
+      ]
+    },
+    "20058": {
+      "name": "Group Lesson Intermediate",
+      "type": 2,
+      "cost": {
+        "visual": 25
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        201,
+        2
+      ]
+    },
+    "20059": {
+      "name": "Group Lesson Intermediate",
+      "type": 2,
+      "cost": {
+        "mental": 25
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        201,
+        2
+      ]
+    },
+    "20060": {
+      "name": "Group Lesson Intermediate",
+      "type": 2,
+      "cost": {
+        "dance": 25
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        202,
+        2
+      ]
+    },
+    "20061": {
+      "name": "Group Lesson Intermediate",
+      "type": 2,
+      "cost": {
+        "passion": 25
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        202,
+        2
+      ]
+    },
+    "20062": {
+      "name": "Group Lesson Intermediate",
+      "type": 2,
+      "cost": {
+        "vocal": 25
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        202,
+        2
+      ]
+    },
+    "20063": {
+      "name": "Group Lesson Intermediate",
+      "type": 2,
+      "cost": {
+        "visual": 25
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        202,
+        2
+      ]
+    },
+    "20064": {
+      "name": "Group Lesson Intermediate",
+      "type": 2,
+      "cost": {
+        "mental": 25
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        202,
+        2
+      ]
+    },
+    "20065": {
+      "name": "Group Lesson Intermediate",
+      "type": 2,
+      "cost": {
+        "dance": 25
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        203,
+        2
+      ]
+    },
+    "20066": {
+      "name": "Group Lesson Intermediate",
+      "type": 2,
+      "cost": {
+        "passion": 25
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        203,
+        2
+      ]
+    },
+    "20067": {
+      "name": "Group Lesson Intermediate",
+      "type": 2,
+      "cost": {
+        "vocal": 25
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        203,
+        2
+      ]
+    },
+    "20068": {
+      "name": "Group Lesson Intermediate",
+      "type": 2,
+      "cost": {
+        "visual": 25
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        203,
+        2
+      ]
+    },
+    "20069": {
+      "name": "Group Lesson Intermediate",
+      "type": 2,
+      "cost": {
+        "mental": 25
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        203,
+        2
+      ]
+    },
+    "20070": {
+      "name": "Group Lesson Intermediate",
+      "type": 2,
+      "cost": {
+        "dance": 25
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        204,
+        2
+      ]
+    },
+    "20071": {
+      "name": "Group Lesson Intermediate",
+      "type": 2,
+      "cost": {
+        "passion": 25
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        204,
+        2
+      ]
+    },
+    "20072": {
+      "name": "Group Lesson Intermediate",
+      "type": 2,
+      "cost": {
+        "vocal": 25
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        204,
+        2
+      ]
+    },
+    "20073": {
+      "name": "Group Lesson Intermediate",
+      "type": 2,
+      "cost": {
+        "visual": 25
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        204,
+        2
+      ]
+    },
+    "20074": {
+      "name": "Group Lesson Intermediate",
+      "type": 2,
+      "cost": {
+        "mental": 25
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        204,
+        2
+      ]
+    },
+    "20075": {
+      "name": "Group Lesson Intermediate",
+      "type": 2,
+      "cost": {
+        "dance": 25
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        101,
+        2
+      ]
+    },
+    "20076": {
+      "name": "Group Lesson Intermediate",
+      "type": 2,
+      "cost": {
+        "passion": 25
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        101,
+        2
+      ]
+    },
+    "20077": {
+      "name": "Group Lesson Intermediate",
+      "type": 2,
+      "cost": {
+        "vocal": 25
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        101,
+        2
+      ]
+    },
+    "20078": {
+      "name": "Group Lesson Intermediate",
+      "type": 2,
+      "cost": {
+        "visual": 25
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        101,
+        2
+      ]
+    },
+    "20079": {
+      "name": "Group Lesson Intermediate",
+      "type": 2,
+      "cost": {
+        "mental": 25
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        101,
+        2
+      ]
+    },
+    "20080": {
+      "name": "Group Lesson Intermediate",
+      "type": 2,
+      "cost": {
+        "dance": 25
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        102,
+        2
+      ]
+    },
+    "20081": {
+      "name": "Group Lesson Intermediate",
+      "type": 2,
+      "cost": {
+        "passion": 25
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        102,
+        2
+      ]
+    },
+    "20082": {
+      "name": "Group Lesson Intermediate",
+      "type": 2,
+      "cost": {
+        "vocal": 25
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        102,
+        2
+      ]
+    },
+    "20083": {
+      "name": "Group Lesson Intermediate",
+      "type": 2,
+      "cost": {
+        "visual": 25
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        102,
+        2
+      ]
+    },
+    "20084": {
+      "name": "Group Lesson Intermediate",
+      "type": 2,
+      "cost": {
+        "mental": 25
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        102,
+        2
+      ]
+    },
+    "20085": {
+      "name": "Group Lesson Intermediate",
+      "type": 2,
+      "cost": {
+        "dance": 25
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        103,
+        2
+      ]
+    },
+    "20086": {
+      "name": "Group Lesson Intermediate",
+      "type": 2,
+      "cost": {
+        "passion": 25
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        103,
+        2
+      ]
+    },
+    "20087": {
+      "name": "Group Lesson Intermediate",
+      "type": 2,
+      "cost": {
+        "vocal": 25
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        103,
+        2
+      ]
+    },
+    "20088": {
+      "name": "Group Lesson Intermediate",
+      "type": 2,
+      "cost": {
+        "visual": 25
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        103,
+        2
+      ]
+    },
+    "20089": {
+      "name": "Group Lesson Intermediate",
+      "type": 2,
+      "cost": {
+        "mental": 25
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        103,
+        2
+      ]
+    },
+    "20090": {
+      "name": "Group Lesson Intermediate",
+      "type": 2,
+      "cost": {
+        "dance": 25
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        104,
+        2
+      ]
+    },
+    "20091": {
+      "name": "Group Lesson Intermediate",
+      "type": 2,
+      "cost": {
+        "passion": 25
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        104,
+        2
+      ]
+    },
+    "20092": {
+      "name": "Group Lesson Intermediate",
+      "type": 2,
+      "cost": {
+        "vocal": 25
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        104,
+        2
+      ]
+    },
+    "20093": {
+      "name": "Group Lesson Intermediate",
+      "type": 2,
+      "cost": {
+        "visual": 25
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        104,
+        2
+      ]
+    },
+    "20094": {
+      "name": "Group Lesson Intermediate",
+      "type": 2,
+      "cost": {
+        "mental": 25
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        104,
+        2
+      ]
+    },
+    "20095": {
+      "name": "Group Lesson Advanced",
+      "type": 2,
+      "cost": {
+        "dance": 30
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        502,
+        3
+      ]
+    },
+    "20096": {
+      "name": "Group Lesson Advanced",
+      "type": 2,
+      "cost": {
+        "passion": 30
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        502,
+        3
+      ]
+    },
+    "20097": {
+      "name": "Group Lesson Advanced",
+      "type": 2,
+      "cost": {
+        "vocal": 30
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        502,
+        3
+      ]
+    },
+    "20098": {
+      "name": "Group Lesson Advanced",
+      "type": 2,
+      "cost": {
+        "visual": 30
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        502,
+        3
+      ]
+    },
+    "20099": {
+      "name": "Group Lesson Advanced",
+      "type": 2,
+      "cost": {
+        "mental": 30
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        502,
+        3
+      ]
+    },
+    "20100": {
+      "name": "Group Lesson Advanced",
+      "type": 2,
+      "cost": {
+        "dance": 30
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        201,
+        3
+      ]
+    },
+    "20101": {
+      "name": "Group Lesson Advanced",
+      "type": 2,
+      "cost": {
+        "passion": 30
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        201,
+        3
+      ]
+    },
+    "20102": {
+      "name": "Group Lesson Advanced",
+      "type": 2,
+      "cost": {
+        "vocal": 30
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        201,
+        3
+      ]
+    },
+    "20103": {
+      "name": "Group Lesson Advanced",
+      "type": 2,
+      "cost": {
+        "visual": 30
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        201,
+        3
+      ]
+    },
+    "20104": {
+      "name": "Group Lesson Advanced",
+      "type": 2,
+      "cost": {
+        "mental": 30
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        201,
+        3
+      ]
+    },
+    "20105": {
+      "name": "Group Lesson Advanced",
+      "type": 2,
+      "cost": {
+        "dance": 30
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        202,
+        3
+      ]
+    },
+    "20106": {
+      "name": "Group Lesson Advanced",
+      "type": 2,
+      "cost": {
+        "passion": 30
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        202,
+        3
+      ]
+    },
+    "20107": {
+      "name": "Group Lesson Advanced",
+      "type": 2,
+      "cost": {
+        "vocal": 30
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        202,
+        3
+      ]
+    },
+    "20108": {
+      "name": "Group Lesson Advanced",
+      "type": 2,
+      "cost": {
+        "visual": 30
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        202,
+        3
+      ]
+    },
+    "20109": {
+      "name": "Group Lesson Advanced",
+      "type": 2,
+      "cost": {
+        "mental": 30
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        202,
+        3
+      ]
+    },
+    "20110": {
+      "name": "Group Lesson Advanced",
+      "type": 2,
+      "cost": {
+        "dance": 30
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        203,
+        3
+      ]
+    },
+    "20111": {
+      "name": "Group Lesson Advanced",
+      "type": 2,
+      "cost": {
+        "passion": 30
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        203,
+        3
+      ]
+    },
+    "20112": {
+      "name": "Group Lesson Advanced",
+      "type": 2,
+      "cost": {
+        "vocal": 30
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        203,
+        3
+      ]
+    },
+    "20113": {
+      "name": "Group Lesson Advanced",
+      "type": 2,
+      "cost": {
+        "visual": 30
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        203,
+        3
+      ]
+    },
+    "20114": {
+      "name": "Group Lesson Advanced",
+      "type": 2,
+      "cost": {
+        "mental": 30
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        203,
+        3
+      ]
+    },
+    "20115": {
+      "name": "Group Lesson Advanced",
+      "type": 2,
+      "cost": {
+        "dance": 30
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        204,
+        3
+      ]
+    },
+    "20116": {
+      "name": "Group Lesson Advanced",
+      "type": 2,
+      "cost": {
+        "passion": 30
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        204,
+        3
+      ]
+    },
+    "20117": {
+      "name": "Group Lesson Advanced",
+      "type": 2,
+      "cost": {
+        "vocal": 30
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        204,
+        3
+      ]
+    },
+    "20118": {
+      "name": "Group Lesson Advanced",
+      "type": 2,
+      "cost": {
+        "visual": 30
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        204,
+        3
+      ]
+    },
+    "20119": {
+      "name": "Group Lesson Advanced",
+      "type": 2,
+      "cost": {
+        "mental": 30
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        204,
+        3
+      ]
+    },
+    "20120": {
+      "name": "Group Lesson Advanced",
+      "type": 2,
+      "cost": {
+        "dance": 30
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        101,
+        3
+      ]
+    },
+    "20121": {
+      "name": "Group Lesson Advanced",
+      "type": 2,
+      "cost": {
+        "passion": 30
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        101,
+        3
+      ]
+    },
+    "20122": {
+      "name": "Group Lesson Advanced",
+      "type": 2,
+      "cost": {
+        "vocal": 30
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        101,
+        3
+      ]
+    },
+    "20123": {
+      "name": "Group Lesson Advanced",
+      "type": 2,
+      "cost": {
+        "visual": 30
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        101,
+        3
+      ]
+    },
+    "20124": {
+      "name": "Group Lesson Advanced",
+      "type": 2,
+      "cost": {
+        "mental": 30
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        101,
+        3
+      ]
+    },
+    "20125": {
+      "name": "Group Lesson Advanced",
+      "type": 2,
+      "cost": {
+        "dance": 30
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        102,
+        3
+      ]
+    },
+    "20126": {
+      "name": "Group Lesson Advanced",
+      "type": 2,
+      "cost": {
+        "passion": 30
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        102,
+        3
+      ]
+    },
+    "20127": {
+      "name": "Group Lesson Advanced",
+      "type": 2,
+      "cost": {
+        "vocal": 30
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        102,
+        3
+      ]
+    },
+    "20128": {
+      "name": "Group Lesson Advanced",
+      "type": 2,
+      "cost": {
+        "visual": 30
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        102,
+        3
+      ]
+    },
+    "20129": {
+      "name": "Group Lesson Advanced",
+      "type": 2,
+      "cost": {
+        "mental": 30
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        102,
+        3
+      ]
+    },
+    "20130": {
+      "name": "Group Lesson Advanced",
+      "type": 2,
+      "cost": {
+        "dance": 30
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        103,
+        3
+      ]
+    },
+    "20131": {
+      "name": "Group Lesson Advanced",
+      "type": 2,
+      "cost": {
+        "passion": 30
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        103,
+        3
+      ]
+    },
+    "20132": {
+      "name": "Group Lesson Advanced",
+      "type": 2,
+      "cost": {
+        "vocal": 30
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        103,
+        3
+      ]
+    },
+    "20133": {
+      "name": "Group Lesson Advanced",
+      "type": 2,
+      "cost": {
+        "visual": 30
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        103,
+        3
+      ]
+    },
+    "20134": {
+      "name": "Group Lesson Advanced",
+      "type": 2,
+      "cost": {
+        "mental": 30
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        103,
+        3
+      ]
+    },
+    "20135": {
+      "name": "Group Lesson Advanced",
+      "type": 2,
+      "cost": {
+        "dance": 30
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        104,
+        3
+      ]
+    },
+    "20136": {
+      "name": "Group Lesson Advanced",
+      "type": 2,
+      "cost": {
+        "passion": 30
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        104,
+        3
+      ]
+    },
+    "20137": {
+      "name": "Group Lesson Advanced",
+      "type": 2,
+      "cost": {
+        "vocal": 30
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        104,
+        3
+      ]
+    },
+    "20138": {
+      "name": "Group Lesson Advanced",
+      "type": 2,
+      "cost": {
+        "visual": 30
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        104,
+        3
+      ]
+    },
+    "20139": {
+      "name": "Group Lesson Advanced",
+      "type": 2,
+      "cost": {
+        "mental": 30
+      },
+      "gain_type": 2,
+      "gain": [
+        3,
+        104,
+        3
+      ]
+    },
+    "30000": {
+      "name": "Facial-Slimming Massage",
+      "type": 3,
+      "cost": {
+        "mental": 25
+      },
+      "gain_type": 3,
+      "gain": [
+        20,
+        0,
+        0
+      ]
+    },
+    "30001": {
+      "name": "Relaxing Body Massage",
+      "type": 3,
+      "cost": {
+        "mental": 30
+      },
+      "gain_type": 3,
+      "gain": [
+        30,
+        0,
+        0
+      ]
+    },
+    "30002": {
+      "name": "Full-Body Detox",
+      "type": 3,
+      "cost": {
+        "mental": 35
+      },
+      "gain_type": 3,
+      "gain": [
+        40,
+        0,
+        0
+      ]
+    },
+    "30003": {
+      "name": "Facial-Slimming Massage",
+      "type": 3,
+      "cost": {
+        "visual": 25
+      },
+      "gain_type": 3,
+      "gain": [
+        20,
+        0,
+        0
+      ]
+    },
+    "30004": {
+      "name": "Relaxing Body Massage",
+      "type": 3,
+      "cost": {
+        "visual": 30
+      },
+      "gain_type": 3,
+      "gain": [
+        30,
+        0,
+        0
+      ]
+    },
+    "30005": {
+      "name": "Full-Body Detox",
+      "type": 3,
+      "cost": {
+        "visual": 35
+      },
+      "gain_type": 3,
+      "gain": [
+        40,
+        0,
+        0
+      ]
+    },
+    "30006": {
+      "name": "Facial-Slimming Massage",
+      "type": 3,
+      "cost": {
+        "vocal": 25
+      },
+      "gain_type": 3,
+      "gain": [
+        20,
+        0,
+        0
+      ]
+    },
+    "30007": {
+      "name": "Relaxing Body Massage",
+      "type": 3,
+      "cost": {
+        "vocal": 30
+      },
+      "gain_type": 3,
+      "gain": [
+        30,
+        0,
+        0
+      ]
+    },
+    "30008": {
+      "name": "Full-Body Detox",
+      "type": 3,
+      "cost": {
+        "vocal": 35
+      },
+      "gain_type": 3,
+      "gain": [
+        40,
+        0,
+        0
+      ]
+    },
+    "30009": {
+      "name": "Facial-Slimming Massage",
+      "type": 3,
+      "cost": {
+        "passion": 25
+      },
+      "gain_type": 3,
+      "gain": [
+        20,
+        0,
+        0
+      ]
+    },
+    "30010": {
+      "name": "Relaxing Body Massage",
+      "type": 3,
+      "cost": {
+        "passion": 30
+      },
+      "gain_type": 3,
+      "gain": [
+        30,
+        0,
+        0
+      ]
+    },
+    "30011": {
+      "name": "Full-Body Detox",
+      "type": 3,
+      "cost": {
+        "passion": 35
+      },
+      "gain_type": 3,
+      "gain": [
+        40,
+        0,
+        0
+      ]
+    },
+    "30012": {
+      "name": "Facial-Slimming Massage",
+      "type": 3,
+      "cost": {
+        "dance": 25
+      },
+      "gain_type": 3,
+      "gain": [
+        20,
+        0,
+        0
+      ]
+    },
+    "30013": {
+      "name": "Relaxing Body Massage",
+      "type": 3,
+      "cost": {
+        "dance": 30
+      },
+      "gain_type": 3,
+      "gain": [
+        30,
+        0,
+        0
+      ]
+    },
+    "30014": {
+      "name": "Full-Body Detox",
+      "type": 3,
+      "cost": {
+        "dance": 35
+      },
+      "gain_type": 3,
+      "gain": [
+        40,
+        0,
+        0
+      ]
+    },
+    "40000": {
+      "name": "Run for Our Dream!",
+      "type": 4,
+      "cost": {
+        "passion": 21,
+        "visual": 21
+      },
+      "gain_type": 5,
+      "gain": [
+        6,
+        2,
+        0
+      ]
+    },
+    "40001": {
+      "name": "Here Comes Our Time",
+      "type": 4,
+      "cost": {
+        "vocal": 32,
+        "mental": 12
+      },
+      "gain_type": 1,
+      "gain": [
+        3,
+        1,
+        22
+      ]
+    },
+    "40002": {
+      "name": "Full Speed Ahead! Umadol Power☆",
+      "type": 4,
+      "cost": {
+        "dance": 32,
+        "visual": 12
+      },
+      "gain_type": 1,
+      "gain": [
+        1,
+        1,
+        22
+      ]
+    },
+    "40003": {
+      "name": "Run n' Run!",
+      "type": 4,
+      "cost": {
+        "dance": 14,
+        "visual": 16,
+        "mental": 14
+      },
+      "gain_type": 1,
+      "gain": [
+        6,
+        1,
+        22
+      ]
+    },
+    "40004": {
+      "name": "Grow Up and Shine!",
+      "type": 4,
+      "cost": {
+        "dance": 21,
+        "vocal": 21,
+        "mental": 21
+      },
+      "gain_type": 5,
+      "gain": [
+        6,
+        3,
+        0
+      ]
+    },
+    "40005": {
+      "name": "Sunbeam Cheer",
+      "type": 4,
+      "cost": {
+        "passion": 42,
+        "mental": 21
+      },
+      "gain_type": 5,
+      "gain": [
+        5,
+        2,
+        0
+      ]
+    },
+    "40006": {
+      "name": "Go This Way",
+      "type": 4,
+      "cost": {
+        "vocal": 21,
+        "mental": 21
+      },
+      "gain_type": 5,
+      "gain": [
+        3,
+        1,
+        0
+      ]
+    },
+    "40007": {
+      "name": "Believe in Miracles!",
+      "type": 4,
+      "cost": {
+        "passion": 21,
+        "mental": 21
+      },
+      "gain_type": 5,
+      "gain": [
+        5,
+        1,
+        0
+      ]
+    },
+    "40008": {
+      "name": "Seven Colors Scenery",
+      "type": 4,
+      "cost": {
+        "vocal": 21,
+        "mental": 42
+      },
+      "gain_type": 5,
+      "gain": [
+        3,
+        2,
+        0
+      ]
+    },
+    "40009": {
+      "name": "Getaway! Fallin' Love",
+      "type": 4,
+      "cost": {
+        "dance": 21,
+        "visual": 21
+      },
+      "gain_type": 5,
+      "gain": [
+        4,
+        1,
+        0
+      ]
+    },
+    "40010": {
+      "name": "Ring Ring Diary",
+      "type": 4,
+      "cost": {
+        "passion": 21,
+        "visual": 21
+      },
+      "gain_type": 5,
+      "gain": [
+        2,
+        1,
+        0
+      ]
+    },
+    "40011": {
+      "name": "Our Blue Bird Days",
+      "type": 4,
+      "cost": {
+        "dance": 21,
+        "visual": 42
+      },
+      "gain_type": 5,
+      "gain": [
+        1,
+        2,
+        0
+      ]
+    },
+    "40012": {
+      "name": "The World's at Our Whim",
+      "type": 4,
+      "cost": {
+        "passion": 32,
+        "vocal": 12
+      },
+      "gain_type": 1,
+      "gain": [
+        2,
+        1,
+        22
+      ]
+    },
+    "40013": {
+      "name": "Hey, Guess What!",
+      "type": 4,
+      "cost": {
+        "dance": 42,
+        "visual": 21
+      },
+      "gain_type": 5,
+      "gain": [
+        4,
+        2,
+        0
+      ]
+    },
+    "40014": {
+      "name": "Sky-Blue Spring",
+      "type": 4,
+      "cost": {
+        "dance": 12,
+        "visual": 32
+      },
+      "gain_type": 1,
+      "gain": [
+        4,
+        1,
+        22
+      ]
+    },
+    "40015": {
+      "name": "Dream Sky",
+      "type": 4,
+      "cost": {
+        "passion": 22,
+        "mental": 22
+      },
+      "gain_type": 1,
+      "gain": [
+        5,
+        1,
+        22
+      ]
+    },
+    "40016": {
+      "name": "Present March♪",
+      "type": 4,
+      "cost": {
+        "vocal": 22,
+        "mental": 22
+      },
+      "gain_type": 1,
+      "gain": [
+        3,
+        1,
+        22
+      ]
+    },
+    "40017": {
+      "name": "Hoppity Sunny Days♪",
+      "type": 4,
+      "cost": {
+        "passion": 42,
+        "vocal": 21
+      },
+      "gain_type": 5,
+      "gain": [
+        2,
+        2,
+        0
+      ]
+    },
+    "40018": {
+      "name": "Fanfare for the Future!",
+      "type": 4,
+      "cost": {
+        "dance": 26,
+        "visual": 42
+      },
+      "gain_type": 1,
+      "gain": [
+        4,
+        1,
+        26
+      ]
+    },
+    "40019": {
+      "name": "Precious Treasure Box",
+      "type": 4,
+      "cost": {
+        "dance": 42,
+        "visual": 26
+      },
+      "gain_type": 1,
+      "gain": [
+        1,
+        1,
+        26
+      ]
+    },
+    "40020": {
+      "name": "Zero Is Where the Center Stands!",
+      "type": 4,
+      "cost": {
+        "dance": 21,
+        "visual": 21
+      },
+      "gain_type": 5,
+      "gain": [
+        1,
+        1,
+        0
+      ]
+    }
+  }
+}

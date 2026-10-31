@@ -1,0 +1,3 @@
+# Keeps the bot_logs/ folder in the repo so it exists in a fresh clone.
+# Career decision logs (career_log_*.json, latest_career_log.json) are written here at
+# runtime and are gitignored -- only this marker is tracked.

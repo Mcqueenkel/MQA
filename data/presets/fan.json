@@ -1,0 +1,222 @@
+{
+  "name": "fan",
+  "running_style": 2,
+  "learn_skill_list": [
+    [
+      "Oi Racecourse ○",
+      "Right-Handed ○",
+      "Standard Distance ○",
+      "Front Runner Savvy ○",
+      "Fall Runner ○",
+      "Wet Conditions ○",
+      "Inner Post Proficiency ○",
+      "Outer Post Proficiency ○",
+      "Restraint",
+      "Medium Race Enthusiast",
+      "Solid Steps",
+      "Collaborative Graded Races ○",
+      "Ignited Spirit WIT",
+      "Racing Spirit: Stamina"
+    ],
+    [
+      "Final Push",
+      "Early Lead",
+      "Fast-Paced",
+      "Dodging Danger",
+      "Second Wind",
+      "Leader's Pride",
+      "Front Runner Corners ○",
+      "Front Runner Straightaways ○"
+    ]
+  ],
+  "learn_skill_blacklist": [],
+  "learn_skill_tier0": [],
+  "extra_race_list": [
+    100624,
+    300003,
+    301108,
+    300001
+  ],
+  "stat_caps": {},
+  "cure_asap_conditions": [
+    "Migraine",
+    "Night Owl",
+    "Skin Outbreak",
+    "Slacker",
+    "Slow Metabolism",
+    "(Practice poor isn't worth a turn to cure)"
+  ],
+  "score_value": [
+    [
+      0.11,
+      0.1,
+      0.006,
+      0.09
+    ],
+    [
+      0.11,
+      0.1,
+      0.006,
+      0.09
+    ],
+    [
+      0.11,
+      0.1,
+      0.006,
+      0.09
+    ],
+    [
+      0.03,
+      0.05,
+      0.006,
+      0.09
+    ],
+    [
+      0,
+      0,
+      0.006,
+      0
+    ]
+  ],
+  "base_score": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "stat_value_multiplier": [
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.005
+  ],
+  "extra_weight": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "npc_score_value": [
+    [
+      0.05,
+      0.05,
+      0.05
+    ],
+    [
+      0.05,
+      0.05,
+      0.05
+    ],
+    [
+      0.05,
+      0.05,
+      0.05
+    ],
+    [
+      0.03,
+      0.05,
+      0.05
+    ],
+    [
+      0,
+      0,
+      0.05
+    ]
+  ],
+  "special_training": [
+    0.095,
+    0.095,
+    0.095,
+    0.095,
+    0
+  ],
+  "spirit_explosion": [
+    [
+      0.16,
+      0.16,
+      0.16,
+      0.06,
+      0.11
+    ],
+    [
+      0.16,
+      0.16,
+      0.16,
+      0.06,
+      0.11
+    ],
+    [
+      0.16,
+      0.16,
+      0.16,
+      0.06,
+      0.11
+    ],
+    [
+      0.16,
+      0.16,
+      0.16,
+      0.06,
+      0.11
+    ],
+    [
+      0.16,
+      0.16,
+      0.16,
+      0.06,
+      0.11
+    ]
+  ],
+  "wit_special_multiplier": [
+    1.57,
+    1.37
+  ],
+  "compensate_failure": true,
+  "summer_score_threshold": 0.34,
+  "motivation_threshold_year1": 3,
+  "motivation_threshold_year2": 4,
+  "motivation_threshold_year3": 4,
+  "prioritize_recreation": false,
+  "pal_thresholds": [],
+  "pal_friendship_score": [
+    0.08,
+    0.057,
+    0.018
+  ],
+  "pal_card_multiplier": 0.1,
+  "rest_threshold": 48,
+  "mant_config": {},
+  "use_race_schedule": true,
+  "hint_priority_until_turn": 49,
+  "hint_presenior_boost": 1.5,
+  "junior_recreation": true,
+  "spark_reroll": false,
+  "fan_eligibility_farm": true
+}

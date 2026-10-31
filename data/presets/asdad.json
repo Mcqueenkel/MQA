@@ -1,0 +1,237 @@
+{
+  "name": "asdad",
+  "running_style": 2,
+  "learn_skill_list": [],
+  "learn_skill_blacklist": [],
+  "learn_skill_tier0": [
+    "Gourmand",
+    "Triple 7s",
+    "Corner Recovery ○",
+    "Straightaway Recovery",
+    "Shake It Out"
+  ],
+  "extra_race_list": [
+    100632,
+    100633,
+    100627,
+    100624,
+    100625,
+    200181,
+    200179,
+    200169,
+    200171,
+    200163,
+    200166,
+    200164,
+    200073,
+    200074,
+    201023,
+    200077,
+    200079,
+    200081,
+    300006,
+    300001,
+    300011,
+    300003,
+    300004,
+    300005,
+    300073,
+    300074,
+    300106,
+    300101,
+    300076,
+    300077,
+    300079,
+    300081,
+    300080,
+    301106,
+    201109,
+    200075,
+    301109,
+    300075,
+    200080,
+    200168
+  ],
+  "stat_caps": {
+    "stamina": 520
+  },
+  "cure_asap_conditions": [
+    "Migraine",
+    "Night Owl",
+    "Skin Outbreak",
+    "Slacker",
+    "Slow Metabolism",
+    "(Practice poor isn't worth a turn to cure)"
+  ],
+  "score_value": [
+    [
+      0.11,
+      0.1,
+      0.006,
+      0.09
+    ],
+    [
+      0.11,
+      0.1,
+      0.006,
+      0.09
+    ],
+    [
+      0.11,
+      0.1,
+      0.006,
+      0.09
+    ],
+    [
+      0.03,
+      0.05,
+      0.006,
+      0.09
+    ],
+    [
+      0,
+      0,
+      0.006,
+      0
+    ]
+  ],
+  "base_score": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "stat_value_multiplier": [
+    0.01,
+    0.014,
+    0.01,
+    0.01,
+    0.01,
+    0.005
+  ],
+  "extra_weight": [
+    [
+      0,
+      0.22,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0.22,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0.15,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0.22,
+      0,
+      0,
+      0
+    ]
+  ],
+  "npc_score_value": [
+    [
+      0.05,
+      0.05,
+      0.05
+    ],
+    [
+      0.05,
+      0.05,
+      0.05
+    ],
+    [
+      0.05,
+      0.05,
+      0.05
+    ],
+    [
+      0.03,
+      0.05,
+      0.05
+    ],
+    [
+      0,
+      0,
+      0.05
+    ]
+  ],
+  "special_training": [
+    0.095,
+    0.095,
+    0.095,
+    0.095,
+    0
+  ],
+  "spirit_explosion": [
+    [
+      0.16,
+      0.16,
+      0.16,
+      0.06,
+      0.11
+    ],
+    [
+      0.16,
+      0.16,
+      0.16,
+      0.06,
+      0.11
+    ],
+    [
+      0.16,
+      0.16,
+      0.16,
+      0.06,
+      0.11
+    ],
+    [
+      0.16,
+      0.16,
+      0.16,
+      0.06,
+      0.11
+    ],
+    [
+      0.16,
+      0.16,
+      0.16,
+      0.06,
+      0.11
+    ]
+  ],
+  "wit_special_multiplier": [
+    1.57,
+    1.37
+  ],
+  "compensate_failure": true,
+  "summer_score_threshold": 0.34,
+  "motivation_threshold_year1": 3,
+  "motivation_threshold_year2": 4,
+  "motivation_threshold_year3": 4,
+  "prioritize_recreation": false,
+  "pal_thresholds": [],
+  "pal_friendship_score": [
+    0.08,
+    0.057,
+    0.018
+  ],
+  "pal_card_multiplier": 0.1,
+  "rest_threshold": 48,
+  "mant_config": {},
+  "use_race_schedule": true,
+  "junior_recreation": true,
+  "spark_reroll": false,
+  "fan_eligibility_farm": true
+}

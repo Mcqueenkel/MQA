@@ -1,0 +1,6117 @@
+{
+  "1001": {
+    "name": "Special Week",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 1069,
+        "require": "Complete"
+      },
+      {
+        "turn": 27,
+        "kind": "race",
+        "race": "Kisaragi Sho",
+        "program_id": 181,
+        "require": "Top 5"
+      },
+      {
+        "turn": 34,
+        "kind": "race",
+        "race": "Tokyo Yushun (Japanese Derby)",
+        "program_id": 166,
+        "require": "Top 5"
+      },
+      {
+        "turn": 44,
+        "kind": "race",
+        "race": "Kikuka Sho",
+        "program_id": 168,
+        "require": "Top 3"
+      },
+      {
+        "turn": 56,
+        "kind": "race",
+        "race": "Tenno Sho (Spring)",
+        "program_id": 4,
+        "require": "Top 3"
+      },
+      {
+        "turn": 70,
+        "kind": "race",
+        "race": "Japan Cup",
+        "program_id": 79,
+        "require": "Top 2"
+      },
+      {
+        "turn": 72,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 81,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1006": {
+    "name": "Oguri Cap",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 1070,
+        "require": "Complete"
+      },
+      {
+        "turn": 24,
+        "kind": "fan",
+        "fans": 3000,
+        "require": "3,000 fans"
+      },
+      {
+        "turn": 33,
+        "kind": "race",
+        "race": "NHK Mile Cup",
+        "program_id": 164,
+        "require": "Top 5"
+      },
+      {
+        "turn": 46,
+        "kind": "race",
+        "race": "Mile Championship",
+        "program_id": 78,
+        "require": "Top 3"
+      },
+      {
+        "turn": 48,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 81,
+        "require": "Top 3"
+      },
+      {
+        "turn": 60,
+        "kind": "race",
+        "race": "Hakodate Kinen",
+        "program_id": 100,
+        "require": "Top 3"
+      },
+      {
+        "turn": 68,
+        "kind": "race",
+        "race": "Tenno Sho (Autumn)",
+        "program_id": 76,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 72,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 81,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1009": {
+    "name": "Daiwa Scarlet",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 1067,
+        "require": "Complete"
+      },
+      {
+        "turn": 29,
+        "kind": "race",
+        "race": "Tulip Sho",
+        "program_id": 185,
+        "require": "Top 5"
+      },
+      {
+        "turn": 31,
+        "kind": "race",
+        "race": "Oka Sho",
+        "program_id": 162,
+        "require": "Top 5"
+      },
+      {
+        "turn": 34,
+        "kind": "race",
+        "race": "Japanese Oaks",
+        "program_id": 165,
+        "require": "Top 5"
+      },
+      {
+        "turn": 34,
+        "kind": "race",
+        "race": "Tokyo Yushun (Japanese Derby)",
+        "program_id": 166,
+        "require": "Top 5"
+      },
+      {
+        "turn": 44,
+        "kind": "race",
+        "race": "Shuka Sho",
+        "program_id": 167,
+        "require": "Top 3"
+      },
+      {
+        "turn": 45,
+        "kind": "race",
+        "race": "Queen Elizabeth II Cup",
+        "program_id": 77,
+        "require": "Top 3"
+      },
+      {
+        "turn": 54,
+        "kind": "race",
+        "race": "Osaka Hai",
+        "program_id": 3,
+        "require": "Top 3"
+      },
+      {
+        "turn": 68,
+        "kind": "race",
+        "race": "Tenno Sho (Autumn)",
+        "program_id": 76,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 72,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 81,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1010": {
+    "name": "Taiki Shuttle",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 846,
+        "require": "Complete"
+      },
+      {
+        "turn": 25,
+        "kind": "race",
+        "race": "Shinzan Kinen",
+        "program_id": 178,
+        "require": "Top 5"
+      },
+      {
+        "turn": 33,
+        "kind": "race",
+        "race": "NHK Mile Cup",
+        "program_id": 164,
+        "require": "Top 5"
+      },
+      {
+        "turn": 36,
+        "kind": "race",
+        "race": "Unicorn Stakes",
+        "program_id": 189,
+        "require": "Top 5"
+      },
+      {
+        "turn": 46,
+        "kind": "race",
+        "race": "Mile Championship",
+        "program_id": 78,
+        "require": "Top 3"
+      },
+      {
+        "turn": 59,
+        "kind": "race",
+        "race": "Yasuda Kinen",
+        "program_id": 73,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 66,
+        "kind": "race",
+        "race": "Sprinters Stakes",
+        "program_id": 75,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 70,
+        "kind": "race",
+        "race": "Mile Championship",
+        "program_id": 78,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1013": {
+    "name": "Mejiro McQueen",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 1069,
+        "require": "Complete"
+      },
+      {
+        "turn": 24,
+        "kind": "fan",
+        "fans": 3000,
+        "require": "3,000 fans"
+      },
+      {
+        "turn": 42,
+        "kind": "race",
+        "race": "Kobe Shimbun Hai",
+        "program_id": 84,
+        "require": "Top 3"
+      },
+      {
+        "turn": 44,
+        "kind": "race",
+        "race": "Kikuka Sho",
+        "program_id": 168,
+        "require": "Top 3"
+      },
+      {
+        "turn": 56,
+        "kind": "race",
+        "race": "Tenno Sho (Spring)",
+        "program_id": 4,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 60,
+        "kind": "race",
+        "race": "Takarazuka Kinen",
+        "program_id": 1071,
+        "require": "Top 2"
+      },
+      {
+        "turn": 68,
+        "kind": "race",
+        "race": "Tenno Sho (Autumn)",
+        "program_id": 76,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1052": {
+    "name": "Haru Urara",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 831,
+        "require": "Complete"
+      },
+      {
+        "turn": 37,
+        "kind": "fan",
+        "fans": 5000,
+        "require": "5,000 fans"
+      },
+      {
+        "turn": 45,
+        "kind": "fan",
+        "fans": 9000,
+        "require": "9,000 fans"
+      },
+      {
+        "turn": 48,
+        "kind": "fan",
+        "fans": 12000,
+        "require": "12,000 fans"
+      },
+      {
+        "turn": 50,
+        "kind": "race",
+        "race": "Negishi Stakes",
+        "program_id": 22,
+        "require": "Top 5"
+      },
+      {
+        "turn": 52,
+        "kind": "race",
+        "race": "February Stakes",
+        "program_id": 1,
+        "require": "Top 5"
+      },
+      {
+        "turn": 63,
+        "kind": "race",
+        "race": "Elm Stakes",
+        "program_id": 106,
+        "require": "Top 5"
+      },
+      {
+        "turn": 69,
+        "kind": "race",
+        "race": "JBC Sprint",
+        "program_id": 1025,
+        "program_ids": [
+          1025,
+          1111,
+          1114,
+          1117
+        ],
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 72,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 81,
+        "require": "Complete"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1030": {
+    "name": "Rice Shower",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 931,
+        "require": "Complete"
+      },
+      {
+        "turn": 30,
+        "kind": "race",
+        "race": "Spring Stakes",
+        "program_id": 171,
+        "require": "Top 5"
+      },
+      {
+        "turn": 34,
+        "kind": "race",
+        "race": "Tokyo Yushun (Japanese Derby)",
+        "program_id": 166,
+        "require": "Top 5"
+      },
+      {
+        "turn": 44,
+        "kind": "race",
+        "race": "Kikuka Sho",
+        "program_id": 168,
+        "require": "Top 3"
+      },
+      {
+        "turn": 54,
+        "kind": "race",
+        "race": "Nikkei Sho",
+        "program_id": 13,
+        "require": "Top 3"
+      },
+      {
+        "turn": 56,
+        "kind": "race",
+        "race": "Tenno Sho (Spring)",
+        "program_id": 4,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 60,
+        "kind": "race",
+        "race": "Takarazuka Kinen",
+        "program_id": 1071,
+        "require": "Top 3"
+      },
+      {
+        "turn": 72,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 81,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1003": {
+    "name": "Tokai Teio",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 1065,
+        "require": "Complete"
+      },
+      {
+        "turn": 26,
+        "kind": "race",
+        "race": "Wakagoma Stakes",
+        "program_id": 195,
+        "require": "Top 3"
+      },
+      {
+        "turn": 31,
+        "kind": "race",
+        "race": "Satsuki Sho",
+        "program_id": 163,
+        "require": "Top 5"
+      },
+      {
+        "turn": 34,
+        "kind": "race",
+        "race": "Tokyo Yushun (Japanese Derby)",
+        "program_id": 166,
+        "require": "Top 5"
+      },
+      {
+        "turn": 44,
+        "kind": "race",
+        "race": "Kikuka Sho",
+        "program_id": 168,
+        "require": "Top 3"
+      },
+      {
+        "turn": 56,
+        "kind": "race",
+        "race": "Tenno Sho (Spring)",
+        "program_id": 4,
+        "require": "Top 3"
+      },
+      {
+        "turn": 70,
+        "kind": "race",
+        "race": "Japan Cup",
+        "program_id": 79,
+        "require": "Top 2"
+      },
+      {
+        "turn": 72,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 81,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1056": {
+    "name": "Matikanefukukitaru",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 1069,
+        "require": "Complete"
+      },
+      {
+        "turn": 29,
+        "kind": "race",
+        "race": "Yayoi Sho",
+        "program_id": 169,
+        "require": "Top 5"
+      },
+      {
+        "turn": 30,
+        "kind": "race",
+        "race": "Spring Stakes",
+        "program_id": 171,
+        "require": "Top 5"
+      },
+      {
+        "turn": 30,
+        "kind": "race",
+        "race": "Mainichi Hai",
+        "program_id": 188,
+        "require": "Top 5"
+      },
+      {
+        "turn": 34,
+        "kind": "race",
+        "race": "Tokyo Yushun (Japanese Derby)",
+        "program_id": 166,
+        "require": "Top 5"
+      },
+      {
+        "turn": 44,
+        "kind": "race",
+        "race": "Kikuka Sho",
+        "program_id": 168,
+        "require": "Top 3"
+      },
+      {
+        "turn": 53,
+        "kind": "race",
+        "race": "Kinko Sho",
+        "program_id": 11,
+        "require": "Top 3"
+      },
+      {
+        "turn": 60,
+        "kind": "race",
+        "race": "Takarazuka Kinen",
+        "program_id": 74,
+        "require": "Top 3"
+      },
+      {
+        "turn": 61,
+        "kind": "race",
+        "race": "Hakodate Kinen",
+        "program_id": 100,
+        "require": "Top 2"
+      },
+      {
+        "turn": 63,
+        "kind": "race",
+        "race": "Kokura Kinen",
+        "program_id": 104,
+        "require": "Top 2"
+      },
+      {
+        "turn": 64,
+        "kind": "race",
+        "race": "Sapporo Kinen",
+        "program_id": 82,
+        "require": "Top 2"
+      },
+      {
+        "turn": 72,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 81,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1011": {
+    "name": "Grass Wonder",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 685,
+        "require": "Complete"
+      },
+      {
+        "turn": 23,
+        "kind": "race",
+        "race": "Asahi Hai Futurity Stakes",
+        "program_id": 624,
+        "require": "Top 5"
+      },
+      {
+        "turn": 34,
+        "kind": "race",
+        "race": "Tokyo Yushun (Japanese Derby)",
+        "program_id": 166,
+        "require": "Top 5"
+      },
+      {
+        "turn": 46,
+        "kind": "race",
+        "race": "Japan Cup",
+        "program_id": 79,
+        "require": "Top 5"
+      },
+      {
+        "turn": 48,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 81,
+        "require": "Top 3"
+      },
+      {
+        "turn": 60,
+        "kind": "race",
+        "race": "Takarazuka Kinen",
+        "program_id": 74,
+        "require": "Top 3"
+      },
+      {
+        "turn": 67,
+        "kind": "race",
+        "race": "Mainichi Okan",
+        "program_id": 86,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 72,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 81,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1002": {
+    "name": "Silence Suzuka",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 1069,
+        "require": "Complete"
+      },
+      {
+        "turn": 27,
+        "kind": "fan",
+        "fans": 5000,
+        "require": "5,000 fans"
+      },
+      {
+        "turn": 29,
+        "kind": "race",
+        "race": "Yayoi Sho",
+        "program_id": 169,
+        "require": "Top 5"
+      },
+      {
+        "turn": 42,
+        "kind": "race",
+        "race": "Kobe Shimbun Hai",
+        "program_id": 84,
+        "require": "Top 3"
+      },
+      {
+        "turn": 53,
+        "kind": "race",
+        "race": "Kinko Sho",
+        "program_id": 11,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 60,
+        "kind": "race",
+        "race": "Takarazuka Kinen",
+        "program_id": 74,
+        "require": "Top 3"
+      },
+      {
+        "turn": 67,
+        "kind": "race",
+        "race": "Mainichi Okan",
+        "program_id": 86,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 68,
+        "kind": "race",
+        "race": "Tenno Sho (Autumn)",
+        "program_id": 76,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1045": {
+    "name": "Super Creek",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 1069,
+        "require": "Complete"
+      },
+      {
+        "turn": 28,
+        "kind": "race",
+        "race": "Sumire Stakes",
+        "program_id": 199,
+        "require": "Top 3"
+      },
+      {
+        "turn": 44,
+        "kind": "race",
+        "race": "Kikuka Sho",
+        "program_id": 168,
+        "require": "Top 3"
+      },
+      {
+        "turn": 48,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 81,
+        "require": "Top 3"
+      },
+      {
+        "turn": 54,
+        "kind": "race",
+        "race": "Osaka Hai",
+        "program_id": 3,
+        "require": "Top 3"
+      },
+      {
+        "turn": 56,
+        "kind": "race",
+        "race": "Tenno Sho (Spring)",
+        "program_id": 4,
+        "require": "Top 3"
+      },
+      {
+        "turn": 68,
+        "kind": "race",
+        "race": "Tenno Sho (Autumn)",
+        "program_id": 76,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 72,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 81,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1027": {
+    "name": "Mejiro Ryan",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 851,
+        "require": "Complete"
+      },
+      {
+        "turn": 25,
+        "kind": "race",
+        "race": "Junior Cup",
+        "program_id": 193,
+        "require": "Top 3"
+      },
+      {
+        "turn": 31,
+        "kind": "race",
+        "race": "Satsuki Sho",
+        "program_id": 163,
+        "require": "Top 5"
+      },
+      {
+        "turn": 34,
+        "kind": "race",
+        "race": "Tokyo Yushun (Japanese Derby)",
+        "program_id": 166,
+        "require": "Top 5"
+      },
+      {
+        "turn": 44,
+        "kind": "race",
+        "race": "Kikuka Sho",
+        "program_id": 168,
+        "require": "Top 3"
+      },
+      {
+        "turn": 48,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 81,
+        "require": "Top 3"
+      },
+      {
+        "turn": 56,
+        "kind": "race",
+        "race": "Tenno Sho (Spring)",
+        "program_id": 4,
+        "require": "Top 3"
+      },
+      {
+        "turn": 60,
+        "kind": "race",
+        "race": "Takarazuka Kinen",
+        "program_id": 1071,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 72,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 81,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1024": {
+    "name": "Mayano Top Gun",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 1067,
+        "require": "Complete"
+      },
+      {
+        "turn": 37,
+        "kind": "fan",
+        "fans": 10000,
+        "require": "10,000 fans"
+      },
+      {
+        "turn": 44,
+        "kind": "race",
+        "race": "Kikuka Sho",
+        "program_id": 168,
+        "require": "Top 3"
+      },
+      {
+        "turn": 48,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 81,
+        "require": "Top 3"
+      },
+      {
+        "turn": 54,
+        "kind": "race",
+        "race": "Hanshin Daishoten",
+        "program_id": 12,
+        "require": "Top 2"
+      },
+      {
+        "turn": 56,
+        "kind": "race",
+        "race": "Tenno Sho (Spring)",
+        "program_id": 4,
+        "require": "Top 3"
+      },
+      {
+        "turn": 60,
+        "kind": "race",
+        "race": "Takarazuka Kinen",
+        "program_id": 74,
+        "require": "Top 3"
+      },
+      {
+        "turn": 68,
+        "kind": "race",
+        "race": "Tenno Sho (Autumn)",
+        "program_id": 76,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 72,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 81,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1060": {
+    "name": "Nice Nature",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 1067,
+        "require": "Complete"
+      },
+      {
+        "turn": 26,
+        "kind": "race",
+        "race": "Wakagoma Stakes",
+        "program_id": 195,
+        "require": "Top 3"
+      },
+      {
+        "turn": 39,
+        "kind": "race",
+        "race": "Kokura Kinen",
+        "program_id": 104,
+        "require": "Top 3"
+      },
+      {
+        "turn": 44,
+        "kind": "race",
+        "race": "Kikuka Sho",
+        "program_id": 1073,
+        "require": "Top 3"
+      },
+      {
+        "turn": 48,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 81,
+        "require": "Top 3"
+      },
+      {
+        "turn": 60,
+        "kind": "race",
+        "race": "Takarazuka Kinen",
+        "program_id": 74,
+        "require": "Top 3"
+      },
+      {
+        "turn": 68,
+        "kind": "race",
+        "race": "Tenno Sho (Autumn)",
+        "program_id": 76,
+        "require": "Top 3"
+      },
+      {
+        "turn": 71,
+        "kind": "race",
+        "race": "Chunichi Shimbun Hai",
+        "program_id": 118,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 72,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 81,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1018": {
+    "name": "Air Groove",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 1068,
+        "require": "Complete"
+      },
+      {
+        "turn": 23,
+        "kind": "race",
+        "race": "Hanshin Juvenile Fillies",
+        "program_id": 623,
+        "require": "Top 5"
+      },
+      {
+        "turn": 31,
+        "kind": "race",
+        "race": "Oka Sho",
+        "program_id": 162,
+        "require": "Top 5"
+      },
+      {
+        "turn": 34,
+        "kind": "race",
+        "race": "Japanese Oaks",
+        "program_id": 165,
+        "require": "Top 5"
+      },
+      {
+        "turn": 44,
+        "kind": "race",
+        "race": "Shuka Sho",
+        "program_id": 167,
+        "require": "Top 3"
+      },
+      {
+        "turn": 54,
+        "kind": "race",
+        "race": "Osaka Hai",
+        "program_id": 3,
+        "require": "Top 3"
+      },
+      {
+        "turn": 60,
+        "kind": "race",
+        "race": "Takarazuka Kinen",
+        "program_id": 74,
+        "require": "Top 3"
+      },
+      {
+        "turn": 64,
+        "kind": "race",
+        "race": "Sapporo Kinen",
+        "program_id": 82,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 68,
+        "kind": "race",
+        "race": "Tenno Sho (Autumn)",
+        "program_id": 76,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1032": {
+    "name": "Agnes Tachyon",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 1069,
+        "require": "Complete"
+      },
+      {
+        "turn": 29,
+        "kind": "race",
+        "race": "Yayoi Sho",
+        "program_id": 169,
+        "require": "Top 5"
+      },
+      {
+        "turn": 31,
+        "kind": "race",
+        "race": "Satsuki Sho",
+        "program_id": 163,
+        "require": "Top 5"
+      },
+      {
+        "turn": 33,
+        "kind": "race",
+        "race": "NHK Mile Cup",
+        "program_id": 164,
+        "require": "Top 5"
+      },
+      {
+        "turn": 34,
+        "kind": "race",
+        "race": "Tokyo Yushun (Japanese Derby)",
+        "program_id": 166,
+        "require": "Top 5"
+      },
+      {
+        "turn": 44,
+        "kind": "race",
+        "race": "Kikuka Sho",
+        "program_id": 168,
+        "require": "Top 3"
+      },
+      {
+        "turn": 54,
+        "kind": "race",
+        "race": "Osaka Hai",
+        "program_id": 3,
+        "require": "Top 3"
+      },
+      {
+        "turn": 60,
+        "kind": "race",
+        "race": "Takarazuka Kinen",
+        "program_id": 74,
+        "require": "Top 3"
+      },
+      {
+        "turn": 68,
+        "kind": "race",
+        "race": "Tenno Sho (Autumn)",
+        "program_id": 76,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 72,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 81,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1017": {
+    "name": "Symboli Rudolf",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 931,
+        "require": "Complete"
+      },
+      {
+        "turn": 19,
+        "kind": "race",
+        "race": "Saudi Arabia Royal Cup",
+        "program_id": 632,
+        "require": "Top 5"
+      },
+      {
+        "turn": 31,
+        "kind": "race",
+        "race": "Satsuki Sho",
+        "program_id": 163,
+        "require": "Top 5"
+      },
+      {
+        "turn": 34,
+        "kind": "race",
+        "race": "Tokyo Yushun (Japanese Derby)",
+        "program_id": 166,
+        "require": "Top 5"
+      },
+      {
+        "turn": 44,
+        "kind": "race",
+        "race": "Kikuka Sho",
+        "program_id": 168,
+        "require": "Top 3"
+      },
+      {
+        "turn": 48,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 81,
+        "require": "Top 3"
+      },
+      {
+        "turn": 56,
+        "kind": "race",
+        "race": "Tenno Sho (Spring)",
+        "program_id": 4,
+        "require": "Top 3"
+      },
+      {
+        "turn": 70,
+        "kind": "race",
+        "race": "Japan Cup",
+        "program_id": 79,
+        "require": "Top 2"
+      },
+      {
+        "turn": 72,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 81,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1061": {
+    "name": "King Halo",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 1066,
+        "require": "Complete"
+      },
+      {
+        "turn": 24,
+        "kind": "race",
+        "race": "Hopeful Stakes",
+        "program_id": 625,
+        "require": "Top 5"
+      },
+      {
+        "turn": 31,
+        "kind": "race",
+        "race": "Satsuki Sho",
+        "program_id": 163,
+        "require": "Top 5"
+      },
+      {
+        "turn": 34,
+        "kind": "race",
+        "race": "Tokyo Yushun (Japanese Derby)",
+        "program_id": 166,
+        "require": "Top 5"
+      },
+      {
+        "turn": 44,
+        "kind": "race",
+        "race": "Kikuka Sho",
+        "program_id": 168,
+        "require": "Complete"
+      },
+      {
+        "turn": 54,
+        "kind": "race",
+        "race": "Takamatsunomiya Kinen",
+        "program_id": 2,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 59,
+        "kind": "race",
+        "race": "Yasuda Kinen",
+        "program_id": 73,
+        "require": "Top 3"
+      },
+      {
+        "turn": 66,
+        "kind": "race",
+        "race": "Sprinters Stakes",
+        "program_id": 75,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 68,
+        "kind": "race",
+        "race": "Tenno Sho (Autumn)",
+        "program_id": 76,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1004": {
+    "name": "Maruzensky",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 676,
+        "require": "Complete"
+      },
+      {
+        "turn": 23,
+        "kind": "race",
+        "race": "Asahi Hai Futurity Stakes",
+        "program_id": 624,
+        "require": "Top 5"
+      },
+      {
+        "turn": 30,
+        "kind": "race",
+        "race": "Spring Stakes",
+        "program_id": 1074,
+        "require": "Top 3"
+      },
+      {
+        "turn": 31,
+        "kind": "race",
+        "race": "Satsuki Sho",
+        "program_id": 163,
+        "require": "Top 5"
+      },
+      {
+        "turn": 34,
+        "kind": "race",
+        "race": "Tokyo Yushun (Japanese Derby)",
+        "program_id": 166,
+        "require": "Top 5"
+      },
+      {
+        "turn": 48,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 81,
+        "require": "Complete"
+      },
+      {
+        "turn": 54,
+        "kind": "race",
+        "race": "Osaka Hai",
+        "program_id": 3,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 59,
+        "kind": "race",
+        "race": "Yasuda Kinen",
+        "program_id": 73,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 68,
+        "kind": "race",
+        "race": "Tenno Sho (Autumn)",
+        "program_id": 76,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1041": {
+    "name": "Sakura Bakushin O",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 676,
+        "require": "Complete"
+      },
+      {
+        "turn": 21,
+        "kind": "race",
+        "race": "Keio Hai Junior Stakes",
+        "program_id": 626,
+        "require": "Top 5"
+      },
+      {
+        "turn": 30,
+        "kind": "race",
+        "race": "Spring Stakes",
+        "program_id": 171,
+        "require": "Complete"
+      },
+      {
+        "turn": 34,
+        "kind": "race",
+        "race": "Aoi Stakes",
+        "program_id": 210,
+        "require": "Top 5"
+      },
+      {
+        "turn": 42,
+        "kind": "race",
+        "race": "Sprinters Stakes",
+        "program_id": 75,
+        "require": "Top 3"
+      },
+      {
+        "turn": 54,
+        "kind": "race",
+        "race": "Takamatsunomiya Kinen",
+        "program_id": 2,
+        "require": "Top 3"
+      },
+      {
+        "turn": 60,
+        "kind": "race",
+        "race": "Hakodate Sprint Stakes",
+        "program_id": 96,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 61,
+        "kind": "race",
+        "race": "CBC Sho",
+        "program_id": 97,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 65,
+        "kind": "race",
+        "race": "Centaur Stakes",
+        "program_id": 83,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 66,
+        "kind": "race",
+        "race": "Sprinters Stakes",
+        "program_id": 75,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 70,
+        "kind": "race",
+        "race": "Mile Championship",
+        "program_id": 78,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1014": {
+    "name": "El Condor Pasa",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 846,
+        "require": "Complete"
+      },
+      {
+        "turn": 27,
+        "kind": "race",
+        "race": "Kyodo News Hai",
+        "program_id": 183,
+        "require": "Top 5"
+      },
+      {
+        "turn": 33,
+        "kind": "race",
+        "race": "NHK Mile Cup",
+        "program_id": 164,
+        "require": "Top 5"
+      },
+      {
+        "turn": 34,
+        "kind": "race",
+        "race": "Tokyo Yushun (Japanese Derby)",
+        "program_id": 166,
+        "require": "Top 5"
+      },
+      {
+        "turn": 43,
+        "kind": "race",
+        "race": "Mainichi Okan",
+        "program_id": 86,
+        "require": "Top 3"
+      },
+      {
+        "turn": 60,
+        "kind": "race",
+        "race": "Takarazuka Kinen",
+        "program_id": 74,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 70,
+        "kind": "race",
+        "race": "Japan Cup",
+        "program_id": 79,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 72,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 81,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1008": {
+    "name": "Vodka",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 1066,
+        "require": "Complete"
+      },
+      {
+        "turn": 23,
+        "kind": "race",
+        "race": "Hanshin Juvenile Fillies",
+        "program_id": 623,
+        "require": "Top 5"
+      },
+      {
+        "turn": 29,
+        "kind": "race",
+        "race": "Tulip Sho",
+        "program_id": 185,
+        "require": "Top 5"
+      },
+      {
+        "turn": 31,
+        "kind": "race",
+        "race": "Oka Sho",
+        "program_id": 162,
+        "require": "Top 5"
+      },
+      {
+        "turn": 34,
+        "kind": "race",
+        "race": "Tokyo Yushun (Japanese Derby)",
+        "program_id": 166,
+        "require": "Top 5"
+      },
+      {
+        "turn": 44,
+        "kind": "race",
+        "race": "Shuka Sho",
+        "program_id": 167,
+        "require": "Top 3"
+      },
+      {
+        "turn": 48,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 81,
+        "require": "Complete"
+      },
+      {
+        "turn": 57,
+        "kind": "race",
+        "race": "Victoria Mile",
+        "program_id": 5,
+        "require": "Top 3"
+      },
+      {
+        "turn": 59,
+        "kind": "race",
+        "race": "Yasuda Kinen",
+        "program_id": 73,
+        "require": "Top 2"
+      },
+      {
+        "turn": 68,
+        "kind": "race",
+        "race": "Tenno Sho (Autumn)",
+        "program_id": 76,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1007": {
+    "name": "Gold Ship",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 1068,
+        "require": "Complete"
+      },
+      {
+        "turn": 24,
+        "kind": "race",
+        "race": "Hopeful Stakes",
+        "program_id": 625,
+        "require": "Top 5"
+      },
+      {
+        "turn": 31,
+        "kind": "race",
+        "race": "Satsuki Sho",
+        "program_id": 163,
+        "require": "Top 5"
+      },
+      {
+        "turn": 44,
+        "kind": "race",
+        "race": "Kikuka Sho",
+        "program_id": 168,
+        "require": "Top 3"
+      },
+      {
+        "turn": 48,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 81,
+        "require": "Top 3"
+      },
+      {
+        "turn": 56,
+        "kind": "race",
+        "race": "Tenno Sho (Spring)",
+        "program_id": 4,
+        "require": "Top 3"
+      },
+      {
+        "turn": 60,
+        "kind": "race",
+        "race": "Takarazuka Kinen",
+        "program_id": 74,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 68,
+        "kind": "race",
+        "race": "Tenno Sho (Autumn)",
+        "program_id": 76,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 72,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 81,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1035": {
+    "name": "Winning Ticket",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 689,
+        "require": "Complete"
+      },
+      {
+        "turn": 24,
+        "kind": "race",
+        "race": "Hopeful Stakes",
+        "program_id": 625,
+        "require": "Top 5"
+      },
+      {
+        "turn": 29,
+        "kind": "race",
+        "race": "Yayoi Sho",
+        "program_id": 169,
+        "require": "Top 5"
+      },
+      {
+        "turn": 31,
+        "kind": "race",
+        "race": "Satsuki Sho",
+        "program_id": 163,
+        "require": "Top 5"
+      },
+      {
+        "turn": 34,
+        "kind": "race",
+        "race": "Tokyo Yushun (Japanese Derby)",
+        "program_id": 166,
+        "require": "Top 5"
+      },
+      {
+        "turn": 44,
+        "kind": "race",
+        "race": "Kikuka Sho",
+        "program_id": 168,
+        "require": "Top 3"
+      },
+      {
+        "turn": 54,
+        "kind": "race",
+        "race": "Osaka Hai",
+        "program_id": 3,
+        "require": "Top 3"
+      },
+      {
+        "turn": 60,
+        "kind": "race",
+        "race": "Takarazuka Kinen",
+        "program_id": 74,
+        "require": "Top 3"
+      },
+      {
+        "turn": 72,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 81,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1015": {
+    "name": "T.M. Opera O",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 1067,
+        "require": "Complete"
+      },
+      {
+        "turn": 28,
+        "kind": "fan",
+        "fans": 5000,
+        "require": "5,000 fans"
+      },
+      {
+        "turn": 31,
+        "kind": "race",
+        "race": "Satsuki Sho",
+        "program_id": 163,
+        "require": "Top 5"
+      },
+      {
+        "turn": 34,
+        "kind": "race",
+        "race": "Tokyo Yushun (Japanese Derby)",
+        "program_id": 166,
+        "require": "Top 5"
+      },
+      {
+        "turn": 48,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 81,
+        "require": "Top 3"
+      },
+      {
+        "turn": 56,
+        "kind": "race",
+        "race": "Tenno Sho (Spring)",
+        "program_id": 4,
+        "require": "Top 3"
+      },
+      {
+        "turn": 60,
+        "kind": "race",
+        "race": "Takarazuka Kinen",
+        "program_id": 74,
+        "require": "Top 3"
+      },
+      {
+        "turn": 70,
+        "kind": "race",
+        "race": "Japan Cup",
+        "program_id": 79,
+        "require": "Top 2"
+      },
+      {
+        "turn": 72,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 81,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1026": {
+    "name": "Mihono Bourbon",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 1075,
+        "require": "Complete"
+      },
+      {
+        "turn": 23,
+        "kind": "race",
+        "race": "Asahi Hai Futurity Stakes",
+        "program_id": 624,
+        "require": "Top 5"
+      },
+      {
+        "turn": 30,
+        "kind": "race",
+        "race": "Spring Stakes",
+        "program_id": 171,
+        "require": "Top 5"
+      },
+      {
+        "turn": 31,
+        "kind": "race",
+        "race": "Satsuki Sho",
+        "program_id": 163,
+        "require": "Top 5"
+      },
+      {
+        "turn": 34,
+        "kind": "race",
+        "race": "Tokyo Yushun (Japanese Derby)",
+        "program_id": 166,
+        "require": "Top 5"
+      },
+      {
+        "turn": 44,
+        "kind": "race",
+        "race": "Kikuka Sho",
+        "program_id": 168,
+        "require": "Top 3"
+      },
+      {
+        "turn": 56,
+        "kind": "race",
+        "race": "Tenno Sho (Spring)",
+        "program_id": 4,
+        "require": "Top 3"
+      },
+      {
+        "turn": 70,
+        "kind": "race",
+        "race": "Japan Cup",
+        "program_id": 79,
+        "require": "Top 2"
+      },
+      {
+        "turn": 72,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 81,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1023": {
+    "name": "Biwa Hayahide",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 1070,
+        "require": "Complete"
+      },
+      {
+        "turn": 23,
+        "kind": "race",
+        "race": "Asahi Hai Futurity Stakes",
+        "program_id": 624,
+        "require": "Top 5"
+      },
+      {
+        "turn": 31,
+        "kind": "race",
+        "race": "Satsuki Sho",
+        "program_id": 163,
+        "require": "Top 5"
+      },
+      {
+        "turn": 34,
+        "kind": "race",
+        "race": "Tokyo Yushun (Japanese Derby)",
+        "program_id": 166,
+        "require": "Top 5"
+      },
+      {
+        "turn": 44,
+        "kind": "race",
+        "race": "Kikuka Sho",
+        "program_id": 168,
+        "require": "Top 3"
+      },
+      {
+        "turn": 56,
+        "kind": "race",
+        "race": "Tenno Sho (Spring)",
+        "program_id": 1076,
+        "require": "Top 3"
+      },
+      {
+        "turn": 60,
+        "kind": "race",
+        "race": "Takarazuka Kinen",
+        "program_id": 74,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 68,
+        "kind": "race",
+        "race": "Tenno Sho (Autumn)",
+        "program_id": 76,
+        "require": "Top 3"
+      },
+      {
+        "turn": 72,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 81,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1038": {
+    "name": "Curren Chan",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 1077,
+        "require": "Complete"
+      },
+      {
+        "turn": 23,
+        "kind": "fan",
+        "fans": 3000,
+        "require": "3,000 fans"
+      },
+      {
+        "turn": 29,
+        "kind": "race",
+        "race": "Fillies' Revue",
+        "program_id": 170,
+        "require": "Top 5"
+      },
+      {
+        "turn": 34,
+        "kind": "race",
+        "race": "Aoi Stakes",
+        "program_id": 210,
+        "require": "Top 5"
+      },
+      {
+        "turn": 36,
+        "kind": "race",
+        "race": "Hakodate Sprint Stakes",
+        "program_id": 96,
+        "require": "Top 3"
+      },
+      {
+        "turn": 42,
+        "kind": "race",
+        "race": "Sprinters Stakes",
+        "program_id": 75,
+        "require": "Top 3"
+      },
+      {
+        "turn": 53,
+        "kind": "race",
+        "race": "Ocean Stakes",
+        "program_id": 28,
+        "require": "Top 3"
+      },
+      {
+        "turn": 54,
+        "kind": "race",
+        "race": "Takamatsunomiya Kinen",
+        "program_id": 2,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 66,
+        "kind": "race",
+        "race": "Sprinters Stakes",
+        "program_id": 75,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1050": {
+    "name": "Narita Taishin",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 1068,
+        "require": "Complete"
+      },
+      {
+        "turn": 24,
+        "kind": "race",
+        "race": "Hopeful Stakes",
+        "program_id": 625,
+        "require": "Top 5"
+      },
+      {
+        "turn": 31,
+        "kind": "race",
+        "race": "Satsuki Sho",
+        "program_id": 163,
+        "require": "Top 5"
+      },
+      {
+        "turn": 34,
+        "kind": "race",
+        "race": "Tokyo Yushun (Japanese Derby)",
+        "program_id": 166,
+        "require": "Top 5"
+      },
+      {
+        "turn": 44,
+        "kind": "race",
+        "race": "Kikuka Sho",
+        "program_id": 168,
+        "require": "Complete"
+      },
+      {
+        "turn": 54,
+        "kind": "race",
+        "race": "Nikkei Sho",
+        "program_id": 13,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 56,
+        "kind": "race",
+        "race": "Tenno Sho (Spring)",
+        "program_id": 1076,
+        "require": "Top 3"
+      },
+      {
+        "turn": 68,
+        "kind": "race",
+        "race": "Tenno Sho (Autumn)",
+        "program_id": 76,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 72,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 81,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1046": {
+    "name": "Smart Falcon",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 846,
+        "require": "Complete"
+      },
+      {
+        "turn": 25,
+        "kind": "unknown",
+        "race": "unresolved goal (condition_type 2, id 700)",
+        "condition_type": 2,
+        "condition_id": 700,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 31,
+        "kind": "race",
+        "race": "Satsuki Sho",
+        "program_id": 163,
+        "require": "Complete"
+      },
+      {
+        "turn": 37,
+        "kind": "race",
+        "race": "Japan Dirt Derby",
+        "program_id": 1023,
+        "require": "Top 5"
+      },
+      {
+        "turn": 45,
+        "kind": "race",
+        "race": "JBC Classic",
+        "program_id": 1132,
+        "require": "Top 3"
+      },
+      {
+        "turn": 48,
+        "kind": "race",
+        "race": "Tokyo Daishoten",
+        "program_id": 1027,
+        "require": "Top 3"
+      },
+      {
+        "turn": 52,
+        "kind": "race",
+        "race": "February Stakes",
+        "program_id": 1,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 60,
+        "kind": "race",
+        "race": "Teio Sho",
+        "program_id": 1022,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 69,
+        "kind": "race",
+        "race": "JBC Classic",
+        "program_id": 1132,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 71,
+        "kind": "race",
+        "race": "Champions Cup",
+        "program_id": 80,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 72,
+        "kind": "race",
+        "race": "Tokyo Daishoten",
+        "program_id": 1027,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1016": {
+    "name": "Narita Brian",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 1078,
+        "require": "Complete"
+      },
+      {
+        "turn": 23,
+        "kind": "race",
+        "race": "Asahi Hai Futurity Stakes",
+        "program_id": 624,
+        "require": "Top 5"
+      },
+      {
+        "turn": 31,
+        "kind": "race",
+        "race": "Satsuki Sho",
+        "program_id": 163,
+        "require": "Top 5"
+      },
+      {
+        "turn": 34,
+        "kind": "race",
+        "race": "Tokyo Yushun (Japanese Derby)",
+        "program_id": 166,
+        "require": "Top 5"
+      },
+      {
+        "turn": 44,
+        "kind": "race",
+        "race": "Kikuka Sho",
+        "program_id": 168,
+        "require": "Top 3"
+      },
+      {
+        "turn": 48,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 1089,
+        "require": "Top 3"
+      },
+      {
+        "turn": 54,
+        "kind": "race",
+        "race": "Hanshin Daishoten",
+        "program_id": 12,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 56,
+        "kind": "race",
+        "race": "Tenno Sho (Spring)",
+        "program_id": 1079,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 56,
+        "kind": "race",
+        "race": "Tenno Sho (Spring)",
+        "program_id": 1083,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 68,
+        "kind": "race",
+        "race": "Tenno Sho (Autumn)",
+        "program_id": 1080,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 68,
+        "kind": "race",
+        "race": "Tenno Sho (Autumn)",
+        "program_id": 1084,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 70,
+        "kind": "race",
+        "race": "Japan Cup",
+        "program_id": 1081,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 70,
+        "kind": "race",
+        "race": "Japan Cup",
+        "program_id": 1085,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 72,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 1082,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 72,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 1086,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1020": {
+    "name": "Seiun Sky",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 689,
+        "require": "Complete"
+      },
+      {
+        "turn": 25,
+        "kind": "fan",
+        "fans": 3000,
+        "require": "3,000 fans"
+      },
+      {
+        "turn": 31,
+        "kind": "race",
+        "race": "Satsuki Sho",
+        "program_id": 163,
+        "require": "Top 5"
+      },
+      {
+        "turn": 34,
+        "kind": "race",
+        "race": "Tokyo Yushun (Japanese Derby)",
+        "program_id": 166,
+        "require": "Top 5"
+      },
+      {
+        "turn": 44,
+        "kind": "race",
+        "race": "Kikuka Sho",
+        "program_id": 168,
+        "require": "Top 3"
+      },
+      {
+        "turn": 48,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 81,
+        "require": "Top 3"
+      },
+      {
+        "turn": 56,
+        "kind": "race",
+        "race": "Tenno Sho (Spring)",
+        "program_id": 4,
+        "require": "Top 3"
+      },
+      {
+        "turn": 60,
+        "kind": "race",
+        "race": "Takarazuka Kinen",
+        "program_id": 74,
+        "require": "Top 3"
+      },
+      {
+        "turn": 68,
+        "kind": "race",
+        "race": "Tenno Sho (Autumn)",
+        "program_id": 76,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 72,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 81,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1012": {
+    "name": "Hishi Amazon",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 1090,
+        "require": "Complete"
+      },
+      {
+        "turn": 23,
+        "kind": "race",
+        "race": "Hanshin Juvenile Fillies",
+        "program_id": 623,
+        "require": "Top 5"
+      },
+      {
+        "turn": 31,
+        "kind": "race",
+        "race": "Oka Sho",
+        "program_id": 162,
+        "require": "Top 5"
+      },
+      {
+        "turn": 34,
+        "kind": "race",
+        "race": "Japanese Oaks",
+        "program_id": 165,
+        "require": "Top 5"
+      },
+      {
+        "turn": 44,
+        "kind": "race",
+        "race": "Shuka Sho",
+        "program_id": 167,
+        "require": "Top 3"
+      },
+      {
+        "turn": 48,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 81,
+        "require": "Top 3"
+      },
+      {
+        "turn": 54,
+        "kind": "race",
+        "race": "Osaka Hai",
+        "program_id": 3,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 59,
+        "kind": "race",
+        "race": "Yasuda Kinen",
+        "program_id": 73,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 70,
+        "kind": "race",
+        "race": "Japan Cup",
+        "program_id": 79,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 72,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 81,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1005": {
+    "name": "Fuji Kiseki",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 1091,
+        "require": "Complete"
+      },
+      {
+        "turn": 23,
+        "kind": "race",
+        "race": "Asahi Hai Futurity Stakes",
+        "program_id": 624,
+        "require": "Top 5"
+      },
+      {
+        "turn": 29,
+        "kind": "race",
+        "race": "Yayoi Sho",
+        "program_id": 169,
+        "require": "Top 5"
+      },
+      {
+        "turn": 31,
+        "kind": "race",
+        "race": "Satsuki Sho",
+        "program_id": 163,
+        "require": "Top 5"
+      },
+      {
+        "turn": 33,
+        "kind": "race",
+        "race": "NHK Mile Cup",
+        "program_id": 164,
+        "require": "Top 5"
+      },
+      {
+        "turn": 34,
+        "kind": "race",
+        "race": "Tokyo Yushun (Japanese Derby)",
+        "program_id": 166,
+        "require": "Top 5"
+      },
+      {
+        "turn": 44,
+        "kind": "race",
+        "race": "Kikuka Sho",
+        "program_id": 168,
+        "require": "Complete"
+      },
+      {
+        "turn": 46,
+        "kind": "race",
+        "race": "Mile Championship",
+        "program_id": 78,
+        "require": "Top 3"
+      },
+      {
+        "turn": 54,
+        "kind": "race",
+        "race": "Takamatsunomiya Kinen",
+        "program_id": 2,
+        "require": "Top 3"
+      },
+      {
+        "turn": 59,
+        "kind": "race",
+        "race": "Yasuda Kinen",
+        "program_id": 73,
+        "require": "Top 3"
+      },
+      {
+        "turn": 68,
+        "kind": "race",
+        "race": "Tenno Sho (Autumn)",
+        "program_id": 76,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 72,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 81,
+        "require": "Complete"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1040": {
+    "name": "Gold City",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 1092,
+        "require": "Complete"
+      },
+      {
+        "turn": 23,
+        "kind": "race",
+        "race": "Hanshin Juvenile Fillies",
+        "program_id": 623,
+        "require": "Top 5"
+      },
+      {
+        "turn": 31,
+        "kind": "race",
+        "race": "Satsuki Sho",
+        "program_id": 163,
+        "require": "Top 5"
+      },
+      {
+        "turn": 34,
+        "kind": "race",
+        "race": "Tokyo Yushun (Japanese Derby)",
+        "program_id": 166,
+        "require": "Top 5"
+      },
+      {
+        "turn": 44,
+        "kind": "race",
+        "race": "Kikuka Sho",
+        "program_id": 168,
+        "require": "Top 3"
+      },
+      {
+        "turn": 48,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 81,
+        "require": "Top 3"
+      },
+      {
+        "turn": 54,
+        "kind": "race",
+        "race": "Osaka Hai",
+        "program_id": 3,
+        "require": "Top 3"
+      },
+      {
+        "turn": 56,
+        "kind": "race",
+        "race": "Tenno Sho (Spring)",
+        "program_id": 4,
+        "require": "Top 3"
+      },
+      {
+        "turn": 60,
+        "kind": "race",
+        "race": "Takarazuka Kinen",
+        "program_id": 74,
+        "require": "Top 3"
+      },
+      {
+        "turn": 70,
+        "kind": "race",
+        "race": "Japan Cup",
+        "program_id": 79,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1058": {
+    "name": "Meisho Doto",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 1067,
+        "require": "Complete"
+      },
+      {
+        "turn": 31,
+        "kind": "fan",
+        "fans": 6000,
+        "require": "6,000 fans"
+      },
+      {
+        "turn": 44,
+        "kind": "fan",
+        "fans": 15000,
+        "require": "15,000 fans"
+      },
+      {
+        "turn": 49,
+        "kind": "race",
+        "race": "Nikkei Shinshun Hai",
+        "program_id": 6,
+        "require": "Top 3"
+      },
+      {
+        "turn": 53,
+        "kind": "race",
+        "race": "Kinko Sho",
+        "program_id": 11,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 60,
+        "kind": "race",
+        "race": "Takarazuka Kinen",
+        "program_id": 74,
+        "require": "Top 2"
+      },
+      {
+        "turn": 68,
+        "kind": "race",
+        "race": "Tenno Sho (Autumn)",
+        "program_id": 76,
+        "require": "Top 2"
+      },
+      {
+        "turn": 70,
+        "kind": "race",
+        "race": "Japan Cup",
+        "program_id": 79,
+        "require": "Top 2"
+      },
+      {
+        "turn": 72,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 81,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1037": {
+    "name": "Eishin Flash",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 1069,
+        "require": "Complete"
+      },
+      {
+        "turn": 25,
+        "kind": "race",
+        "race": "Keisei Hai",
+        "program_id": 1093,
+        "require": "Top 5"
+      },
+      {
+        "turn": 31,
+        "kind": "race",
+        "race": "Satsuki Sho",
+        "program_id": 163,
+        "require": "Top 5"
+      },
+      {
+        "turn": 34,
+        "kind": "race",
+        "race": "Tokyo Yushun (Japanese Derby)",
+        "program_id": 166,
+        "require": "Top 5"
+      },
+      {
+        "turn": 46,
+        "kind": "race",
+        "race": "Japan Cup",
+        "program_id": 79,
+        "require": "Complete"
+      },
+      {
+        "turn": 48,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 81,
+        "require": "Complete"
+      },
+      {
+        "turn": 54,
+        "kind": "race",
+        "race": "Osaka Hai",
+        "program_id": 3,
+        "require": "Top 3"
+      },
+      {
+        "turn": 56,
+        "kind": "race",
+        "race": "Tenno Sho (Spring)",
+        "program_id": 4,
+        "require": "Top 3"
+      },
+      {
+        "turn": 68,
+        "kind": "race",
+        "race": "Tenno Sho (Autumn)",
+        "program_id": 76,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 72,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 81,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1028": {
+    "name": "Hishi Akebono",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 1094,
+        "require": "Complete"
+      },
+      {
+        "turn": 23,
+        "kind": "fan",
+        "fans": 3000,
+        "require": "3,000 fans"
+      },
+      {
+        "turn": 37,
+        "kind": "fan",
+        "fans": 10000,
+        "require": "10,000 fans"
+      },
+      {
+        "turn": 42,
+        "kind": "race",
+        "race": "Sprinters Stakes",
+        "program_id": 75,
+        "require": "Top 3"
+      },
+      {
+        "turn": 44,
+        "kind": "race",
+        "race": "Swan Stakes",
+        "program_id": 89,
+        "require": "Top 3"
+      },
+      {
+        "turn": 46,
+        "kind": "race",
+        "race": "Mile Championship",
+        "program_id": 78,
+        "require": "Top 3"
+      },
+      {
+        "turn": 54,
+        "kind": "race",
+        "race": "Takamatsunomiya Kinen",
+        "program_id": 2,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 59,
+        "kind": "race",
+        "race": "Yasuda Kinen",
+        "program_id": 73,
+        "require": "Top 2"
+      },
+      {
+        "turn": 66,
+        "kind": "race",
+        "race": "Sprinters Stakes",
+        "program_id": 75,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 70,
+        "kind": "race",
+        "race": "Mile Championship",
+        "program_id": 78,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1019": {
+    "name": "Agnes Digital",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 846,
+        "require": "Complete"
+      },
+      {
+        "turn": 28,
+        "kind": "race",
+        "race": "Hyacinth Stakes",
+        "program_id": 198,
+        "require": "Top 3"
+      },
+      {
+        "turn": 33,
+        "kind": "race",
+        "race": "NHK Mile Cup",
+        "program_id": 164,
+        "require": "Top 5"
+      },
+      {
+        "turn": 37,
+        "kind": "race",
+        "race": "Japan Dirt Derby",
+        "program_id": 1023,
+        "require": "Top 5"
+      },
+      {
+        "turn": 46,
+        "kind": "race",
+        "race": "Mile Championship",
+        "program_id": 78,
+        "require": "Top 3"
+      },
+      {
+        "turn": 60,
+        "kind": "race",
+        "race": "Hakodate Kinen",
+        "program_id": 100,
+        "require": "Top 3"
+      },
+      {
+        "turn": 68,
+        "kind": "race",
+        "race": "Tenno Sho (Autumn)",
+        "program_id": 76,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1039": {
+    "name": "Kawakami Princess",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 1070,
+        "require": "Complete"
+      },
+      {
+        "turn": 31,
+        "kind": "fan",
+        "fans": 7000,
+        "require": "7,000 fans"
+      },
+      {
+        "turn": 34,
+        "kind": "race",
+        "race": "Japanese Oaks",
+        "program_id": 165,
+        "require": "Top 5"
+      },
+      {
+        "turn": 44,
+        "kind": "race",
+        "race": "Shuka Sho",
+        "program_id": 167,
+        "require": "Top 3"
+      },
+      {
+        "turn": 45,
+        "kind": "race",
+        "race": "Queen Elizabeth II Cup",
+        "program_id": 77,
+        "require": "Top 3"
+      },
+      {
+        "turn": 53,
+        "kind": "race",
+        "race": "Kinko Sho",
+        "program_id": 11,
+        "require": "Top 3"
+      },
+      {
+        "turn": 57,
+        "kind": "race",
+        "race": "Victoria Mile",
+        "program_id": 5,
+        "require": "Top 3"
+      },
+      {
+        "turn": 60,
+        "kind": "race",
+        "race": "Takarazuka Kinen",
+        "program_id": 74,
+        "require": "Top 3"
+      },
+      {
+        "turn": 69,
+        "kind": "race",
+        "race": "Queen Elizabeth II Cup",
+        "program_id": 77,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1025": {
+    "name": "Manhattan Cafe",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 851,
+        "require": "Complete"
+      },
+      {
+        "turn": 26,
+        "kind": "fan",
+        "fans": 4000,
+        "require": "4,000 fans"
+      },
+      {
+        "turn": 29,
+        "kind": "race",
+        "race": "Yayoi Sho",
+        "program_id": 169,
+        "require": "Top 5"
+      },
+      {
+        "turn": 42,
+        "kind": "race",
+        "race": "St. Lite Kinen",
+        "program_id": 177,
+        "require": "Top 3"
+      },
+      {
+        "turn": 44,
+        "kind": "race",
+        "race": "Kikuka Sho",
+        "program_id": 168,
+        "require": "Top 3"
+      },
+      {
+        "turn": 48,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 81,
+        "require": "Top 3"
+      },
+      {
+        "turn": 56,
+        "kind": "race",
+        "race": "Tenno Sho (Spring)",
+        "program_id": 4,
+        "require": "Top 3"
+      },
+      {
+        "turn": 60,
+        "kind": "race",
+        "race": "Takarazuka Kinen",
+        "program_id": 74,
+        "require": "Top 3"
+      },
+      {
+        "turn": 70,
+        "kind": "race",
+        "race": "Japan Cup",
+        "program_id": 79,
+        "require": "Top 3"
+      },
+      {
+        "turn": 72,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 81,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1048": {
+    "name": "Tosen Jordan",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 1067,
+        "require": "Complete"
+      },
+      {
+        "turn": 24,
+        "kind": "race",
+        "race": "Hopeful Stakes",
+        "program_id": 625,
+        "require": "Top 5"
+      },
+      {
+        "turn": 31,
+        "kind": "race",
+        "race": "Satsuki Sho",
+        "program_id": 163,
+        "require": "Top 5"
+      },
+      {
+        "turn": 45,
+        "kind": "race",
+        "race": "Copa Republica Argentina",
+        "program_id": 90,
+        "require": "Top 3"
+      },
+      {
+        "turn": 48,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 81,
+        "require": "Complete"
+      },
+      {
+        "turn": 54,
+        "kind": "race",
+        "race": "Osaka Hai",
+        "program_id": 3,
+        "require": "Top 3"
+      },
+      {
+        "turn": 56,
+        "kind": "race",
+        "race": "Tenno Sho (Spring)",
+        "program_id": 4,
+        "require": "Top 3"
+      },
+      {
+        "turn": 60,
+        "kind": "race",
+        "race": "Takarazuka Kinen",
+        "program_id": 74,
+        "require": "Top 3"
+      },
+      {
+        "turn": 68,
+        "kind": "race",
+        "race": "Tenno Sho (Autumn)",
+        "program_id": 76,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1059": {
+    "name": "Mejiro Dober",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 1091,
+        "require": "Complete"
+      },
+      {
+        "turn": 23,
+        "kind": "race",
+        "race": "Hanshin Juvenile Fillies",
+        "program_id": 623,
+        "require": "Top 5"
+      },
+      {
+        "turn": 31,
+        "kind": "race",
+        "race": "Oka Sho",
+        "program_id": 162,
+        "require": "Top 5"
+      },
+      {
+        "turn": 34,
+        "kind": "race",
+        "race": "Japanese Oaks",
+        "program_id": 165,
+        "require": "Top 5"
+      },
+      {
+        "turn": 44,
+        "kind": "race",
+        "race": "Shuka Sho",
+        "program_id": 167,
+        "require": "Top 3"
+      },
+      {
+        "turn": 48,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 81,
+        "require": "Complete"
+      },
+      {
+        "turn": 54,
+        "kind": "race",
+        "race": "Osaka Hai",
+        "program_id": 3,
+        "require": "Top 3"
+      },
+      {
+        "turn": 60,
+        "kind": "race",
+        "race": "Takarazuka Kinen",
+        "program_id": 74,
+        "require": "Top 3"
+      },
+      {
+        "turn": 67,
+        "kind": "race",
+        "race": "Fuchu Umamusume Stakes",
+        "program_id": 88,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 69,
+        "kind": "race",
+        "race": "Queen Elizabeth II Cup",
+        "program_id": 77,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1022": {
+    "name": "Fine Motion",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 1069,
+        "require": "Complete"
+      },
+      {
+        "turn": 24,
+        "kind": "fan",
+        "fans": 3000,
+        "require": "3,000 fans"
+      },
+      {
+        "turn": 31,
+        "kind": "race",
+        "race": "Oka Sho",
+        "program_id": 162,
+        "require": "Top 5"
+      },
+      {
+        "turn": 34,
+        "kind": "race",
+        "race": "Japanese Oaks",
+        "program_id": 165,
+        "require": "Top 5"
+      },
+      {
+        "turn": 44,
+        "kind": "race",
+        "race": "Shuka Sho",
+        "program_id": 167,
+        "require": "Top 3"
+      },
+      {
+        "turn": 45,
+        "kind": "race",
+        "race": "Queen Elizabeth II Cup",
+        "program_id": 77,
+        "require": "Top 3"
+      },
+      {
+        "turn": 54,
+        "kind": "race",
+        "race": "Osaka Hai",
+        "program_id": 3,
+        "require": "Top 3"
+      },
+      {
+        "turn": 60,
+        "kind": "race",
+        "race": "Takarazuka Kinen",
+        "program_id": 74,
+        "require": "Top 3"
+      },
+      {
+        "turn": 64,
+        "kind": "race",
+        "race": "Sapporo Kinen",
+        "program_id": 82,
+        "require": "Top 3"
+      },
+      {
+        "turn": 68,
+        "kind": "race",
+        "race": "Tenno Sho (Autumn)",
+        "program_id": 76,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 69,
+        "kind": "race",
+        "race": "Queen Elizabeth II Cup",
+        "program_id": 77,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 70,
+        "kind": "race",
+        "race": "Mile Championship",
+        "program_id": 78,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 72,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 81,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1021": {
+    "name": "Tamamo Cross",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 1069,
+        "require": "Complete"
+      },
+      {
+        "turn": 29,
+        "kind": "fan",
+        "fans": 5000,
+        "require": "5,000 fans"
+      },
+      {
+        "turn": 49,
+        "kind": "race",
+        "race": "Classic Maiden Race",
+        "program_id": 300,
+        "require": "Top 3"
+      },
+      {
+        "turn": 54,
+        "kind": "race",
+        "race": "Hanshin Daishoten",
+        "program_id": 12,
+        "require": "Top 3"
+      },
+      {
+        "turn": 56,
+        "kind": "race",
+        "race": "Tenno Sho (Spring)",
+        "program_id": 4,
+        "require": "Top 3"
+      },
+      {
+        "turn": 60,
+        "kind": "race",
+        "race": "Takarazuka Kinen",
+        "program_id": 74,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 68,
+        "kind": "race",
+        "race": "Tenno Sho (Autumn)",
+        "program_id": 76,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 72,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 81,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1069": {
+    "name": "Sakura Chiyono O",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 1078,
+        "require": "Complete"
+      },
+      {
+        "turn": 23,
+        "kind": "race",
+        "race": "Asahi Hai Futurity Stakes",
+        "program_id": 624,
+        "require": "Top 5"
+      },
+      {
+        "turn": 31,
+        "kind": "race",
+        "race": "Satsuki Sho",
+        "program_id": 1095,
+        "require": "Top 5"
+      },
+      {
+        "turn": 34,
+        "kind": "race",
+        "race": "Tokyo Yushun (Japanese Derby)",
+        "program_id": 166,
+        "require": "Top 5"
+      },
+      {
+        "turn": 44,
+        "kind": "race",
+        "race": "Tenno Sho (Autumn)",
+        "program_id": 76,
+        "require": "Top 3"
+      },
+      {
+        "turn": 59,
+        "kind": "race",
+        "race": "Yasuda Kinen",
+        "program_id": 73,
+        "require": "Top 3"
+      },
+      {
+        "turn": 60,
+        "kind": "race",
+        "race": "Takarazuka Kinen",
+        "program_id": 74,
+        "require": "Top 3"
+      },
+      {
+        "turn": 68,
+        "kind": "race",
+        "race": "Tenno Sho (Autumn)",
+        "program_id": 76,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 70,
+        "kind": "race",
+        "race": "Japan Cup",
+        "program_id": 79,
+        "require": "Top 2"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1071": {
+    "name": "Mejiro Ardan",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 1096,
+        "require": "Complete"
+      },
+      {
+        "turn": 30,
+        "kind": "fan",
+        "fans": 6000,
+        "require": "6,000 fans"
+      },
+      {
+        "turn": 32,
+        "kind": "race",
+        "race": "Aoba Sho",
+        "program_id": 174,
+        "require": "Top 5"
+      },
+      {
+        "turn": 34,
+        "kind": "race",
+        "race": "Tokyo Yushun (Japanese Derby)",
+        "program_id": 166,
+        "require": "Top 5"
+      },
+      {
+        "turn": 44,
+        "kind": "race",
+        "race": "Kikuka Sho",
+        "program_id": 168,
+        "require": "Complete"
+      },
+      {
+        "turn": 44,
+        "kind": "race",
+        "race": "Tenno Sho (Autumn)",
+        "program_id": 1097,
+        "require": "Top 3"
+      },
+      {
+        "turn": 54,
+        "kind": "race",
+        "race": "Osaka Hai",
+        "program_id": 3,
+        "require": "Top 3"
+      },
+      {
+        "turn": 60,
+        "kind": "race",
+        "race": "Takarazuka Kinen",
+        "program_id": 74,
+        "require": "Top 3"
+      },
+      {
+        "turn": 67,
+        "kind": "race",
+        "race": "Mainichi Okan",
+        "program_id": 86,
+        "require": "Top 3"
+      },
+      {
+        "turn": 68,
+        "kind": "race",
+        "race": "Tenno Sho (Autumn)",
+        "program_id": 1098,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 68,
+        "kind": "race",
+        "race": "Tenno Sho (Autumn)",
+        "program_id": 1099,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1033": {
+    "name": "Admire Vega",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 1067,
+        "require": "Complete"
+      },
+      {
+        "turn": 24,
+        "kind": "race",
+        "race": "Hopeful Stakes",
+        "program_id": 625,
+        "require": "Top 5"
+      },
+      {
+        "turn": 31,
+        "kind": "race",
+        "race": "Satsuki Sho",
+        "program_id": 163,
+        "require": "Top 5"
+      },
+      {
+        "turn": 34,
+        "kind": "race",
+        "race": "Tokyo Yushun (Japanese Derby)",
+        "program_id": 166,
+        "require": "Top 5"
+      },
+      {
+        "turn": 44,
+        "kind": "race",
+        "race": "Kikuka Sho",
+        "program_id": 168,
+        "require": "Complete"
+      },
+      {
+        "turn": 60,
+        "kind": "race",
+        "race": "Takarazuka Kinen",
+        "program_id": 74,
+        "require": "Top 3"
+      },
+      {
+        "turn": 68,
+        "kind": "race",
+        "race": "Tenno Sho (Autumn)",
+        "program_id": 76,
+        "require": "Top 3"
+      },
+      {
+        "turn": 70,
+        "kind": "race",
+        "race": "Japan Cup",
+        "program_id": 79,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1062": {
+    "name": "Matikanetannhauser",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 1065,
+        "require": "Complete"
+      },
+      {
+        "turn": 24,
+        "kind": "race",
+        "race": "Hakodate Kinen",
+        "program_id": 100,
+        "require": "Top 5"
+      },
+      {
+        "turn": 31,
+        "kind": "race",
+        "race": "Satsuki Sho",
+        "program_id": 163,
+        "require": "Top 5"
+      },
+      {
+        "turn": 34,
+        "kind": "race",
+        "race": "Tokyo Yushun (Japanese Derby)",
+        "program_id": 166,
+        "require": "Top 5"
+      },
+      {
+        "turn": 44,
+        "kind": "race",
+        "race": "Kikuka Sho",
+        "program_id": 168,
+        "require": "Top 3"
+      },
+      {
+        "turn": 52,
+        "kind": "race",
+        "race": "Diamond Stakes",
+        "program_id": 25,
+        "require": "Top 3"
+      },
+      {
+        "turn": 56,
+        "kind": "race",
+        "race": "Tenno Sho (Spring)",
+        "program_id": 4,
+        "require": "Top 3"
+      },
+      {
+        "turn": 60,
+        "kind": "race",
+        "race": "Takarazuka Kinen",
+        "program_id": 74,
+        "require": "Top 3"
+      },
+      {
+        "turn": 70,
+        "kind": "race",
+        "race": "Japan Cup",
+        "program_id": 79,
+        "require": "Top 3"
+      },
+      {
+        "turn": 72,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 81,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1068": {
+    "name": "Kitasan Black",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 851,
+        "require": "Complete"
+      },
+      {
+        "turn": 30,
+        "kind": "fan",
+        "fans": 5000,
+        "require": "5,000 fans"
+      },
+      {
+        "turn": 42,
+        "kind": "race",
+        "race": "St. Lite Kinen",
+        "program_id": 177,
+        "require": "Top 3"
+      },
+      {
+        "turn": 44,
+        "kind": "race",
+        "race": "Kikuka Sho",
+        "program_id": 168,
+        "require": "Top 3"
+      },
+      {
+        "turn": 48,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 81,
+        "require": "Top 3"
+      },
+      {
+        "turn": 54,
+        "kind": "race",
+        "race": "Osaka Hai",
+        "program_id": 3,
+        "require": "Top 3"
+      },
+      {
+        "turn": 56,
+        "kind": "race",
+        "race": "Tenno Sho (Spring)",
+        "program_id": 4,
+        "require": "Top 3"
+      },
+      {
+        "turn": 60,
+        "kind": "race",
+        "race": "Takarazuka Kinen",
+        "program_id": 74,
+        "require": "Top 3"
+      },
+      {
+        "turn": 68,
+        "kind": "race",
+        "race": "Tenno Sho (Autumn)",
+        "program_id": 76,
+        "require": "Top 3"
+      },
+      {
+        "turn": 70,
+        "kind": "race",
+        "race": "Japan Cup",
+        "program_id": 79,
+        "require": "Top 3"
+      },
+      {
+        "turn": 72,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 81,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1067": {
+    "name": "Satono Diamond",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 1067,
+        "require": "Complete"
+      },
+      {
+        "turn": 31,
+        "kind": "race",
+        "race": "Satsuki Sho",
+        "program_id": 163,
+        "require": "Top 5"
+      },
+      {
+        "turn": 34,
+        "kind": "race",
+        "race": "Tokyo Yushun (Japanese Derby)",
+        "program_id": 166,
+        "require": "Top 5"
+      },
+      {
+        "turn": 44,
+        "kind": "race",
+        "race": "Kikuka Sho",
+        "program_id": 168,
+        "require": "Top 3"
+      },
+      {
+        "turn": 48,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 81,
+        "require": "Top 3"
+      },
+      {
+        "turn": 54,
+        "kind": "race",
+        "race": "Osaka Hai",
+        "program_id": 3,
+        "require": "Top 3"
+      },
+      {
+        "turn": 56,
+        "kind": "race",
+        "race": "Tenno Sho (Spring)",
+        "program_id": 4,
+        "require": "Top 3"
+      },
+      {
+        "turn": 67,
+        "kind": "race",
+        "race": "Kyoto Daishoten",
+        "program_id": 87,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 68,
+        "kind": "race",
+        "race": "Tenno Sho (Autumn)",
+        "program_id": 76,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 72,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 81,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1074": {
+    "name": "Mejiro Bright",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 1067,
+        "require": "Complete"
+      },
+      {
+        "turn": 24,
+        "kind": "race",
+        "race": "Hopeful Stakes",
+        "program_id": 625,
+        "require": "Top 5"
+      },
+      {
+        "turn": 31,
+        "kind": "race",
+        "race": "Satsuki Sho",
+        "program_id": 163,
+        "require": "Top 5"
+      },
+      {
+        "turn": 34,
+        "kind": "race",
+        "race": "Tokyo Yushun (Japanese Derby)",
+        "program_id": 166,
+        "require": "Top 5"
+      },
+      {
+        "turn": 44,
+        "kind": "race",
+        "race": "Kikuka Sho",
+        "program_id": 168,
+        "require": "Top 3"
+      },
+      {
+        "turn": 47,
+        "kind": "race",
+        "race": "Stayers Stakes",
+        "program_id": 91,
+        "require": "Top 3"
+      },
+      {
+        "turn": 56,
+        "kind": "race",
+        "race": "Tenno Sho (Spring)",
+        "program_id": 4,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 68,
+        "kind": "race",
+        "race": "Tenno Sho (Autumn)",
+        "program_id": 76,
+        "require": "Top 3"
+      },
+      {
+        "turn": 72,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 1101,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1051": {
+    "name": "Nishino Flower",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 1102,
+        "require": "Complete"
+      },
+      {
+        "turn": 23,
+        "kind": "race",
+        "race": "Hanshin Juvenile Fillies",
+        "program_id": 623,
+        "require": "Top 5"
+      },
+      {
+        "turn": 31,
+        "kind": "race",
+        "race": "Oka Sho",
+        "program_id": 162,
+        "require": "Top 5"
+      },
+      {
+        "turn": 34,
+        "kind": "race",
+        "race": "Japanese Oaks",
+        "program_id": 165,
+        "require": "Complete"
+      },
+      {
+        "turn": 42,
+        "kind": "race",
+        "race": "Sprinters Stakes",
+        "program_id": 75,
+        "require": "Top 3"
+      },
+      {
+        "turn": 54,
+        "kind": "race",
+        "race": "Takamatsunomiya Kinen",
+        "program_id": 2,
+        "require": "Top 3"
+      },
+      {
+        "turn": 56,
+        "kind": "race",
+        "race": "Milers Cup",
+        "program_id": 15,
+        "require": "Top 3"
+      },
+      {
+        "turn": 59,
+        "kind": "race",
+        "race": "Yasuda Kinen",
+        "program_id": 73,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 66,
+        "kind": "race",
+        "race": "Sprinters Stakes",
+        "program_id": 75,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1072": {
+    "name": "Yaeno Muteki",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 1069,
+        "require": "Complete"
+      },
+      {
+        "turn": 30,
+        "kind": "race",
+        "race": "Mainichi Hai",
+        "program_id": 188,
+        "require": "Top 5"
+      },
+      {
+        "turn": 31,
+        "kind": "race",
+        "race": "Satsuki Sho",
+        "program_id": 1095,
+        "require": "Top 5"
+      },
+      {
+        "turn": 34,
+        "kind": "race",
+        "race": "Tokyo Yushun (Japanese Derby)",
+        "program_id": 166,
+        "require": "Top 5"
+      },
+      {
+        "turn": 44,
+        "kind": "race",
+        "race": "Kikuka Sho",
+        "program_id": 168,
+        "require": "Complete"
+      },
+      {
+        "turn": 54,
+        "kind": "race",
+        "race": "Osaka Hai",
+        "program_id": 3,
+        "require": "Top 3"
+      },
+      {
+        "turn": 59,
+        "kind": "race",
+        "race": "Yasuda Kinen",
+        "program_id": 73,
+        "require": "Top 3"
+      },
+      {
+        "turn": 60,
+        "kind": "race",
+        "race": "Takarazuka Kinen",
+        "program_id": 74,
+        "require": "Top 3"
+      },
+      {
+        "turn": 68,
+        "kind": "race",
+        "race": "Tenno Sho (Autumn)",
+        "program_id": 76,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1031": {
+    "name": "Ines Fujin",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 1090,
+        "require": "Complete"
+      },
+      {
+        "turn": 23,
+        "kind": "race",
+        "race": "Asahi Hai Futurity Stakes",
+        "program_id": 624,
+        "require": "Top 5"
+      },
+      {
+        "turn": 31,
+        "kind": "race",
+        "race": "Satsuki Sho",
+        "program_id": 163,
+        "require": "Top 5"
+      },
+      {
+        "turn": 34,
+        "kind": "race",
+        "race": "Tokyo Yushun (Japanese Derby)",
+        "program_id": 166,
+        "require": "Top 5"
+      },
+      {
+        "turn": 44,
+        "kind": "race",
+        "race": "Kikuka Sho",
+        "program_id": 168,
+        "require": "Complete"
+      },
+      {
+        "turn": 54,
+        "kind": "race",
+        "race": "Osaka Hai",
+        "program_id": 3,
+        "require": "Top 3"
+      },
+      {
+        "turn": 60,
+        "kind": "race",
+        "race": "Takarazuka Kinen",
+        "program_id": 1071,
+        "require": "Top 3"
+      },
+      {
+        "turn": 68,
+        "kind": "race",
+        "race": "Tenno Sho (Autumn)",
+        "program_id": 76,
+        "require": "Top 3"
+      },
+      {
+        "turn": 70,
+        "kind": "race",
+        "race": "Japan Cup",
+        "program_id": 79,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 72,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 81,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1064": {
+    "name": "Mejiro Palmer",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 1067,
+        "require": "Complete"
+      },
+      {
+        "turn": 35,
+        "kind": "fan",
+        "fans": 9000,
+        "require": "9,000 fans"
+      },
+      {
+        "turn": 37,
+        "kind": "race",
+        "race": "Hakodate Kinen",
+        "program_id": 100,
+        "require": "Top 3"
+      },
+      {
+        "turn": 49,
+        "kind": "race",
+        "race": "Nikkei Shinshun Hai",
+        "program_id": 6,
+        "require": "Top 3"
+      },
+      {
+        "turn": 56,
+        "kind": "race",
+        "race": "Tenno Sho (Spring)",
+        "program_id": 4,
+        "require": "Top 3"
+      },
+      {
+        "turn": 60,
+        "kind": "race",
+        "race": "Takarazuka Kinen",
+        "program_id": 74,
+        "require": "Top 3"
+      },
+      {
+        "turn": 68,
+        "kind": "race",
+        "race": "Tenno Sho (Autumn)",
+        "program_id": 76,
+        "require": "Top 3"
+      },
+      {
+        "turn": 72,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 81,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1034": {
+    "name": "Inari One",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 1103,
+        "require": "Complete"
+      },
+      {
+        "turn": 24,
+        "kind": "fan",
+        "fans": 3000,
+        "require": "3,000 fans"
+      },
+      {
+        "turn": 37,
+        "kind": "race",
+        "race": "Japan Dirt Derby",
+        "program_id": 1104,
+        "require": "Top 5"
+      },
+      {
+        "turn": 48,
+        "kind": "race",
+        "race": "Tokyo Daishoten",
+        "program_id": 1027,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 56,
+        "kind": "race",
+        "race": "Tenno Sho (Spring)",
+        "program_id": 4,
+        "require": "Top 3"
+      },
+      {
+        "turn": 60,
+        "kind": "race",
+        "race": "Takarazuka Kinen",
+        "program_id": 74,
+        "require": "Top 3"
+      },
+      {
+        "turn": 67,
+        "kind": "race",
+        "race": "Mainichi Okan",
+        "program_id": 86,
+        "require": "Top 2"
+      },
+      {
+        "turn": 68,
+        "kind": "race",
+        "race": "Tenno Sho (Autumn)",
+        "program_id": 76,
+        "require": "Top 3"
+      },
+      {
+        "turn": 72,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 81,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1044": {
+    "name": "Sweep Tosho",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 1066,
+        "require": "Complete"
+      },
+      {
+        "turn": 23,
+        "kind": "race",
+        "race": "Hanshin Juvenile Fillies",
+        "program_id": 623,
+        "require": "Top 5"
+      },
+      {
+        "turn": 31,
+        "kind": "race",
+        "race": "Oka Sho",
+        "program_id": 162,
+        "require": "Top 5"
+      },
+      {
+        "turn": 34,
+        "kind": "race",
+        "race": "Japanese Oaks",
+        "program_id": 165,
+        "require": "Top 5"
+      },
+      {
+        "turn": 44,
+        "kind": "race",
+        "race": "Shuka Sho",
+        "program_id": 167,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 45,
+        "kind": "race",
+        "race": "Queen Elizabeth II Cup",
+        "program_id": 77,
+        "require": "Top 3"
+      },
+      {
+        "turn": 59,
+        "kind": "race",
+        "race": "Yasuda Kinen",
+        "program_id": 73,
+        "require": "Top 3"
+      },
+      {
+        "turn": 60,
+        "kind": "race",
+        "race": "Takarazuka Kinen",
+        "program_id": 74,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 68,
+        "kind": "race",
+        "race": "Tenno Sho (Autumn)",
+        "program_id": 76,
+        "require": "Top 3"
+      },
+      {
+        "turn": 69,
+        "kind": "race",
+        "race": "Queen Elizabeth II Cup",
+        "program_id": 77,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1036": {
+    "name": "Air Shakur",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 851,
+        "require": "Complete"
+      },
+      {
+        "turn": 24,
+        "kind": "race",
+        "race": "Hopeful Stakes",
+        "program_id": 625,
+        "require": "Top 5"
+      },
+      {
+        "turn": 31,
+        "kind": "race",
+        "race": "Satsuki Sho",
+        "program_id": 163,
+        "require": "Top 5"
+      },
+      {
+        "turn": 34,
+        "kind": "race",
+        "race": "Tokyo Yushun (Japanese Derby)",
+        "program_id": 166,
+        "require": "Top 5"
+      },
+      {
+        "turn": 44,
+        "kind": "race",
+        "race": "Kikuka Sho",
+        "program_id": 168,
+        "require": "Top 3"
+      },
+      {
+        "turn": 46,
+        "kind": "race",
+        "race": "Japan Cup",
+        "program_id": 79,
+        "require": "Complete"
+      },
+      {
+        "turn": 56,
+        "kind": "race",
+        "race": "Tenno Sho (Spring)",
+        "program_id": 4,
+        "require": "Top 5"
+      },
+      {
+        "turn": 60,
+        "kind": "race",
+        "race": "Takarazuka Kinen",
+        "program_id": 74,
+        "require": "Top 3"
+      },
+      {
+        "turn": 68,
+        "kind": "race",
+        "race": "Tenno Sho (Autumn)",
+        "program_id": 76,
+        "require": "Top 3"
+      },
+      {
+        "turn": 72,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 81,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1053": {
+    "name": "Bamboo Memory",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 1105,
+        "require": "Complete"
+      },
+      {
+        "turn": 24,
+        "kind": "fan",
+        "fans": 3000,
+        "require": "3,000 fans"
+      },
+      {
+        "turn": 29,
+        "kind": "fan",
+        "fans": 6000,
+        "require": "6,000 fans"
+      },
+      {
+        "turn": 44,
+        "kind": "race",
+        "race": "Swan Stakes",
+        "program_id": 89,
+        "require": "Top 3"
+      },
+      {
+        "turn": 54,
+        "kind": "race",
+        "race": "Takamatsunomiya Kinen",
+        "program_id": 2,
+        "require": "Top 3"
+      },
+      {
+        "turn": 59,
+        "kind": "race",
+        "race": "Yasuda Kinen",
+        "program_id": 73,
+        "require": "Top 3"
+      },
+      {
+        "turn": 60,
+        "kind": "race",
+        "race": "Takarazuka Kinen",
+        "program_id": 74,
+        "require": "Complete"
+      },
+      {
+        "turn": 66,
+        "kind": "race",
+        "race": "Sprinters Stakes",
+        "program_id": 75,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 70,
+        "kind": "race",
+        "race": "Mile Championship",
+        "program_id": 78,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1098": {
+    "name": "Copano Rickey",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 1135,
+        "require": "Complete"
+      },
+      {
+        "turn": 24,
+        "kind": "fan",
+        "fans": 3000,
+        "require": "3,000 fans"
+      },
+      {
+        "turn": 31,
+        "kind": "race",
+        "race": "Fukuryu Stakes",
+        "program_id": 204,
+        "require": "Top 3"
+      },
+      {
+        "turn": 47,
+        "kind": "race",
+        "race": "Champions Cup",
+        "program_id": 80,
+        "require": "Top 3"
+      },
+      {
+        "turn": 52,
+        "kind": "race",
+        "race": "February Stakes",
+        "program_id": 1,
+        "require": "Top 3"
+      },
+      {
+        "turn": 57,
+        "kind": "race",
+        "race": "Kashiwa Kinen",
+        "program_id": 1108,
+        "require": "Top 3"
+      },
+      {
+        "turn": 60,
+        "kind": "race",
+        "race": "Teio Sho",
+        "program_id": 1022,
+        "require": "Top 3"
+      },
+      {
+        "turn": 67,
+        "kind": "race",
+        "race": "M.C. Nambu Hai",
+        "program_id": 1109,
+        "require": "Top 3"
+      },
+      {
+        "turn": 69,
+        "kind": "race",
+        "race": "JBC Classic",
+        "program_id": 1026,
+        "program_ids": [
+          1026,
+          1112,
+          1115,
+          1118
+        ],
+        "require": "Top 3"
+      },
+      {
+        "turn": 72,
+        "kind": "race",
+        "race": "Tokyo Daishoten",
+        "program_id": 1027,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1029": {
+    "name": "Yukino Bijin",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 1090,
+        "require": "Complete"
+      },
+      {
+        "turn": 23,
+        "kind": "race",
+        "race": "Hanshin Juvenile Fillies",
+        "program_id": 623,
+        "require": "Top 5"
+      },
+      {
+        "turn": 31,
+        "kind": "race",
+        "race": "Oka Sho",
+        "program_id": 162,
+        "require": "Top 5"
+      },
+      {
+        "turn": 34,
+        "kind": "race",
+        "race": "Japanese Oaks",
+        "program_id": 165,
+        "require": "Top 5"
+      },
+      {
+        "turn": 38,
+        "kind": "race",
+        "race": "Queen Stakes",
+        "program_id": 103,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 44,
+        "kind": "race",
+        "race": "Shuka Sho",
+        "program_id": 167,
+        "require": "Top 3"
+      },
+      {
+        "turn": 54,
+        "kind": "race",
+        "race": "Osaka Hai",
+        "program_id": 3,
+        "require": "Top 3"
+      },
+      {
+        "turn": 57,
+        "kind": "race",
+        "race": "Victoria Mile",
+        "program_id": 5,
+        "require": "Top 3"
+      },
+      {
+        "turn": 69,
+        "kind": "race",
+        "race": "Queen Elizabeth II Cup",
+        "program_id": 77,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 70,
+        "kind": "race",
+        "race": "Japan Cup",
+        "program_id": 79,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1042": {
+    "name": "Seeking the Pearl",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 1136,
+        "require": "Complete"
+      },
+      {
+        "turn": 21,
+        "kind": "race",
+        "race": "Daily Hai Junior Stakes",
+        "program_id": 627,
+        "require": "Top 5"
+      },
+      {
+        "turn": 23,
+        "kind": "race",
+        "race": "Hanshin Juvenile Fillies",
+        "program_id": 623,
+        "require": "Top 5"
+      },
+      {
+        "turn": 31,
+        "kind": "race",
+        "race": "Oka Sho",
+        "program_id": 162,
+        "require": "Top 5"
+      },
+      {
+        "turn": 33,
+        "kind": "race",
+        "race": "NHK Mile Cup",
+        "program_id": 164,
+        "require": "Top 5"
+      },
+      {
+        "turn": 41,
+        "kind": "race",
+        "race": "Rose Stakes",
+        "program_id": 176,
+        "require": "Top 3"
+      },
+      {
+        "turn": 46,
+        "kind": "race",
+        "race": "Mile Championship",
+        "program_id": 78,
+        "require": "Top 3"
+      },
+      {
+        "turn": 54,
+        "kind": "race",
+        "race": "Takamatsunomiya Kinen",
+        "program_id": 2,
+        "require": "Top 3"
+      },
+      {
+        "turn": 59,
+        "kind": "race",
+        "race": "Yasuda Kinen",
+        "program_id": 73,
+        "require": "Top 3"
+      },
+      {
+        "turn": 66,
+        "kind": "race",
+        "race": "Sprinters Stakes",
+        "program_id": 75,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 70,
+        "kind": "race",
+        "race": "Mile Championship",
+        "program_id": 78,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1087": {
+    "name": "Aston Machan",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 1136,
+        "require": "Complete"
+      },
+      {
+        "turn": 21,
+        "kind": "race",
+        "race": "Fantasy Stakes",
+        "program_id": 634,
+        "require": "Top 5"
+      },
+      {
+        "turn": 23,
+        "kind": "race",
+        "race": "Hanshin Juvenile Fillies",
+        "program_id": 623,
+        "require": "Top 5"
+      },
+      {
+        "turn": 29,
+        "kind": "race",
+        "race": "Fillies' Revue",
+        "program_id": 170,
+        "require": "Top 5"
+      },
+      {
+        "turn": 31,
+        "kind": "race",
+        "race": "Oka Sho",
+        "program_id": 162,
+        "require": "Top 5"
+      },
+      {
+        "turn": 42,
+        "kind": "race",
+        "race": "Sprinters Stakes",
+        "program_id": 75,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 54,
+        "kind": "race",
+        "race": "Takamatsunomiya Kinen",
+        "program_id": 2,
+        "require": "Top 3"
+      },
+      {
+        "turn": 66,
+        "kind": "race",
+        "race": "Sprinters Stakes",
+        "program_id": 75,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1078": {
+    "name": "Yamanin Zephyr",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 676,
+        "require": "Complete"
+      },
+      {
+        "turn": 31,
+        "kind": "race",
+        "race": "New Zealand Trophy",
+        "program_id": 172,
+        "require": "Top 5"
+      },
+      {
+        "turn": 34,
+        "kind": "race",
+        "race": "Aoi Stakes",
+        "program_id": 210,
+        "require": "Top 5"
+      },
+      {
+        "turn": 42,
+        "kind": "race",
+        "race": "Sprinters Stakes",
+        "program_id": 75,
+        "require": "Top 3"
+      },
+      {
+        "turn": 46,
+        "kind": "race",
+        "race": "Mile Championship",
+        "program_id": 78,
+        "require": "Top 3"
+      },
+      {
+        "turn": 59,
+        "kind": "race",
+        "race": "Yasuda Kinen",
+        "program_id": 73,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 66,
+        "kind": "race",
+        "race": "Sprinters Stakes",
+        "program_id": 75,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 68,
+        "kind": "race",
+        "race": "Tenno Sho (Autumn)",
+        "program_id": 76,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1049": {
+    "name": "Nakayama Festa",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 851,
+        "require": "Complete"
+      },
+      {
+        "turn": 25,
+        "kind": "race",
+        "race": "Keisei Hai",
+        "program_id": 180,
+        "require": "Top 5"
+      },
+      {
+        "turn": 31,
+        "kind": "race",
+        "race": "Satsuki Sho",
+        "program_id": 163,
+        "require": "Top 5"
+      },
+      {
+        "turn": 34,
+        "kind": "race",
+        "race": "Tokyo Yushun (Japanese Derby)",
+        "program_id": 166,
+        "require": "Top 5"
+      },
+      {
+        "turn": 44,
+        "kind": "race",
+        "race": "Kikuka Sho",
+        "program_id": 168,
+        "require": "Top 3"
+      },
+      {
+        "turn": 47,
+        "kind": "race",
+        "race": "Chunichi Shimbun Hai",
+        "program_id": 118,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 60,
+        "kind": "race",
+        "race": "Takarazuka Kinen",
+        "program_id": 74,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 70,
+        "kind": "race",
+        "race": "Japan Cup",
+        "program_id": 79,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1100": {
+    "name": "Wonder Acute",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 1137,
+        "require": "Complete"
+      },
+      {
+        "turn": 30,
+        "kind": "fan",
+        "fans": 5000,
+        "require": "5,000 fans"
+      },
+      {
+        "turn": 37,
+        "kind": "race",
+        "race": "Japan Dirt Derby",
+        "program_id": 1023,
+        "require": "Top 5"
+      },
+      {
+        "turn": 42,
+        "kind": "race",
+        "race": "Sirius Stakes",
+        "program_id": 111,
+        "require": "Top 3"
+      },
+      {
+        "turn": 48,
+        "kind": "race",
+        "race": "Tokyo Daishoten",
+        "program_id": 1027,
+        "require": "Top 3"
+      },
+      {
+        "turn": 51,
+        "kind": "race",
+        "race": "Kawasaki Kinen",
+        "program_id": 1106,
+        "require": "Top 3"
+      },
+      {
+        "turn": 57,
+        "kind": "race",
+        "race": "Kashiwa Kinen",
+        "program_id": 1108,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 60,
+        "kind": "race",
+        "race": "Teio Sho",
+        "program_id": 1022,
+        "require": "Top 3"
+      },
+      {
+        "turn": 69,
+        "kind": "race",
+        "race": "JBC Classic",
+        "program_id": 1026,
+        "program_ids": [
+          1026,
+          1112,
+          1115,
+          1118
+        ],
+        "require": "Top 3"
+      },
+      {
+        "turn": 71,
+        "kind": "race",
+        "race": "Champions Cup",
+        "program_id": 80,
+        "require": "Top 3"
+      },
+      {
+        "turn": 72,
+        "kind": "race",
+        "race": "Tokyo Daishoten",
+        "program_id": 1027,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  },
+  "1047": {
+    "name": "Zenno Rob Roy",
+    "goals": [
+      {
+        "turn": 12,
+        "kind": "race",
+        "race": "Junior Make Debut",
+        "program_id": 689,
+        "require": "Complete"
+      },
+      {
+        "turn": 27,
+        "kind": "fan",
+        "fans": 5000,
+        "require": "5,000 fans"
+      },
+      {
+        "turn": 32,
+        "kind": "race",
+        "race": "Aoba Sho",
+        "program_id": 174,
+        "require": "Top 5"
+      },
+      {
+        "turn": 34,
+        "kind": "race",
+        "race": "Tokyo Yushun (Japanese Derby)",
+        "program_id": 166,
+        "require": "Top 5"
+      },
+      {
+        "turn": 44,
+        "kind": "race",
+        "race": "Kikuka Sho",
+        "program_id": 168,
+        "require": "Top 3"
+      },
+      {
+        "turn": 48,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 81,
+        "require": "Top 3"
+      },
+      {
+        "turn": 56,
+        "kind": "race",
+        "race": "Tenno Sho (Spring)",
+        "program_id": 4,
+        "require": "Top 3"
+      },
+      {
+        "turn": 60,
+        "kind": "race",
+        "race": "Takarazuka Kinen",
+        "program_id": 74,
+        "require": "Top 3"
+      },
+      {
+        "turn": 68,
+        "kind": "race",
+        "race": "Tenno Sho (Autumn)",
+        "program_id": 76,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 70,
+        "kind": "race",
+        "race": "Japan Cup",
+        "program_id": 79,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 72,
+        "kind": "race",
+        "race": "Arima Kinen",
+        "program_id": 81,
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 74,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 76,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      },
+      {
+        "turn": 78,
+        "kind": "finale",
+        "race": "URA Finals",
+        "require": "WIN (1st)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        try {
+            const theme = localStorage.getItem('theme') === 'blue' ? 'blue' : 'pink';
+            document.documentElement.dataset.theme = theme;
+            document.documentElement.classList.toggle('theme-blue', theme === 'blue');
+        } catch (e) {}
+    </script>
+    <title>MQA</title>
+    <link rel="stylesheet" href="styles.css?v=7">
+
+</head>
+<body>
+        <div id="loading-screen" class="loading-screen hidden">
+        <div class="loading-shell">
+            <div class="loading-art">
+                <div class="loading-broom-aura"></div>
+                <img class="loading-broom" src="/broom.png" alt="">
+                <img class="loading-sweep" src="/sweep.png" alt="">
+            </div>
+            <div class="loading-text">Girls are preparing<span class="loading-dots"><span>.</span><span>.</span><span>.</span></span></div>
+        </div>
+    </div>
+    <div id="app">
+        <header class="navbar">
+            <div class="navbar-title">
+                <h1 id="theme-toggle" class="title">MQA</h1>
+            </div>
+
+            <div class="navbar-main">
+                <div id="account-strip" class="account-strip"></div>
+
+                <div id="turn-delay-control" class="turn-delay-control">
+                    <div class="delay-group">
+                        <span class="turn-delay-label" title="How long one whole career takes, in minutes. Each career picks a length in this range and MQA spreads the waiting over its turns. NO CD = no waiting.">CAREER (MIN)</span>
+                        <input id="turn-delay-min" class="turn-delay-input" type="number" min="0" step="0.5" value="15">
+                        <span class="turn-delay-separator">–</span>
+                        <input id="turn-delay-max" class="turn-delay-input" type="number" min="0" step="0.5" value="16">
+                    </div>
+                    <div class="delay-group">
+                        <span class="turn-delay-label" title="Number of careers: 1 = once, 0 = infinite">RUNS</span>
+                        <input id="run-count-input" class="turn-delay-input" type="number" min="0" step="1" value="1" title="Number of careers: 1 = once, 0 = infinite">
+                        <span id="run-count-hint" class="run-count-hint">1 career</span>
+                    </div>
+                    <div class="control-btns">
+                        <button id="nav-run-btn" class="btn btn-sm turn-delay-button nav-run-btn" type="button" disabled>RUN</button>
+                        <button id="nav-pause-btn" class="btn btn-sm turn-delay-button nav-pause-btn" type="button" style="display:none">PAUSE</button>
+                        <button id="nav-stop-btn" class="btn btn-sm turn-delay-button nav-stop-btn" type="button" style="display:none" title="Stop the bot and end the run loop. The current career is left where it is (resume it with RUN).">STOP</button>
+                        <button id="tempt-fate-btn" class="btn btn-sm turn-delay-button" type="button">NO CD</button>
+                        <button id="scenario-btn" class="btn btn-sm turn-delay-button" type="button" disabled title="Scenario for this session (chosen at terminal startup; restart the terminal to choose again).">Scenario: MANT</button>
+                        <button id="finish-career-btn" class="btn btn-sm turn-delay-button" type="button" title="ON = play to the natural turn-78 finish. OFF = stop at turn 77 (career left unfinished). Single runs only; loops always finish.">FINISH ✕</button>
+                        <button id="dev-career-btn" class="btn btn-sm turn-delay-button" type="button" style="display: none;">DEV</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="navbar-meta">
+                <button id="history-btn" class="btn btn-sm" type="button" style="display:none">HISTORY</button>
+                <button id="refresh-btn" class="btn btn-sm" type="button" style="display:none">REFRESH</button>
+            </div>
+        </header>
+        <main class="main-container">
+            <div id="login-view" class="login-wrapper">
+                <div class="login-panel">
+                    <form id="login-form" autocomplete="on">
+                        <div id="standard-fields">
+                            <div class="form-group">
+                                <label class="form-label" for="username">STEAM USERNAME</label>
+                                <input id="username" name="username" type="text" class="form-input" placeholder="..." autocomplete="username">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" for="password">STEAM PASSWORD</label>
+                                <input id="password" name="password" type="password" class="form-input" placeholder="..." autocomplete="current-password">
+                            </div>
+                            <!-- The "Save Steam login" checkbox + "Forget" link used to live here.
+                                 Saving is now PERMANENT and unconditional (see persistSteamCredential
+                                 in app.js), so there is no choice left to render. The password still
+                                 goes only to the OS vault (Windows Credential Manager); just the
+                                 username touches disk. -->
+                        </div>
+                        <div id="2fa-fields" style="display:none">
+                            <div class="form-group">
+                                <label class="form-label" for="code">STEAM GUARD CODE</label>
+                                <input id="code" name="code" type="text" class="form-input" placeholder="..." maxlength="5" autocomplete="one-time-code">
+                            </div>
+                        </div>
+                        <div id="error-msg" class="status-msg"></div>
+                        <button id="login-btn" type="submit" class="btn btn-primary">LOGIN</button>
+                    </form>
+                </div>
+            </div>
+            <div id="dashboard-view" class="dashboard-container">
+                <div class="split-left" id="setup-panel">
+                    <div class="panel-header">
+                        <span class="panel-header-title">SETUP</span>
+                    </div>
+                    <div class="panel-body">
+                        <section class="dashboard-section" id="preset-section">
+                            <h2 class="dashboard-section-title">PRESET CONFIGURATION</h2>
+                            <div class="master-data-panel">
+                                <label class="form-label" for="preset-select">ACTIVE PRESET</label>
+                                <div class="preset-control-row preset-control-row-actions">
+                                    <select id="preset-select" class="form-input master-data-input preset-input"></select>
+                                    <button id="preset-add-btn" class="btn btn-sm preset-action-btn" type="button">NEW</button>
+                                    <button id="preset-del-btn" class="btn btn-sm btn-danger preset-action-btn" type="button">DEL</button>
+                                </div>
+                                <div class="preset-control-row preset-control-grid">
+                                    <div class="preset-field">
+                                        <label class="form-label" for="preset-running-style">RUNNING STYLE</label>
+                                        <select id="preset-running-style" class="form-input master-data-input preset-input">
+                                            <option value="1">Front Runner</option>
+                                            <option value="2">Pace Chaser</option>
+                                            <option value="3">Late Surger</option>
+                                            <option value="4">End Closer</option>
+                                            <option value="5">Best (highest aptitude)</option>
+                                        </select>
+                                    </div>
+                                    <div class="preset-field" id="schedule-field" style="display: none;">
+                                        <label class="form-label">RACE SCHEDULE</label>
+                                        <button id="schedule-btn" class="btn btn-sm turn-delay-button" type="button" style="width: 100%;" title="ON = also run your Race Schedule (extra races) on top of the trainee's career goals. OFF = career goals only. Not used in MANT (which always uses the schedule).">SCHEDULE ✕</button>
+                                    </div>
+                                </div>
+                                <div class="preset-control-row preset-skills-row">
+                                    <button id="preset-edit-skills-btn" class="btn btn-sm preset-wide-btn" type="button">CONFIGURE SKILLS</button>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="dashboard-section" id="master-data-section">
+                            <h2 class="dashboard-section-title">MASTER DATA</h2>
+                            <div class="master-data-panel">
+                                <label class="form-label" for="master-data-path">MASTER.MDB PATH</label>
+                                <div class="master-data-row">
+                                    <input id="master-data-path" class="form-input master-data-input" type="text" spellcheck="false">
+                                    <button id="master-data-save-btn" class="btn btn-sm" type="button">SAVE</button>
+                                    <button id="master-data-refresh-btn" class="btn btn-sm" type="button" title="Re-read the game's master.mdb NOW and refresh ALL races + skills (no restart needed). Use after a game content update -- update the game fully first.">REFRESH</button>
+                                </div>
+                                <div id="master-data-status" class="master-data-status"></div>
+                            </div>
+                        </section>
+
+                        <section class="dashboard-section" id="discord-webhook-section">
+                            <h2 class="dashboard-section-title">DISCORD WEBHOOK</h2>
+                            <div class="master-data-panel">
+                                <label class="form-label" for="discord-webhook-url">WEBHOOK URL (career-finished notification — account name auto-detected from game)</label>
+                                <div class="master-data-row">
+                                    <input id="discord-webhook-url" class="form-input master-data-input" type="text" spellcheck="false" placeholder="https://discord.com/api/webhooks/...">
+                                    <button id="discord-webhook-save-btn" class="btn btn-sm" type="button">SAVE</button>
+                                    <button id="discord-webhook-test-btn" class="btn btn-sm" type="button">TEST</button>
+                                </div>
+                                <label for="discord-notify-forecast" style="display:flex;align-items:center;gap:8px;margin-top:10px;cursor:pointer;font-size:13px;">
+                                    <input id="discord-notify-forecast" type="checkbox" style="width:auto;cursor:pointer;">
+                                    <span>Send a 🔮 Career Forecast panel to Discord when each career starts</span>
+                                </label>
+                                <div id="discord-webhook-status" class="master-data-status"></div>
+                            </div>
+                        </section>
+
+                        <section class="dashboard-section" id="race-schedule-section">
+                            <h2 class="dashboard-section-title section-title-toggle" id="race-toggle">
+                                <span class="collapse-chevron" id="race-chevron">&#9658;</span>
+                                RACE SCHEDULE
+                            </h2>
+                            <div id="race-body" class="collapsible-body">
+                                <div id="race-slot-popup-overlay" class="race-slot-popup-overlay" style="display: none;">
+                                    <div class="race-slot-popup">
+                                        <div class="race-slot-popup-header">
+                                            <div id="race-slot-popup-title" class="race-slot-popup-title">Select Race</div>
+                                            <button id="race-slot-popup-close" class="race-slot-popup-close">&times;</button>
+                                        </div>
+                                        <div id="race-slot-popup-body" class="race-slot-popup-body"></div>
+                                    </div>
+                                </div>
+                                <div class="race-options-content" id="race-options-content"></div>
+                                <div class="race-save-row">
+                                    <button id="save-races-btn" class="btn btn-sm preset-action-btn" type="button">SAVE RACES</button>
+                                    <span id="race-save-status" class="race-save-status"></span>
+                                </div>
+                            </div>
+                        </section>
+
+                        <div class="start-panel">
+                            <div class="start-panel-left">
+                                <div id="career-summary" class="career-summary" style="display:none"></div>
+                                <button id="start-career-btn" class="btn btn-primary" type="button" disabled>RUN CAREER</button>
+                            </div>
+                            <div class="start-panel-right">
+                                <div id="start-status" class="start-status"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="split-right" id="content-panel">
+                    <div class="panel-header">
+                        <span class="panel-header-title">LIBRARY</span>
+                    </div>
+                    <div class="panel-body">
+                        <div class="library-moved-hint">Career setup, presets, skills, races, and event choices now live in the <strong>⚙ SETUP</strong> workspace — open it from the account bar (next to CLOCKS).</div>
+                        <section class="dashboard-section" id="events-section">
+                            <h2 class="dashboard-section-title section-title-toggle" id="events-toggle">
+                                <span class="collapse-chevron expanded" id="events-chevron">&#9658;</span>
+                                EVENT CHOICES <span id="events-count"></span>
+                                <button id="events-refresh-btn" class="btn btn-sm section-title-action" type="button">REFRESH</button>
+                            </h2>
+                            <div id="events-body" class="collapsible-body expanded">
+                                <div class="events-hint">Events of each support card you bring (read from your active career's deck). Pick which option the bot chooses per event &mdash; "Auto" uses the built-in logic. Start/resume a career, then hit REFRESH.</div>
+                                <div id="events-list" class="events-list"></div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                <div class="split-gutter-controls" aria-label="Panel controls">
+                    <button class="panel-collapse-btn panel-collapse-btn-left" id="setup-collapse-btn" type="button" data-panel-label="Setup" title="Collapse setup" aria-label="Collapse setup"></button>
+                    <button class="panel-collapse-btn panel-collapse-btn-right" id="content-collapse-btn" type="button" data-panel-label="Library" title="Collapse library" aria-label="Collapse library"></button>
+                </div>
+            </div>
+        </main>
+        <div id="career-modal" class="modal-backdrop">
+            <div class="modal-panel">
+                <div class="modal-title">Delete Career?</div>
+                <div id="career-modal-copy" class="modal-copy">This will force-delete the ongoing career.</div>
+                <div class="modal-actions">
+                    <button id="career-cancel-btn" type="button" class="btn btn-sm">CANCEL</button>
+                    <button id="career-delete-btn" type="button" class="btn btn-sm btn-danger">DELETE</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="run-confirm-modal" class="modal-backdrop">
+            <div class="modal-panel">
+                <div class="modal-title">Confirm Run</div>
+                <div id="run-confirm-copy" class="modal-copy"></div>
+                <div class="modal-actions">
+                    <button id="run-confirm-cancel" type="button" class="btn btn-sm">CANCEL</button>
+                    <button id="run-confirm-ok" type="button" class="btn btn-sm btn-primary">YES, RUN</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="history-modal" class="modal-backdrop">
+            <div class="modal-panel history-panel">
+                <div class="modal-title">Career History</div>
+                <div id="history-list" class="history-list"></div>
+                <div class="modal-actions">
+                    <button id="history-close" type="button" class="btn btn-sm">CLOSE</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="setup-workspace" class="skill-editor-modal">
+            <div class="skill-editor-topbar">
+                <div class="skill-editor-title">SETUP WORKSPACE</div>
+                <div class="setup-ws-nav">
+                    <button class="setup-ws-nav-btn is-active" data-view="trainee" type="button">Trainee</button>
+                    <button class="setup-ws-nav-btn" data-view="settings" type="button">Settings</button>
+                </div>
+                <button id="setup-workspace-close" class="btn btn-sm skill-editor-action">DONE</button>
+            </div>
+            <div class="setup-ws-body setup-ws-view is-active" data-view="trainee">
+                <div class="team-slots setup-ws-team">
+                    <div class="team-item" id="team-slot-trainee">
+                        <span class="team-item-role">Trainee</span>
+                        <span class="team-item-empty">select a trainee</span>
+                    </div>
+                    <div class="team-item" id="team-slot-vet1">
+                        <span class="team-item-role">Parent 1</span>
+                        <span class="team-item-empty">select a parent</span>
+                    </div>
+                    <div class="team-item" id="team-slot-vet2">
+                        <span class="team-item-role">Parent 2</span>
+                        <span class="team-item-empty">select a parent</span>
+                    </div>
+                    <div class="team-item" id="team-slot-deck">
+                        <span class="team-item-role">Deck</span>
+                        <span class="team-item-empty">select a deck</span>
+                    </div>
+                    <div class="team-item" id="team-slot-friend">
+                        <span class="team-item-role">Friend</span>
+                        <span class="team-item-empty">select a friend support</span>
+                    </div>
+                </div>
+                <div class="setup-ws-cols">
+                  <div class="setup-ws-left" id="setup-ws-left">
+                    <div class="setup-left-tabs">
+                        <button class="setup-left-tab is-active" data-target="preset-section" type="button">PRESET</button>
+                        <button class="setup-left-tab" data-target="master-data-section" type="button">DATA</button>
+                    </div>
+                    <div id="setup-left-toggle"></div>
+                    <div id="setup-left-fixed"></div>
+                  </div>
+                  <div class="setup-ws-right">
+                <div class="setup-lib">
+                    <div class="setup-lib-tabs">
+                        <button class="setup-lib-tab is-active" data-tab="trainees" type="button">TRAINEES <span id="uma-count"></span></button>
+                        <button class="setup-lib-tab" data-tab="parents" type="button">PARENTS <span id="parent-count"></span></button>
+                        <button class="setup-lib-tab" data-tab="guests" type="button">GUEST PARENTS <span id="guest-count"></span></button>
+                        <button class="setup-lib-tab" data-tab="decks" type="button">DECKS</button>
+                        <button class="setup-lib-tab" data-tab="friends" type="button">FRIEND SUPPORTS</button>
+                        <button class="setup-lib-tab" data-tab="cards" type="button">OWNED CARDS <span id="card-count"></span></button>
+                    </div>
+                    <div class="setup-lib-panels">
+                        <div class="setup-lib-panel is-active" data-panel="trainees"><div id="uma-grid" class="data-grid"></div></div>
+                        <div class="setup-lib-panel" data-panel="parents">
+                            <div class="lib-filter">
+                                <input id="parent-search" class="lib-search" type="text" placeholder="Search any spark or uma…" autocomplete="off">
+                                <div class="lib-chips" id="parent-stat-chips">
+                                    <button class="lib-chip is-active" data-stat="all" type="button">All</button>
+                                    <button class="lib-chip" data-stat="Speed" type="button">Spd</button>
+                                    <button class="lib-chip" data-stat="Stamina" type="button">Sta</button>
+                                    <button class="lib-chip" data-stat="Power" type="button">Pow</button>
+                                    <button class="lib-chip" data-stat="Guts" type="button">Gut</button>
+                                    <button class="lib-chip" data-stat="Wit" type="button">Wit</button>
+                                </div>
+                                <select id="parent-sort" class="lib-sort" title="Sort the grid">
+                                    <option value="default">Sort: default</option>
+                                    <option value="aptitude">Most aptitude</option>
+                                    <option value="skill">Most skills</option>
+                                    <option value="unique">Most unique</option>
+                                    <option value="newest">Newest first</option>
+                                    <option value="oldest">Oldest first</option>
+                                </select>
+                            </div>
+                            <div class="lib-delete-bar" id="parent-delete-bar">
+                                <button id="parent-delete-toggle" class="btn btn-sm" type="button" aria-pressed="false" title="Turn on to pick trainees to permanently release">🗑 Delete mode</button>
+                                <span id="parent-delete-hint" class="lib-delete-hint" hidden>Click trainees to select. Locked 🔒 and configured parents can't be deleted.</span>
+                                <button id="parent-delete-btn" class="btn btn-sm btn-danger" type="button" hidden disabled>Delete selected (0)</button>
+                                <button id="parent-delete-clear" class="btn btn-sm" type="button" hidden>Clear</button>
+                                <span id="parent-delete-status" class="lib-delete-status"></span>
+                            </div>
+                            <div id="parent-grid" class="data-grid"></div>
+                        </div>
+                        <div class="setup-lib-panel" data-panel="guests">
+                            <div class="friend-bar">
+                                <button id="guest-refresh-btn" class="btn btn-sm" type="button">LOAD / REFRESH GUEST PARENTS</button>
+                                <span id="guest-status" class="friend-status"></span>
+                            </div>
+                            <div class="lib-filter">
+                                <input id="guest-search" class="lib-search" type="text" placeholder="Search any spark or uma…" autocomplete="off">
+                                <div class="lib-chips" id="guest-stat-chips">
+                                    <button class="lib-chip is-active" data-stat="all" type="button">All</button>
+                                    <button class="lib-chip" data-stat="Speed" type="button">Spd</button>
+                                    <button class="lib-chip" data-stat="Stamina" type="button">Sta</button>
+                                    <button class="lib-chip" data-stat="Power" type="button">Pow</button>
+                                    <button class="lib-chip" data-stat="Guts" type="button">Gut</button>
+                                    <button class="lib-chip" data-stat="Wit" type="button">Wit</button>
+                                </div>
+                                <select id="guest-sort" class="lib-sort" title="Sort the grid">
+                                    <option value="default">Sort: default</option>
+                                    <option value="aptitude">Most aptitude</option>
+                                    <option value="skill">Most skills</option>
+                                    <option value="unique">Most unique</option>
+                                </select>
+                            </div>
+                            <div id="guest-grid" class="data-grid"></div>
+                        </div>
+                        <div class="setup-lib-panel" data-panel="decks"><div id="deck-list"></div></div>
+                        <div class="setup-lib-panel" data-panel="friends">
+                            <div class="friend-bar">
+                                <button id="friend-refresh-btn" class="btn btn-sm" type="button">LOAD / REFRESH FRIENDS</button>
+                                <span id="friend-status" class="friend-status"></span>
+                            </div>
+                            <div class="friend-filter-bar">
+                                <input id="friend-search" class="friend-search-input" type="text" placeholder="Search card name…" autocomplete="off">
+                                <div class="friend-type-chips" id="friend-type-chips">
+                                    <button class="friend-type-chip is-active" data-type="all" type="button">All</button>
+                                    <button class="friend-type-chip" data-type="Speed" type="button">Speed</button>
+                                    <button class="friend-type-chip" data-type="Stamina" type="button">Stamina</button>
+                                    <button class="friend-type-chip" data-type="Power" type="button">Power</button>
+                                    <button class="friend-type-chip" data-type="Guts" type="button">Guts</button>
+                                    <button class="friend-type-chip" data-type="Wit" type="button">Wit</button>
+                                    <button class="friend-type-chip" data-type="Pal" type="button">Pal</button>
+                                    <button class="friend-type-chip" data-type="Group" type="button">Group</button>
+                                </div>
+                            </div>
+                            <div id="friend-grid" class="data-grid"></div>
+                        </div>
+                        <div class="setup-lib-panel" data-panel="cards"><div id="card-grid" class="data-grid"></div></div>
+                    </div>
+                </div>
+                  </div>
+                </div>
+            </div>
+            <div class="setup-ws-view setup-ws-settings" data-view="settings" id="setup-ws-settings">
+                <div class="setup-settings-intro">
+                    Tune how the bot trains &amp; races. Saved into the <strong id="setup-settings-preset">active</strong> preset — takes effect next career.
+                </div>
+                <div class="setup-settings-grid">
+                    <section class="setup-settings-card">
+                        <h3 class="setup-settings-h">⚡ Skill Hints</h3>
+                        <p class="setup-settings-desc">A support showing a red “!” gives a skill hint (discounts that skill's SP cost). Chase them early, then focus stats.</p>
+                        <div class="setup-settings-row">
+                            <label for="set-hint-cutoff">Prioritise hints until turn</label>
+                            <input id="set-hint-cutoff" class="setup-settings-input" type="number" min="0" max="49" step="1" placeholder="49">
+                        </div>
+                        <div class="setup-settings-note">49 = Junior + Classic (the most it can be: hints are never chased in Senior year). 0 = never.</div>
+                        <div class="setup-settings-row">
+                            <label for="set-hint-boost">Pre-Senior hint priority&nbsp;×</label>
+                            <input id="set-hint-boost" class="setup-settings-input" type="number" min="0" max="10" step="0.5" placeholder="2.0">
+                        </div>
+                        <div class="setup-settings-note">Higher = chase hint facilities harder before Senior. 1.0 = neutral.</div>
+                    </section>
+                    <section class="setup-settings-card">
+                        <h3 class="setup-settings-h">🎡 Junior Recreation</h3>
+                        <p class="setup-settings-desc">One mandatory pre-debut recreation to bank mood early — mood multiplies every later training's gain.</p>
+                        <label class="setup-settings-toggle">
+                            <input id="set-junior-rec" type="checkbox" checked>
+                            <span>Enabled</span>
+                        </label>
+                        <div class="setup-settings-row">
+                            <label for="set-junior-partners">Weak-board partner threshold</label>
+                            <input id="set-junior-partners" class="setup-settings-input" type="number" min="0" max="5" step="1" placeholder="2">
+                        </div>
+                        <div class="setup-settings-note">Recreate when the best facility has ≤ this many bondable supports.</div>
+                    </section>
+                    <section class="setup-settings-card">
+                        <h3 class="setup-settings-h">✨ Inheritance Sparks</h3>
+                        <p class="setup-settings-desc">At career end the bot picks which sparks to keep. Set how much each spark <em>colour</em> is worth — <strong>0 = ignore it, 5 = want it most</strong>. It scores every offered option and takes the highest.</p>
+                        <div class="setup-settings-row">
+                            <label for="set-spark-blue">🔵 Blue — stats</label>
+                            <input id="set-spark-blue" class="setup-settings-input" type="number" min="0" max="5" step="1" placeholder="3">
+                        </div>
+                        <div class="setup-settings-row">
+                            <label for="set-spark-pink">🌸 Pink — aptitude</label>
+                            <input id="set-spark-pink" class="setup-settings-input" type="number" min="0" max="5" step="1" placeholder="3">
+                        </div>
+                        <div class="setup-settings-row">
+                            <label for="set-spark-white">⚪ White — skills</label>
+                            <input id="set-spark-white" class="setup-settings-input" type="number" min="0" max="5" step="1" placeholder="2">
+                        </div>
+                        <div class="setup-settings-row">
+                            <label for="set-spark-green">🟢 Green — unique</label>
+                            <input id="set-spark-green" class="setup-settings-input" type="number" min="0" max="5" step="1" placeholder="1">
+                        </div>
+                        <label class="setup-settings-toggle" style="margin-top:0.85rem">
+                            <input id="set-spark-reroll" type="checkbox">
+                            <span>Reroll sparks with TP</span>
+                        </label>
+                        <div class="setup-settings-note">⚠ Spends <strong>30 TP per reroll</strong>. It compares the original roll against the rerolled one and keeps whichever scores higher — a reroll can never lose you a better roll.</div>
+                        <div class="setup-settings-row">
+                            <label for="set-spark-reroll-max">Max rerolls per career</label>
+                            <input id="set-spark-reroll-max" class="setup-settings-input" type="number" min="0" max="10" step="1" placeholder="2">
+                        </div>
+                        <div class="setup-settings-row">
+                            <label for="set-spark-tp-floor">Keep TP in reserve</label>
+                            <input id="set-spark-tp-floor" class="setup-settings-input" type="number" min="0" max="500" step="10" placeholder="0">
+                        </div>
+                        <div class="setup-settings-note">Stops rerolling once TP would drop below this.</div>
+                    </section>
+                    <section class="setup-settings-card">
+                        <h3 class="setup-settings-h">🎯 Goal Entry Fans</h3>
+                        <p class="setup-settings-desc">Some goal races need a minimum fan count just to <em>enter</em> (Champions Cup needs 12,000) — and training earns no fans. If the trainee is short as that goal approaches, this races to close the gap. <strong>Only races she can actually run</strong> (surface + distance).</p>
+                        <label class="setup-settings-toggle">
+                            <input id="set-entry-farm" type="checkbox" checked>
+                            <span>Earn missing entry fans</span>
+                        </label>
+                        <div class="setup-settings-row">
+                            <label for="set-entry-window">Start N turns before the goal</label>
+                            <input id="set-entry-window" class="setup-settings-input" type="number" min="1" max="30" step="1" placeholder="8">
+                        </div>
+                        <div class="setup-settings-note">Turning this off risks failing a goal the trainee couldn't enter — that ended a live Copano Rickey run 804 fans short.</div>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+        <div id="skill-modal" class="skill-editor-modal">
+            <div class="skill-editor-topbar">
+                <div class="skill-editor-title">SKILL CONFIGURATION</div>
+                <button id="skill-modal-close" class="btn btn-sm skill-editor-action">DONE</button>
+            </div>
+
+            <div class="skill-editor-body">
+                <div class="skill-editor-panel skill-editor-panel-left">
+                    <div class="skill-editor-panel-head">
+                        <div class="skill-editor-section-title">TIERS & BLACKLIST</div>
+                        <button id="skill-add-tier-btn" class="btn btn-sm skill-editor-action">+ TIER</button>
+                    </div>
+
+                    <div class="skill-editor-scroll skill-editor-left-scroll">
+                        <div id="skill-tiers-container" class="skill-tier-stack"></div>
+
+                        <div class="skill-blacklist-header">
+                            <div class="skill-editor-section-title goal">BEFORE GOAL RACES</div>
+                        </div>
+                        <div class="skill-goal-note">Bought right before each hard career-goal race (Top 3 or better, from the Classic year on), so they help win it. Tier 0 buys as soon as affordable; the tiers wait for the end of the career.</div>
+                        <div id="skill-goal-container" class="skill-tier-dropzone tier-goal"></div>
+
+                        <div class="skill-blacklist-header">
+                            <div class="skill-editor-section-title danger">BLACKLIST</div>
+                            <button id="skill-clear-blacklist-btn" class="btn btn-sm btn-danger-soft skill-editor-action">CLEAR</button>
+                        </div>
+                        <div id="skill-blacklist-container" class="skill-blacklist-zone"></div>
+                    </div>
+                </div>
+
+                <div class="skill-editor-panel skill-editor-panel-right">
+                    <div class="skill-editor-panel-head stack">
+                        <div class="skill-editor-controls">
+                            <input type="text" id="skill-search" class="form-input skill-editor-search" placeholder="Search skills...">
+                            <button id="skill-select-all-btn" class="btn btn-sm skill-editor-action">ADD ALL VISIBLE</button>
+                            <button id="skill-blacklist-all-btn" class="btn btn-sm btn-danger-soft skill-editor-action">BLACKLIST ALL VISIBLE</button>
+                            <button id="skill-deselect-all-btn" class="btn btn-sm btn-danger-soft skill-editor-action">REMOVE ALL VISIBLE</button>
+                        </div>
+                        <div id="skill-filters" class="skill-filter-row"></div>
+                    </div>
+
+                    <div id="skill-list" class="skill-editor-scroll skill-list-grid"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js?v=26"></script>
+</body>
+</html>
+

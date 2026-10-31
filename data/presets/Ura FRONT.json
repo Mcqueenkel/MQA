@@ -1,0 +1,54 @@
+{
+  "name": "Ura FRONT",
+  "running_style": 2,
+  "learn_skill_list": [
+    [
+      "Restraint",
+      "Ignited Spirit WIT",
+      "Racing Spirit: Stamina"
+    ]
+  ],
+  "learn_skill_blacklist": [],
+  "learn_skill_tier0": [],
+  "extra_race_list": [
+    100624,
+    2046,
+    200163,
+    2086,
+    200166,
+    2101,
+    200081,
+    2205,
+    300003,
+    2251,
+    300073,
+    2287,
+    300076,
+    2347,
+    100625,
+    200164,
+    200074,
+    200079,
+    200077,
+    200168,
+    300005,
+    300074,
+    300004,
+    300081,
+    300079,
+    300077,
+    200073,
+    201109,
+    201023,
+    301106,
+    300001,
+    301109
+  ],
+  "stat_caps": {
+    "stamina": 500
+  },
+  "use_race_schedule": true,
+  "junior_recreation": true,
+  "spark_reroll": false,
+  "fan_eligibility_farm": true
+}

@@ -1,0 +1,30 @@
+# MQA Discord remote as a systemd USER service. Fill ~/mqa/uma_runtime/discord_remote.json first
+# (LINUX.md, "Discord remote"). Never run it on Windows at the same time: both copies would answer.
+# Install: cp ~/mqa/deploy/mqa-discord.service ~/.config/systemd/user/ && systemctl --user daemon-reload
+[Unit]
+Description=MQA Discord remote (slash commands to MQA on 127.0.0.1)
+Documentation=file://%h/mqa/LINUX.md
+# Once enabled it starts with mqa.service (WantedBy below) and stops/restarts with it (PartOf), so
+# "systemctl --user stop mqa" stops both.
+After=mqa.service
+PartOf=mqa.service
+StartLimitIntervalSec=900
+StartLimitBurst=4
+
+[Service]
+Type=exec
+WorkingDirectory=%h/mqa
+# No EnvironmentFile: discord_remote.py reads no environment variables (its config is the JSON file).
+Environment=PYTHONUNBUFFERED=1
+ExecStart=%h/mqa/.venv/bin/python discord_remote.py
+# The bot token file stays owner-only (discord_remote.py also sets umask 077 itself off Windows).
+UMask=0077
+# Discord/network hiccups at boot exit non-zero and come back after 30 s. A missing or unfilled
+# config also exits non-zero: 4 tries, then the unit stays failed until you fill it in.
+Restart=on-failure
+RestartSec=30
+TimeoutStopSec=60
+SyslogIdentifier=mqa-discord
+
+[Install]
+WantedBy=mqa.service

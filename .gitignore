@@ -1,0 +1,83 @@
+# ============================================================================
+#  MQA -- .gitignore
+#  PUBLIC repo: never commit secrets, credentials, or local runtime/bot state.
+# ============================================================================
+
+# ---- Secrets & credentials (the dangerous stuff) ---------------------------
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+secrets.*
+*.secret
+credentials.json
+client_secret*.json
+*token*.json
+auth.json
+session.json
+*.session
+# Steam account creds / tickets (plaintext) -- NEVER commit
+steam*.json
+
+# ---- This bot's private data (Discord webhook, Steam tickets, AI brain) -----
+# Ignore ALL of uma_runtime (auth, webhook, AI brain, career logs), EXCEPT a single .gitkeep so the
+# bot_logs/ folder still exists in a fresh clone. Order matters: git won't descend into an ignored
+# dir, so re-open each parent level first, then re-ignore the contents -- no real log or credential
+# is ever tracked, only the empty marker.
+/uma_runtime/*
+!/uma_runtime/bot_logs/
+/uma_runtime/bot_logs/*
+!/uma_runtime/bot_logs/.gitkeep
+/bot_analysis
+discord.json
+/accounts
+*.aibrain
+career_bot/.timing_dna
+crash_trace.txt
+recover_capture.jsonl
+recreation_debug_*.json
+/scraped game logs
+
+# ---- Local dev / editor / OS config ----------------------------------------
+.claude/
+.vscode/
+.idea/
+settings.local.json
+*.local.json
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Python & test caches / temp -------------------------------------------
+*.pyc
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.log
+*.tmp
+tests/_tmp*
+
+# ---- Node ------------------------------------------------------------------
+/node_modules
+
+# ---- Large local media (gameplay videos + extracted frames) ----------------
+*.mp4
+*.mkv
+*.mov
+*.webm
+*.avi
+/_frames
+
+# ---- Local data dumps ------------------------------------------------------
+*.xlsx
+
+# ---- Misc project-specific -------------------------------------------------
+/tools
+# stray duplicate folder, not part of the project
+/uma_api/career_bot

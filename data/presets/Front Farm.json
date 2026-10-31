@@ -1,0 +1,80 @@
+{
+  "name": "Front Farm",
+  "running_style": 2,
+  "learn_skill_list": [
+    [
+      "Dodging Danger",
+      "Prudent Positioning",
+      "Restraint",
+      "Groundwork",
+      "Racing Spirit: Stamina",
+      "Ignited Spirit WIT",
+      "Racing Spirit: Power",
+      "Front Runner Savvy ○",
+      "Front Runner Savvy ◎"
+    ],
+    [
+      "Final Push",
+      "Fast-Paced",
+      "Second Wind",
+      "Leader's Pride",
+      "Early Lead",
+      "Front Runner Corners ○",
+      "Front Runner Straightaways ○"
+    ],
+    [
+      "Playtime's Over!",
+      "Tail Held High"
+    ]
+  ],
+  "learn_skill_blacklist": [],
+  "learn_skill_tier0": [],
+  "extra_race_list": [
+    100629,
+    100630,
+    100632,
+    100633,
+    100623,
+    100625,
+    200171,
+    200185,
+    200164,
+    200110,
+    200077,
+    200081,
+    300003,
+    300005,
+    300074,
+    300110,
+    300085,
+    300076,
+    300077,
+    300079,
+    300081,
+    200187,
+    200188,
+    300109,
+    200162,
+    200165,
+    300015,
+    300033,
+    200167,
+    100636,
+    200074,
+    200079,
+    300073,
+    200181,
+    300080,
+    300001,
+    301106,
+    201109,
+    200080
+  ],
+  "stat_caps": {
+    "stamina": 400
+  },
+  "use_race_schedule": false,
+  "junior_recreation": true,
+  "spark_reroll": false,
+  "fan_eligibility_farm": false
+}
